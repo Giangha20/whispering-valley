@@ -1,0 +1,4130 @@
+[
+  {
+    "id": "mayor_aldric",
+    "name": "Mayor Aldric",
+    "personality": "Warm & Civic",
+    "occupation": "Village Mayor",
+    "homeLocation": "willow_village",
+    "portrait": "res://assets/portraits/mayor_aldric.png",
+    "sprite": "res://assets/sprites/npc/mayor_aldric.png",
+    "colors": {
+      "skin": "#d8b494",
+      "hair": "#c8c2ba",
+      "outfit": "#3a4f7a"
+    },
+    "favoriteGifts": [
+      "pumpkin",
+      "pumpkin_pie",
+      "sunflower"
+    ],
+    "likedGifts": [
+      "turnip_soup",
+      "apple"
+    ],
+    "dislikedGifts": [
+      "sap",
+      "stone"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "willow_village",
+        "tile": [
+          25,
+          18
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "willow_village",
+        "tile": [
+          23,
+          20
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          22,
+          17
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "willow_village",
+        "tile": [
+          27,
+          18
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "willow_village",
+        "tile": [
+          25,
+          18
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "willow_village",
+      "tile": [
+        25,
+        18
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Village Mayor keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make village mayor work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Willow Village. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Willow Village stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Village Mayor has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_mayor_aldric"
+    ]
+  },
+  {
+    "id": "clara",
+    "name": "Clara",
+    "personality": "Cheerful & Organized",
+    "occupation": "General Storekeeper",
+    "homeLocation": "willow_village",
+    "portrait": "res://assets/portraits/clara.png",
+    "sprite": "res://assets/sprites/npc/clara.png",
+    "colors": {
+      "skin": "#f2c6a8",
+      "hair": "#8b4528",
+      "outfit": "#4f8d4e"
+    },
+    "favoriteGifts": [
+      "strawberry",
+      "tulip",
+      "spring_picnic"
+    ],
+    "likedGifts": [
+      "parsnip",
+      "milk"
+    ],
+    "dislikedGifts": [
+      "bat_wing",
+      "slime_jelly"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "willow_village",
+        "tile": [
+          14,
+          15
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "willow_village",
+        "tile": [
+          12,
+          17
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          23,
+          18
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "willow_village",
+        "tile": [
+          16,
+          15
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "willow_village",
+        "tile": [
+          14,
+          15
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "willow_village",
+      "tile": [
+        14,
+        15
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as General Storekeeper keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make general storekeeper work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Willow Village. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Willow Village stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as General Storekeeper has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_clara"
+    ]
+  },
+  {
+    "id": "rowan",
+    "name": "Rowan",
+    "personality": "Stoic & Loyal",
+    "occupation": "Blacksmith",
+    "homeLocation": "willow_village",
+    "portrait": "res://assets/portraits/rowan.png",
+    "sprite": "res://assets/sprites/npc/rowan.png",
+    "colors": {
+      "skin": "#c68b67",
+      "hair": "#3a271c",
+      "outfit": "#7a3b2e"
+    },
+    "favoriteGifts": [
+      "iridium_bar",
+      "ruby",
+      "miner_treat"
+    ],
+    "likedGifts": [
+      "copper_bar",
+      "coal"
+    ],
+    "dislikedGifts": [
+      "daffodil",
+      "sap"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "willow_village",
+        "tile": [
+          32,
+          15
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "willow_village",
+        "tile": [
+          30,
+          17
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          24,
+          19
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "willow_village",
+        "tile": [
+          34,
+          15
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "willow_village",
+        "tile": [
+          32,
+          15
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "willow_village",
+      "tile": [
+        32,
+        15
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Blacksmith keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make blacksmith work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Willow Village. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Willow Village stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Blacksmith has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_rowan"
+    ]
+  },
+  {
+    "id": "maya",
+    "name": "Maya",
+    "personality": "Lively & Hospitable",
+    "occupation": "Tavern Chef",
+    "homeLocation": "willow_village",
+    "portrait": "res://assets/portraits/maya.png",
+    "sprite": "res://assets/sprites/npc/maya.png",
+    "colors": {
+      "skin": "#ecc0a2",
+      "hair": "#b84e2e",
+      "outfit": "#d4843b"
+    },
+    "favoriteGifts": [
+      "truffle_pasta",
+      "starfruit_pudding",
+      "pumpkin"
+    ],
+    "likedGifts": [
+      "egg",
+      "tomato"
+    ],
+    "dislikedGifts": [
+      "slime_jelly",
+      "bone_fragment"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "willow_village",
+        "tile": [
+          22,
+          15
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "willow_village",
+        "tile": [
+          20,
+          17
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          25,
+          20
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "willow_village",
+        "tile": [
+          24,
+          15
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "willow_village",
+        "tile": [
+          22,
+          15
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "willow_village",
+      "tile": [
+        22,
+        15
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Tavern Chef keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make tavern chef work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Willow Village. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Willow Village stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Tavern Chef has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_maya"
+    ]
+  },
+  {
+    "id": "dr_julian",
+    "name": "Dr. Julian",
+    "personality": "Calm & Studious",
+    "occupation": "Village Physician",
+    "homeLocation": "willow_village",
+    "portrait": "res://assets/portraits/dr_julian.png",
+    "sprite": "res://assets/sprites/npc/dr_julian.png",
+    "colors": {
+      "skin": "#efd0ba",
+      "hair": "#2e3c4f",
+      "outfit": "#f0efe8"
+    },
+    "favoriteGifts": [
+      "whisper_herb",
+      "pumpkin",
+      "flower_tea"
+    ],
+    "likedGifts": [
+      "ginger_root",
+      "honey"
+    ],
+    "dislikedGifts": [
+      "void_essence",
+      "sap"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "willow_village",
+        "tile": [
+          40,
+          15
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "willow_village",
+        "tile": [
+          38,
+          17
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          26,
+          17
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "willow_village",
+        "tile": [
+          42,
+          15
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "willow_village",
+        "tile": [
+          40,
+          15
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "willow_village",
+      "tile": [
+        40,
+        15
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Village Physician keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make village physician work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Willow Village. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Willow Village stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Village Physician has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_dr_julian"
+    ]
+  },
+  {
+    "id": "toby",
+    "name": "Toby",
+    "personality": "Crafty & Practical",
+    "occupation": "Master Carpenter",
+    "homeLocation": "willow_village",
+    "portrait": "res://assets/portraits/toby.png",
+    "sprite": "res://assets/sprites/npc/toby.png",
+    "colors": {
+      "skin": "#d8a884",
+      "hair": "#6e4726",
+      "outfit": "#9a6b39"
+    },
+    "favoriteGifts": [
+      "hardwood",
+      "goat_cheese",
+      "peach_cobbler"
+    ],
+    "likedGifts": [
+      "wood",
+      "milk"
+    ],
+    "dislikedGifts": [
+      "clay",
+      "sap"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "willow_village",
+        "tile": [
+          10,
+          22
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "willow_village",
+        "tile": [
+          8,
+          24
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          27,
+          18
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "willow_village",
+        "tile": [
+          12,
+          22
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "willow_village",
+        "tile": [
+          10,
+          22
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "willow_village",
+      "tile": [
+        10,
+        22
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Master Carpenter keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make master carpenter work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Willow Village. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Willow Village stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Master Carpenter has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_toby"
+    ]
+  },
+  {
+    "id": "mira",
+    "name": "Mira",
+    "personality": "Breezy & Adventurous",
+    "occupation": "Harbor Angler",
+    "homeLocation": "sunflower_beach",
+    "portrait": "res://assets/portraits/mira.png",
+    "sprite": "res://assets/sprites/npc/mira.png",
+    "colors": {
+      "skin": "#d49b76",
+      "hair": "#234a6e",
+      "outfit": "#2d7d9a"
+    },
+    "favoriteGifts": [
+      "fish_sunflower_ocean_marlin",
+      "ocean_paella",
+      "coral_piece"
+    ],
+    "likedGifts": [
+      "bait",
+      "sea_shell"
+    ],
+    "dislikedGifts": [
+      "stone",
+      "sap"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "sunflower_beach",
+        "tile": [
+          22,
+          18
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "sunflower_beach",
+        "tile": [
+          20,
+          20
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          22,
+          19
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "sunflower_beach",
+        "tile": [
+          24,
+          18
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "sunflower_beach",
+        "tile": [
+          22,
+          18
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "sunflower_beach",
+      "tile": [
+        22,
+        18
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Harbor Angler keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make harbor angler work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Sunflower Beach. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Sunflower Beach stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Harbor Angler has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_mira"
+    ]
+  },
+  {
+    "id": "gareth",
+    "name": "Gareth",
+    "personality": "Gruff & Brave",
+    "occupation": "Guild Miner",
+    "homeLocation": "ancient_mine",
+    "portrait": "res://assets/portraits/gareth.png",
+    "sprite": "res://assets/sprites/npc/gareth.png",
+    "colors": {
+      "skin": "#c59878",
+      "hair": "#5b5552",
+      "outfit": "#5a4638"
+    },
+    "favoriteGifts": [
+      "diamond",
+      "emerald",
+      "miner_treat"
+    ],
+    "likedGifts": [
+      "quartz",
+      "iron_bar"
+    ],
+    "dislikedGifts": [
+      "tulip",
+      "daisy"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "ancient_mine",
+        "tile": [
+          20,
+          15
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "ancient_mine",
+        "tile": [
+          18,
+          17
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "ancient_mine",
+        "tile": [
+          23,
+          20
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "ancient_mine",
+        "tile": [
+          22,
+          15
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "ancient_mine",
+        "tile": [
+          20,
+          15
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "ancient_mine",
+      "tile": [
+        20,
+        15
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Guild Miner keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make guild miner work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Ancient Mine. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Ancient Mine stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Guild Miner has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_gareth"
+    ]
+  },
+  {
+    "id": "elise",
+    "name": "Elise",
+    "personality": "Gentle & Dreamy",
+    "occupation": "Village Baker",
+    "homeLocation": "willow_village",
+    "portrait": "res://assets/portraits/elise.png",
+    "sprite": "res://assets/sprites/npc/elise.png",
+    "colors": {
+      "skin": "#f6d8c3",
+      "hair": "#d6a454",
+      "outfit": "#d97b93"
+    },
+    "favoriteGifts": [
+      "strawberry_tart",
+      "rose_macaron",
+      "fairy_rose"
+    ],
+    "likedGifts": [
+      "wheat",
+      "honey"
+    ],
+    "dislikedGifts": [
+      "bat_wing",
+      "bone_fragment"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "willow_village",
+        "tile": [
+          18,
+          20
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "willow_village",
+        "tile": [
+          16,
+          22
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          24,
+          17
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "willow_village",
+        "tile": [
+          20,
+          20
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "willow_village",
+        "tile": [
+          18,
+          20
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "willow_village",
+      "tile": [
+        18,
+        20
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Village Baker keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make village baker work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Willow Village. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Willow Village stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Village Baker has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_elise"
+    ]
+  },
+  {
+    "id": "barnaby",
+    "name": "Barnaby",
+    "personality": "Jovial & Earthy",
+    "occupation": "Livestock Rancher",
+    "homeLocation": "greenfield_farm",
+    "portrait": "res://assets/portraits/barnaby.png",
+    "sprite": "res://assets/sprites/npc/barnaby.png",
+    "colors": {
+      "skin": "#d69e79",
+      "hair": "#785339",
+      "outfit": "#5c7d3c"
+    },
+    "favoriteGifts": [
+      "cheese",
+      "farmer_lunch",
+      "corn"
+    ],
+    "likedGifts": [
+      "hay",
+      "milk"
+    ],
+    "dislikedGifts": [
+      "sea_urchin",
+      "void_essence"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "greenfield_farm",
+        "tile": [
+          44,
+          14
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "greenfield_farm",
+        "tile": [
+          42,
+          16
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          25,
+          18
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "greenfield_farm",
+        "tile": [
+          46,
+          14
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "greenfield_farm",
+        "tile": [
+          44,
+          14
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "greenfield_farm",
+      "tile": [
+        44,
+        14
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Livestock Rancher keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make livestock rancher work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Greenfield Farm. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Greenfield Farm stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Livestock Rancher has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_barnaby"
+    ]
+  },
+  {
+    "id": "lyra",
+    "name": "Lyra",
+    "personality": "Curious & Mystical",
+    "occupation": "Astronomer",
+    "homeLocation": "moonlight_garden",
+    "portrait": "res://assets/portraits/lyra.png",
+    "sprite": "res://assets/sprites/npc/lyra.png",
+    "colors": {
+      "skin": "#ecc6b4",
+      "hair": "#54478c",
+      "outfit": "#2d2852"
+    },
+    "favoriteGifts": [
+      "starfruit",
+      "moonflower",
+      "prismatic_shard"
+    ],
+    "likedGifts": [
+      "amethyst",
+      "lavender"
+    ],
+    "dislikedGifts": [
+      "coal",
+      "sap"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "moonlight_garden",
+        "tile": [
+          24,
+          18
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "moonlight_garden",
+        "tile": [
+          22,
+          20
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "moonlight_garden",
+        "tile": [
+          26,
+          19
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "moonlight_garden",
+        "tile": [
+          26,
+          18
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "moonlight_garden",
+        "tile": [
+          24,
+          18
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "moonlight_garden",
+      "tile": [
+        24,
+        18
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Astronomer keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make astronomer work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Moonlight Garden. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Moonlight Garden stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Astronomer has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_lyra"
+    ]
+  },
+  {
+    "id": "kael",
+    "name": "Kael",
+    "personality": "Alert & Protective",
+    "occupation": "Forest Ranger",
+    "homeLocation": "whispering_forest",
+    "portrait": "res://assets/portraits/kael.png",
+    "sprite": "res://assets/sprites/npc/kael.png",
+    "colors": {
+      "skin": "#cb936e",
+      "hair": "#354a2e",
+      "outfit": "#456839"
+    },
+    "favoriteGifts": [
+      "fiddlehead_fern",
+      "morel",
+      "forest_omelette"
+    ],
+    "likedGifts": [
+      "hazelnut",
+      "blackberry"
+    ],
+    "dislikedGifts": [
+      "slime_jelly",
+      "clay"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "whispering_forest",
+        "tile": [
+          24,
+          18
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "whispering_forest",
+        "tile": [
+          22,
+          20
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "whispering_forest",
+        "tile": [
+          27,
+          20
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "whispering_forest",
+        "tile": [
+          26,
+          18
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "whispering_forest",
+        "tile": [
+          24,
+          18
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "whispering_forest",
+      "tile": [
+        24,
+        18
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Forest Ranger keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make forest ranger work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Whispering Forest. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Whispering Forest stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Forest Ranger has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_kael"
+    ]
+  },
+  {
+    "id": "zara",
+    "name": "Zara",
+    "personality": "Clever & Worldly",
+    "occupation": "Oasis Merchant",
+    "homeLocation": "golden_desert",
+    "portrait": "res://assets/portraits/zara.png",
+    "sprite": "res://assets/sprites/npc/zara.png",
+    "colors": {
+      "skin": "#b87b56",
+      "hair": "#1e1a24",
+      "outfit": "#c98b2c"
+    },
+    "favoriteGifts": [
+      "cactus_fig",
+      "pineapple",
+      "topaz"
+    ],
+    "likedGifts": [
+      "desert_aloe",
+      "melon"
+    ],
+    "dislikedGifts": [
+      "snowdrop",
+      "sap"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "golden_desert",
+        "tile": [
+          24,
+          18
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "golden_desert",
+        "tile": [
+          22,
+          20
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          22,
+          17
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "golden_desert",
+        "tile": [
+          26,
+          18
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "golden_desert",
+        "tile": [
+          24,
+          18
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "golden_desert",
+      "tile": [
+        24,
+        18
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Oasis Merchant keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make oasis merchant work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Golden Desert. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Golden Desert stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Oasis Merchant has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_zara"
+    ]
+  },
+  {
+    "id": "pip",
+    "name": "Pip",
+    "personality": "Whimsical & Cheerful",
+    "occupation": "Mushroom Botanist",
+    "homeLocation": "mushroom_valley",
+    "portrait": "res://assets/portraits/pip.png",
+    "sprite": "res://assets/sprites/npc/pip.png",
+    "colors": {
+      "skin": "#f0c9b0",
+      "hair": "#a63a50",
+      "outfit": "#694f82"
+    },
+    "favoriteGifts": [
+      "truffle",
+      "glowshroom",
+      "mushroom_risotto"
+    ],
+    "likedGifts": [
+      "chanterelle",
+      "button_shroom"
+    ],
+    "dislikedGifts": [
+      "stone",
+      "copper_ore"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "mushroom_valley",
+        "tile": [
+          24,
+          18
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "mushroom_valley",
+        "tile": [
+          22,
+          20
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "mushroom_valley",
+        "tile": [
+          23,
+          18
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "mushroom_valley",
+        "tile": [
+          26,
+          18
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "mushroom_valley",
+        "tile": [
+          24,
+          18
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "mushroom_valley",
+      "tile": [
+        24,
+        18
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Mushroom Botanist keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make mushroom botanist work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Mushroom Valley. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Mushroom Valley stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Mushroom Botanist has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_pip"
+    ]
+  },
+  {
+    "id": "sage_orin",
+    "name": "Sage Orin",
+    "personality": "Wise & Serene",
+    "occupation": "Sanctuary Keeper",
+    "homeLocation": "hidden_sanctuary",
+    "portrait": "res://assets/portraits/sage_orin.png",
+    "sprite": "res://assets/sprites/npc/sage_orin.png",
+    "colors": {
+      "skin": "#e8cab8",
+      "hair": "#e2e5ea",
+      "outfit": "#4a828f"
+    },
+    "favoriteGifts": [
+      "sanctuary_lotus",
+      "ancient_elixir",
+      "jade"
+    ],
+    "likedGifts": [
+      "crystal_moss",
+      "spirit_morel"
+    ],
+    "dislikedGifts": [
+      "void_essence",
+      "sap"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "hidden_sanctuary",
+        "tile": [
+          24,
+          18
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "hidden_sanctuary",
+        "tile": [
+          22,
+          20
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "hidden_sanctuary",
+        "tile": [
+          24,
+          19
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "hidden_sanctuary",
+        "tile": [
+          26,
+          18
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "hidden_sanctuary",
+        "tile": [
+          24,
+          18
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "hidden_sanctuary",
+      "tile": [
+        24,
+        18
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Sanctuary Keeper keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make sanctuary keeper work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Hidden Sanctuary. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Hidden Sanctuary stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Sanctuary Keeper has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_sage_orin"
+    ]
+  },
+  {
+    "id": "nora",
+    "name": "Nora",
+    "personality": "Artistic & Shy",
+    "occupation": "Landscape Painter",
+    "homeLocation": "crystal_lake",
+    "portrait": "res://assets/portraits/nora.png",
+    "sprite": "res://assets/sprites/npc/nora.png",
+    "colors": {
+      "skin": "#f3ceb6",
+      "hair": "#8c3f32",
+      "outfit": "#68899c"
+    },
+    "favoriteGifts": [
+      "jazz_blossom",
+      "aquamarine",
+      "blueberry_muffin"
+    ],
+    "likedGifts": [
+      "daisy",
+      "peach"
+    ],
+    "dislikedGifts": [
+      "coal",
+      "bat_wing"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "crystal_lake",
+        "tile": [
+          20,
+          15
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "crystal_lake",
+        "tile": [
+          18,
+          17
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          25,
+          20
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "crystal_lake",
+        "tile": [
+          22,
+          15
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "crystal_lake",
+        "tile": [
+          20,
+          15
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "crystal_lake",
+      "tile": [
+        20,
+        15
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Landscape Painter keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make landscape painter work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Crystal Lake. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Crystal Lake stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Landscape Painter has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_nora"
+    ]
+  },
+  {
+    "id": "leo",
+    "name": "Leo",
+    "personality": "Energetic & Kind",
+    "occupation": "Stable Hand",
+    "homeLocation": "willow_village",
+    "portrait": "res://assets/portraits/leo.png",
+    "sprite": "res://assets/sprites/npc/leo.png",
+    "colors": {
+      "skin": "#d9a47e",
+      "hair": "#9e5c2b",
+      "outfit": "#4b7245"
+    },
+    "favoriteGifts": [
+      "apple_cider",
+      "carrot_cake",
+      "oatmeal_bowl"
+    ],
+    "likedGifts": [
+      "carrot",
+      "apple"
+    ],
+    "dislikedGifts": [
+      "void_essence",
+      "sap"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "willow_village",
+        "tile": [
+          36,
+          22
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "willow_village",
+        "tile": [
+          34,
+          24
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          26,
+          17
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "willow_village",
+        "tile": [
+          38,
+          22
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "willow_village",
+        "tile": [
+          36,
+          22
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "willow_village",
+      "tile": [
+        36,
+        22
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Stable Hand keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make stable hand work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Willow Village. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Willow Village stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Stable Hand has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_leo"
+    ]
+  },
+  {
+    "id": "poppy",
+    "name": "Poppy",
+    "personality": "Bubbly & Romantic",
+    "occupation": "Florist",
+    "homeLocation": "willow_village",
+    "portrait": "res://assets/portraits/poppy.png",
+    "sprite": "res://assets/sprites/npc/poppy.png",
+    "colors": {
+      "skin": "#f5d3bf",
+      "hair": "#d98298",
+      "outfit": "#89b56e"
+    },
+    "favoriteGifts": [
+      "fairy_rose",
+      "sunflower",
+      "flower_tea"
+    ],
+    "likedGifts": [
+      "tulip",
+      "rose"
+    ],
+    "dislikedGifts": [
+      "slime_jelly",
+      "bone_fragment"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "willow_village",
+        "tile": [
+          12,
+          24
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "willow_village",
+        "tile": [
+          10,
+          26
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          27,
+          18
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "willow_village",
+        "tile": [
+          14,
+          24
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "willow_village",
+        "tile": [
+          12,
+          24
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "willow_village",
+      "tile": [
+        12,
+        24
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Florist keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make florist work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Willow Village. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Willow Village stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Florist has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_poppy"
+    ]
+  },
+  {
+    "id": "finn",
+    "name": "Finn",
+    "personality": "Playful & Curious",
+    "occupation": "Young Explorer",
+    "homeLocation": "willow_village",
+    "portrait": "res://assets/portraits/finn.png",
+    "sprite": "res://assets/sprites/npc/finn.png",
+    "colors": {
+      "skin": "#e5b594",
+      "hair": "#c7742e",
+      "outfit": "#3d6a9c"
+    },
+    "favoriteGifts": [
+      "melon",
+      "sweet_pea",
+      "cherry_jam_toast"
+    ],
+    "likedGifts": [
+      "grape",
+      "strawberry"
+    ],
+    "dislikedGifts": [
+      "wild_horseradish",
+      "garlic"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "willow_village",
+        "tile": [
+          28,
+          24
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "willow_village",
+        "tile": [
+          26,
+          26
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          22,
+          19
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "willow_village",
+        "tile": [
+          30,
+          24
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "willow_village",
+        "tile": [
+          28,
+          24
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "willow_village",
+      "tile": [
+        28,
+        24
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Young Explorer keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make young explorer work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Willow Village. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Willow Village stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Young Explorer has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_finn"
+    ]
+  },
+  {
+    "id": "iris",
+    "name": "Iris",
+    "personality": "Graceful & Poetic",
+    "occupation": "Librarian",
+    "homeLocation": "willow_village",
+    "portrait": "res://assets/portraits/iris.png",
+    "sprite": "res://assets/sprites/npc/iris.png",
+    "colors": {
+      "skin": "#ecc6b4",
+      "hair": "#322e42",
+      "outfit": "#72496d"
+    },
+    "favoriteGifts": [
+      "lavender",
+      "cheese",
+      "glowshroom_tea"
+    ],
+    "likedGifts": [
+      "amethyst",
+      "cranberry"
+    ],
+    "dislikedGifts": [
+      "stone",
+      "sap"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "willow_village",
+        "tile": [
+          34,
+          24
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "willow_village",
+        "tile": [
+          32,
+          26
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          23,
+          20
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "willow_village",
+        "tile": [
+          36,
+          24
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "willow_village",
+        "tile": [
+          34,
+          24
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "willow_village",
+      "tile": [
+        34,
+        24
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Librarian keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make librarian work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Willow Village. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Willow Village stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Librarian has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_iris"
+    ]
+  },
+  {
+    "id": "theo",
+    "name": "Theo",
+    "personality": "Patient & Warm",
+    "occupation": "Beekeeper",
+    "homeLocation": "whispering_forest",
+    "portrait": "res://assets/portraits/theo.png",
+    "sprite": "res://assets/sprites/npc/theo.png",
+    "colors": {
+      "skin": "#d8a37b",
+      "hair": "#8f6b43",
+      "outfit": "#c49b3b"
+    },
+    "favoriteGifts": [
+      "honey",
+      "sunflower",
+      "sunblossom_honey_cake"
+    ],
+    "likedGifts": [
+      "daisy",
+      "dandelion"
+    ],
+    "dislikedGifts": [
+      "bat_wing",
+      "sap"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "whispering_forest",
+        "tile": [
+          34,
+          22
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "whispering_forest",
+        "tile": [
+          32,
+          24
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "whispering_forest",
+        "tile": [
+          24,
+          17
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "whispering_forest",
+        "tile": [
+          36,
+          22
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "whispering_forest",
+        "tile": [
+          34,
+          22
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "whispering_forest",
+      "tile": [
+        34,
+        22
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Beekeeper keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make beekeeper work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Whispering Forest. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Whispering Forest stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Beekeeper has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_theo"
+    ]
+  },
+  {
+    "id": "vera",
+    "name": "Vera",
+    "personality": "Sharp & Witty",
+    "occupation": "Jeweler",
+    "homeLocation": "willow_village",
+    "portrait": "res://assets/portraits/vera.png",
+    "sprite": "res://assets/sprites/npc/vera.png",
+    "colors": {
+      "skin": "#c58e6c",
+      "hair": "#2a2026",
+      "outfit": "#8a3656"
+    },
+    "favoriteGifts": [
+      "diamond",
+      "emerald",
+      "jade"
+    ],
+    "likedGifts": [
+      "aquamarine",
+      "ruby"
+    ],
+    "dislikedGifts": [
+      "wood",
+      "sap"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "willow_village",
+        "tile": [
+          28,
+          12
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "willow_village",
+        "tile": [
+          26,
+          14
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          25,
+          18
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "willow_village",
+        "tile": [
+          30,
+          12
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "willow_village",
+        "tile": [
+          28,
+          12
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "willow_village",
+      "tile": [
+        28,
+        12
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Jeweler keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make jeweler work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Willow Village. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Willow Village stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Jeweler has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_vera"
+    ]
+  },
+  {
+    "id": "hugo",
+    "name": "Hugo",
+    "personality": "Sturdy & Friendly",
+    "occupation": "Dockmaster",
+    "homeLocation": "sunflower_beach",
+    "portrait": "res://assets/portraits/hugo.png",
+    "sprite": "res://assets/sprites/npc/hugo.png",
+    "colors": {
+      "skin": "#c89069",
+      "hair": "#4f4a45",
+      "outfit": "#2d4c6e"
+    },
+    "favoriteGifts": [
+      "salmon_dinner",
+      "coconut",
+      "sea_urchin"
+    ],
+    "likedGifts": [
+      "fish_sunflower_ocean_sunlit",
+      "driftwood"
+    ],
+    "dislikedGifts": [
+      "clay",
+      "sap"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "sunflower_beach",
+        "tile": [
+          32,
+          20
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "sunflower_beach",
+        "tile": [
+          30,
+          22
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "sunflower_beach",
+        "tile": [
+          26,
+          19
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "sunflower_beach",
+        "tile": [
+          34,
+          20
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "sunflower_beach",
+        "tile": [
+          32,
+          20
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "sunflower_beach",
+      "tile": [
+        32,
+        20
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Dockmaster keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make dockmaster work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Sunflower Beach. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Sunflower Beach stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Dockmaster has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_hugo"
+    ]
+  },
+  {
+    "id": "sable",
+    "name": "Sable",
+    "personality": "Mysterious & Gentle",
+    "occupation": "Apothecary",
+    "homeLocation": "moonlight_garden",
+    "portrait": "res://assets/portraits/sable.png",
+    "sprite": "res://assets/sprites/npc/sable.png",
+    "colors": {
+      "skin": "#e0bda8",
+      "hair": "#2d1e3e",
+      "outfit": "#4a3869"
+    },
+    "favoriteGifts": [
+      "purple_cap",
+      "void_root",
+      "fairy_rose_elixir"
+    ],
+    "likedGifts": [
+      "moonflower",
+      "crystal_moss"
+    ],
+    "dislikedGifts": [
+      "stone",
+      "copper_ore"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "moonlight_garden",
+        "tile": [
+          16,
+          22
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "moonlight_garden",
+        "tile": [
+          14,
+          24
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "moonlight_garden",
+        "tile": [
+          27,
+          20
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "moonlight_garden",
+        "tile": [
+          18,
+          22
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "moonlight_garden",
+        "tile": [
+          16,
+          22
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "moonlight_garden",
+      "tile": [
+        16,
+        22
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Apothecary keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make apothecary work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Moonlight Garden. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Moonlight Garden stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Apothecary has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_sable"
+    ]
+  },
+  {
+    "id": "caspian",
+    "name": "Caspian",
+    "personality": "Hardy & Calm",
+    "occupation": "Mountain Guide",
+    "homeLocation": "frostpeak_mountain",
+    "portrait": "res://assets/portraits/caspian.png",
+    "sprite": "res://assets/sprites/npc/caspian.png",
+    "colors": {
+      "skin": "#dfba9f",
+      "hair": "#7b8c9e",
+      "outfit": "#3e5e78"
+    },
+    "favoriteGifts": [
+      "frostberry",
+      "frost_chowder",
+      "frozen_tear"
+    ],
+    "likedGifts": [
+      "winter_leek",
+      "pine_cone"
+    ],
+    "dislikedGifts": [
+      "cactus_fig",
+      "sap"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "frostpeak_mountain",
+        "tile": [
+          24,
+          18
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "frostpeak_mountain",
+        "tile": [
+          22,
+          20
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          22,
+          17
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "frostpeak_mountain",
+        "tile": [
+          26,
+          18
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "frostpeak_mountain",
+        "tile": [
+          24,
+          18
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "frostpeak_mountain",
+      "tile": [
+        24,
+        18
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Mountain Guide keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make mountain guide work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Frostpeak Mountain. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Frostpeak Mountain stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Mountain Guide has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_caspian"
+    ]
+  },
+  {
+    "id": "wren",
+    "name": "Wren",
+    "personality": "Quick & Inventive",
+    "occupation": "Clockmaker",
+    "homeLocation": "willow_village",
+    "portrait": "res://assets/portraits/wren.png",
+    "sprite": "res://assets/sprites/npc/wren.png",
+    "colors": {
+      "skin": "#f0c9b0",
+      "hair": "#693e2e",
+      "outfit": "#7d6044"
+    },
+    "favoriteGifts": [
+      "gold_bar",
+      "quartz",
+      "special_warp_farm"
+    ],
+    "likedGifts": [
+      "copper_bar",
+      "iron_bar"
+    ],
+    "dislikedGifts": [
+      "slime_jelly",
+      "sap"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "willow_village",
+        "tile": [
+          18,
+          14
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "willow_village",
+        "tile": [
+          16,
+          16
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          23,
+          18
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "willow_village",
+        "tile": [
+          20,
+          14
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "willow_village",
+        "tile": [
+          18,
+          14
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "willow_village",
+      "tile": [
+        18,
+        14
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Clockmaker keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make clockmaker work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Willow Village. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Willow Village stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Clockmaker has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_wren"
+    ]
+  },
+  {
+    "id": "felix",
+    "name": "Felix",
+    "personality": "Studious & Bold",
+    "occupation": "Archaeologist",
+    "homeLocation": "forgotten_ruins",
+    "portrait": "res://assets/portraits/felix.png",
+    "sprite": "res://assets/sprites/npc/felix.png",
+    "colors": {
+      "skin": "#cfa07e",
+      "hair": "#3f3228",
+      "outfit": "#8f6b48"
+    },
+    "favoriteGifts": [
+      "quest_ancient_tablet",
+      "ancient_fruit",
+      "diamond"
+    ],
+    "likedGifts": [
+      "bone_fragment",
+      "clay"
+    ],
+    "dislikedGifts": [
+      "sap",
+      "driftwood"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "forgotten_ruins",
+        "tile": [
+          22,
+          18
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "forgotten_ruins",
+        "tile": [
+          20,
+          20
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "forgotten_ruins",
+        "tile": [
+          24,
+          19
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "forgotten_ruins",
+        "tile": [
+          24,
+          18
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "forgotten_ruins",
+        "tile": [
+          22,
+          18
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "forgotten_ruins",
+      "tile": [
+        22,
+        18
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Archaeologist keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make archaeologist work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Forgotten Ruins. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Forgotten Ruins stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Archaeologist has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_felix"
+    ]
+  },
+  {
+    "id": "freya",
+    "name": "Freya",
+    "personality": "Warm & Musical",
+    "occupation": "Wandering Bard",
+    "homeLocation": "willow_village",
+    "portrait": "res://assets/portraits/freya.png",
+    "sprite": "res://assets/sprites/npc/freya.png",
+    "colors": {
+      "skin": "#f4d1bc",
+      "hair": "#c95b3c",
+      "outfit": "#4d856b"
+    },
+    "favoriteGifts": [
+      "peach",
+      "apple_cider",
+      "berry_parfait"
+    ],
+    "likedGifts": [
+      "grape",
+      "rose"
+    ],
+    "dislikedGifts": [
+      "bat_wing",
+      "stone"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "willow_village",
+        "tile": [
+          24,
+          22
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "willow_village",
+        "tile": [
+          22,
+          24
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          25,
+          20
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "willow_village",
+        "tile": [
+          26,
+          22
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "willow_village",
+        "tile": [
+          24,
+          22
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "willow_village",
+      "tile": [
+        24,
+        22
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Wandering Bard keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make wandering bard work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Willow Village. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Willow Village stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Wandering Bard has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_freya"
+    ]
+  },
+  {
+    "id": "jasper",
+    "name": "Jasper",
+    "personality": "Eccentric & Clever",
+    "occupation": "Spice Trader",
+    "homeLocation": "golden_desert",
+    "portrait": "res://assets/portraits/jasper.png",
+    "sprite": "res://assets/sprites/npc/jasper.png",
+    "colors": {
+      "skin": "#b87a52",
+      "hair": "#47352c",
+      "outfit": "#a34733"
+    },
+    "favoriteGifts": [
+      "spice_berry",
+      "stuffed_pepper",
+      "ruby"
+    ],
+    "likedGifts": [
+      "pepper",
+      "garlic"
+    ],
+    "dislikedGifts": [
+      "snowdrop",
+      "sap"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "golden_desert",
+        "tile": [
+          30,
+          16
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "golden_desert",
+        "tile": [
+          28,
+          18
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "golden_desert",
+        "tile": [
+          26,
+          17
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "golden_desert",
+        "tile": [
+          32,
+          16
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "golden_desert",
+        "tile": [
+          30,
+          16
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "golden_desert",
+      "tile": [
+        30,
+        16
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Spice Trader keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make spice trader work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Golden Desert. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Golden Desert stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Spice Trader has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_jasper"
+    ]
+  },
+  {
+    "id": "daphne",
+    "name": "Daphne",
+    "personality": "Sweet & Caring",
+    "occupation": "Cheese Artisan",
+    "homeLocation": "greenfield_farm",
+    "portrait": "res://assets/portraits/daphne.png",
+    "sprite": "res://assets/sprites/npc/daphne.png",
+    "colors": {
+      "skin": "#f2cbb6",
+      "hair": "#b88a44",
+      "outfit": "#a86442"
+    },
+    "favoriteGifts": [
+      "goat_cheese",
+      "truffle",
+      "melon"
+    ],
+    "likedGifts": [
+      "milk",
+      "goat_milk"
+    ],
+    "dislikedGifts": [
+      "slime_jelly",
+      "sap"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "greenfield_farm",
+        "tile": [
+          40,
+          24
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "greenfield_farm",
+        "tile": [
+          38,
+          26
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "greenfield_farm",
+        "tile": [
+          27,
+          18
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "greenfield_farm",
+        "tile": [
+          42,
+          24
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "greenfield_farm",
+        "tile": [
+          40,
+          24
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "greenfield_farm",
+      "tile": [
+        40,
+        24
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Cheese Artisan keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make cheese artisan work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Greenfield Farm. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Greenfield Farm stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Cheese Artisan has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_daphne"
+    ]
+  },
+  {
+    "id": "milo",
+    "name": "Milo",
+    "personality": "Cheerful & Loyal",
+    "occupation": "Mine Quartermaster",
+    "homeLocation": "ancient_mine",
+    "portrait": "res://assets/portraits/milo.png",
+    "sprite": "res://assets/sprites/npc/milo.png",
+    "colors": {
+      "skin": "#d49b74",
+      "hair": "#443a33",
+      "outfit": "#6e513a"
+    },
+    "favoriteGifts": [
+      "iron_bar",
+      "cave_carrot",
+      "miner_treat"
+    ],
+    "likedGifts": [
+      "stone",
+      "coal"
+    ],
+    "dislikedGifts": [
+      "sap",
+      "daffodil"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "ancient_mine",
+        "tile": [
+          28,
+          18
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "ancient_mine",
+        "tile": [
+          26,
+          20
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "willow_village",
+        "tile": [
+          22,
+          19
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "ancient_mine",
+        "tile": [
+          30,
+          18
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "ancient_mine",
+        "tile": [
+          28,
+          18
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "ancient_mine",
+      "tile": [
+        28,
+        18
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Mine Quartermaster keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make mine quartermaster work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Ancient Mine. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Ancient Mine stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Mine Quartermaster has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_milo"
+    ]
+  },
+  {
+    "id": "astra",
+    "name": "Astra",
+    "personality": "Ethereal & Kind",
+    "occupation": "Spirit Botanist",
+    "homeLocation": "moonlight_garden",
+    "portrait": "res://assets/portraits/astra.png",
+    "sprite": "res://assets/sprites/npc/astra.png",
+    "colors": {
+      "skin": "#ebd4cb",
+      "hair": "#89a8c9",
+      "outfit": "#5c67a8"
+    },
+    "favoriteGifts": [
+      "crystal_berry",
+      "starfruit",
+      "sanctuary_ambrosia"
+    ],
+    "likedGifts": [
+      "lotus",
+      "glowshroom"
+    ],
+    "dislikedGifts": [
+      "coal",
+      "slime_jelly"
+    ],
+    "schedule": [
+      {
+        "hour": 6,
+        "region": "moonlight_garden",
+        "tile": [
+          30,
+          14
+        ],
+        "activity": "morning_routine"
+      },
+      {
+        "hour": 9,
+        "region": "moonlight_garden",
+        "tile": [
+          28,
+          16
+        ],
+        "activity": "work"
+      },
+      {
+        "hour": 13,
+        "region": "moonlight_garden",
+        "tile": [
+          23,
+          20
+        ],
+        "activity": "socialize"
+      },
+      {
+        "hour": 17,
+        "region": "moonlight_garden",
+        "tile": [
+          32,
+          14
+        ],
+        "activity": "evening_walk"
+      },
+      {
+        "hour": 21,
+        "region": "moonlight_garden",
+        "tile": [
+          30,
+          14
+        ],
+        "activity": "sleep"
+      }
+    ],
+    "rainySchedule": {
+      "region": "moonlight_garden",
+      "tile": [
+        30,
+        14
+      ],
+      "activity": "sheltering"
+    },
+    "dialogues": {
+      "daily": [
+        "Good day! Life as Spirit Botanist keeps me busy, but Whispering Valley always feels peaceful.",
+        "Have you checked the valley forecast? Every season brings new treasures to discover."
+      ],
+      "spring": [
+        "Spring breezes make spirit botanist work a true joy! Fresh soil awaits your seeds."
+      ],
+      "summer": [
+        "The summer sun shines bright over Moonlight Garden. Stay hydrated!"
+      ],
+      "autumn": [
+        "Golden leaves remind me it's harvest time. Pumpkins and cranberries are thriving."
+      ],
+      "winter": [
+        "Winter frost has settled in, yet the hearth in Moonlight Garden stays warm."
+      ],
+      "rainy": [
+        "I love listening to the rain pattering on the roofs. Great day to visit the mines or fish!"
+      ],
+      "stormy": [
+        "Quite a storm rolling through today—stay safe and watch for washed-up treasures tomorrow."
+      ],
+      "snowy": [
+        "Soft snow blankets the valley! Bundle up if you're heading toward Frostpeak."
+      ],
+      "friendship": {
+        "low": "Nice to see a new farmer settling into Greenfield Farm.",
+        "mid": "Always brightens my afternoon running into you around the valley!",
+        "high": "You're one of my dearest friends in Whispering Valley. Thank you for everything!"
+      },
+      "choices": [
+        {
+          "prompt": "Ask about their work",
+          "reply": "Working as Spirit Botanist has taught me patience—just like tending crops!",
+          "friendshipDelta": 10
+        },
+        {
+          "prompt": "Share farm stories",
+          "reply": "Sounds like Greenfield Farm is flourishing under your care!",
+          "friendshipDelta": 15
+        }
+      ]
+    },
+    "questIds": [
+      "npc_q_astra"
+    ]
+  }
+]

@@ -1,0 +1,514 @@
+[
+  {
+    "id": "ach_crop_harvested_1",
+    "name": "Green Thumb I",
+    "metric": "crop_harvested",
+    "threshold": 1,
+    "rewardGold": 150,
+    "description": "Reach 1 on crop harvested."
+  },
+  {
+    "id": "ach_crop_harvested_2",
+    "name": "Green Thumb II",
+    "metric": "crop_harvested",
+    "threshold": 10,
+    "rewardGold": 300,
+    "description": "Reach 10 on crop harvested."
+  },
+  {
+    "id": "ach_crop_harvested_3",
+    "name": "Green Thumb III",
+    "metric": "crop_harvested",
+    "threshold": 25,
+    "rewardGold": 450,
+    "description": "Reach 25 on crop harvested."
+  },
+  {
+    "id": "ach_crop_harvested_4",
+    "name": "Green Thumb IV",
+    "metric": "crop_harvested",
+    "threshold": 50,
+    "rewardGold": 600,
+    "description": "Reach 50 on crop harvested."
+  },
+  {
+    "id": "ach_crop_harvested_5",
+    "name": "Green Thumb V",
+    "metric": "crop_harvested",
+    "threshold": 100,
+    "rewardGold": 750,
+    "description": "Reach 100 on crop harvested."
+  },
+  {
+    "id": "ach_crop_harvested_6",
+    "name": "Green Thumb VI",
+    "metric": "crop_harvested",
+    "threshold": 200,
+    "rewardGold": 900,
+    "description": "Reach 200 on crop harvested."
+  },
+  {
+    "id": "ach_crop_harvested_7",
+    "name": "Green Thumb VII",
+    "metric": "crop_harvested",
+    "threshold": 350,
+    "rewardGold": 1050,
+    "description": "Reach 350 on crop harvested."
+  },
+  {
+    "id": "ach_crop_harvested_8",
+    "name": "Green Thumb VIII",
+    "metric": "crop_harvested",
+    "threshold": 500,
+    "rewardGold": 1200,
+    "description": "Reach 500 on crop harvested."
+  },
+  {
+    "id": "ach_fish_caught_1",
+    "name": "River & Sea Angler I",
+    "metric": "fish_caught",
+    "threshold": 1,
+    "rewardGold": 150,
+    "description": "Reach 1 on fish caught."
+  },
+  {
+    "id": "ach_fish_caught_2",
+    "name": "River & Sea Angler II",
+    "metric": "fish_caught",
+    "threshold": 5,
+    "rewardGold": 300,
+    "description": "Reach 5 on fish caught."
+  },
+  {
+    "id": "ach_fish_caught_3",
+    "name": "River & Sea Angler III",
+    "metric": "fish_caught",
+    "threshold": 15,
+    "rewardGold": 450,
+    "description": "Reach 15 on fish caught."
+  },
+  {
+    "id": "ach_fish_caught_4",
+    "name": "River & Sea Angler IV",
+    "metric": "fish_caught",
+    "threshold": 30,
+    "rewardGold": 600,
+    "description": "Reach 30 on fish caught."
+  },
+  {
+    "id": "ach_fish_caught_5",
+    "name": "River & Sea Angler V",
+    "metric": "fish_caught",
+    "threshold": 50,
+    "rewardGold": 750,
+    "description": "Reach 50 on fish caught."
+  },
+  {
+    "id": "ach_fish_caught_6",
+    "name": "River & Sea Angler VI",
+    "metric": "fish_caught",
+    "threshold": 75,
+    "rewardGold": 900,
+    "description": "Reach 75 on fish caught."
+  },
+  {
+    "id": "ach_fish_caught_7",
+    "name": "River & Sea Angler VII",
+    "metric": "fish_caught",
+    "threshold": 100,
+    "rewardGold": 1050,
+    "description": "Reach 100 on fish caught."
+  },
+  {
+    "id": "ach_fish_caught_8",
+    "name": "River & Sea Angler VIII",
+    "metric": "fish_caught",
+    "threshold": 150,
+    "rewardGold": 1200,
+    "description": "Reach 150 on fish caught."
+  },
+  {
+    "id": "ach_mine_floor_reached_1",
+    "name": "Deep Delver I",
+    "metric": "mine_floor_reached",
+    "threshold": 5,
+    "rewardGold": 150,
+    "description": "Reach 5 on mine floor reached."
+  },
+  {
+    "id": "ach_mine_floor_reached_2",
+    "name": "Deep Delver II",
+    "metric": "mine_floor_reached",
+    "threshold": 10,
+    "rewardGold": 300,
+    "description": "Reach 10 on mine floor reached."
+  },
+  {
+    "id": "ach_mine_floor_reached_3",
+    "name": "Deep Delver III",
+    "metric": "mine_floor_reached",
+    "threshold": 25,
+    "rewardGold": 450,
+    "description": "Reach 25 on mine floor reached."
+  },
+  {
+    "id": "ach_mine_floor_reached_4",
+    "name": "Deep Delver IV",
+    "metric": "mine_floor_reached",
+    "threshold": 40,
+    "rewardGold": 600,
+    "description": "Reach 40 on mine floor reached."
+  },
+  {
+    "id": "ach_mine_floor_reached_5",
+    "name": "Deep Delver V",
+    "metric": "mine_floor_reached",
+    "threshold": 50,
+    "rewardGold": 750,
+    "description": "Reach 50 on mine floor reached."
+  },
+  {
+    "id": "ach_mine_floor_reached_6",
+    "name": "Deep Delver VI",
+    "metric": "mine_floor_reached",
+    "threshold": 75,
+    "rewardGold": 900,
+    "description": "Reach 75 on mine floor reached."
+  },
+  {
+    "id": "ach_mine_floor_reached_7",
+    "name": "Deep Delver VII",
+    "metric": "mine_floor_reached",
+    "threshold": 90,
+    "rewardGold": 1050,
+    "description": "Reach 90 on mine floor reached."
+  },
+  {
+    "id": "ach_mine_floor_reached_8",
+    "name": "Deep Delver VIII",
+    "metric": "mine_floor_reached",
+    "threshold": 100,
+    "rewardGold": 1200,
+    "description": "Reach 100 on mine floor reached."
+  },
+  {
+    "id": "ach_monster_defeated_1",
+    "name": "Valley Defender I",
+    "metric": "monster_defeated",
+    "threshold": 1,
+    "rewardGold": 150,
+    "description": "Reach 1 on monster defeated."
+  },
+  {
+    "id": "ach_monster_defeated_2",
+    "name": "Valley Defender II",
+    "metric": "monster_defeated",
+    "threshold": 10,
+    "rewardGold": 300,
+    "description": "Reach 10 on monster defeated."
+  },
+  {
+    "id": "ach_monster_defeated_3",
+    "name": "Valley Defender III",
+    "metric": "monster_defeated",
+    "threshold": 25,
+    "rewardGold": 450,
+    "description": "Reach 25 on monster defeated."
+  },
+  {
+    "id": "ach_monster_defeated_4",
+    "name": "Valley Defender IV",
+    "metric": "monster_defeated",
+    "threshold": 50,
+    "rewardGold": 600,
+    "description": "Reach 50 on monster defeated."
+  },
+  {
+    "id": "ach_monster_defeated_5",
+    "name": "Valley Defender V",
+    "metric": "monster_defeated",
+    "threshold": 75,
+    "rewardGold": 750,
+    "description": "Reach 75 on monster defeated."
+  },
+  {
+    "id": "ach_monster_defeated_6",
+    "name": "Valley Defender VI",
+    "metric": "monster_defeated",
+    "threshold": 100,
+    "rewardGold": 900,
+    "description": "Reach 100 on monster defeated."
+  },
+  {
+    "id": "ach_monster_defeated_7",
+    "name": "Valley Defender VII",
+    "metric": "monster_defeated",
+    "threshold": 150,
+    "rewardGold": 1050,
+    "description": "Reach 150 on monster defeated."
+  },
+  {
+    "id": "ach_monster_defeated_8",
+    "name": "Valley Defender VIII",
+    "metric": "monster_defeated",
+    "threshold": 250,
+    "rewardGold": 1200,
+    "description": "Reach 250 on monster defeated."
+  },
+  {
+    "id": "ach_item_crafted_1",
+    "name": "Handy Crafter I",
+    "metric": "item_crafted",
+    "threshold": 1,
+    "rewardGold": 150,
+    "description": "Reach 1 on item crafted."
+  },
+  {
+    "id": "ach_item_crafted_2",
+    "name": "Handy Crafter II",
+    "metric": "item_crafted",
+    "threshold": 5,
+    "rewardGold": 300,
+    "description": "Reach 5 on item crafted."
+  },
+  {
+    "id": "ach_item_crafted_3",
+    "name": "Handy Crafter III",
+    "metric": "item_crafted",
+    "threshold": 15,
+    "rewardGold": 450,
+    "description": "Reach 15 on item crafted."
+  },
+  {
+    "id": "ach_item_crafted_4",
+    "name": "Handy Crafter IV",
+    "metric": "item_crafted",
+    "threshold": 30,
+    "rewardGold": 600,
+    "description": "Reach 30 on item crafted."
+  },
+  {
+    "id": "ach_item_crafted_5",
+    "name": "Handy Crafter V",
+    "metric": "item_crafted",
+    "threshold": 50,
+    "rewardGold": 750,
+    "description": "Reach 50 on item crafted."
+  },
+  {
+    "id": "ach_item_crafted_6",
+    "name": "Handy Crafter VI",
+    "metric": "item_crafted",
+    "threshold": 75,
+    "rewardGold": 900,
+    "description": "Reach 75 on item crafted."
+  },
+  {
+    "id": "ach_item_crafted_7",
+    "name": "Handy Crafter VII",
+    "metric": "item_crafted",
+    "threshold": 100,
+    "rewardGold": 1050,
+    "description": "Reach 100 on item crafted."
+  },
+  {
+    "id": "ach_item_crafted_8",
+    "name": "Handy Crafter VIII",
+    "metric": "item_crafted",
+    "threshold": 120,
+    "rewardGold": 1200,
+    "description": "Reach 120 on item crafted."
+  },
+  {
+    "id": "ach_dish_cooked_1",
+    "name": "Gourmet Chef I",
+    "metric": "dish_cooked",
+    "threshold": 1,
+    "rewardGold": 150,
+    "description": "Reach 1 on dish cooked."
+  },
+  {
+    "id": "ach_dish_cooked_2",
+    "name": "Gourmet Chef II",
+    "metric": "dish_cooked",
+    "threshold": 5,
+    "rewardGold": 300,
+    "description": "Reach 5 on dish cooked."
+  },
+  {
+    "id": "ach_dish_cooked_3",
+    "name": "Gourmet Chef III",
+    "metric": "dish_cooked",
+    "threshold": 15,
+    "rewardGold": 450,
+    "description": "Reach 15 on dish cooked."
+  },
+  {
+    "id": "ach_dish_cooked_4",
+    "name": "Gourmet Chef IV",
+    "metric": "dish_cooked",
+    "threshold": 25,
+    "rewardGold": 600,
+    "description": "Reach 25 on dish cooked."
+  },
+  {
+    "id": "ach_dish_cooked_5",
+    "name": "Gourmet Chef V",
+    "metric": "dish_cooked",
+    "threshold": 40,
+    "rewardGold": 750,
+    "description": "Reach 40 on dish cooked."
+  },
+  {
+    "id": "ach_dish_cooked_6",
+    "name": "Gourmet Chef VI",
+    "metric": "dish_cooked",
+    "threshold": 60,
+    "rewardGold": 900,
+    "description": "Reach 60 on dish cooked."
+  },
+  {
+    "id": "ach_dish_cooked_7",
+    "name": "Gourmet Chef VII",
+    "metric": "dish_cooked",
+    "threshold": 80,
+    "rewardGold": 1050,
+    "description": "Reach 80 on dish cooked."
+  },
+  {
+    "id": "ach_dish_cooked_8",
+    "name": "Gourmet Chef VIII",
+    "metric": "dish_cooked",
+    "threshold": 100,
+    "rewardGold": 1200,
+    "description": "Reach 100 on dish cooked."
+  },
+  {
+    "id": "ach_gold_earned_1",
+    "name": "Prosperous Homestead I",
+    "metric": "gold_earned",
+    "threshold": 500,
+    "rewardGold": 150,
+    "description": "Reach 500 on gold earned."
+  },
+  {
+    "id": "ach_gold_earned_2",
+    "name": "Prosperous Homestead II",
+    "metric": "gold_earned",
+    "threshold": 2000,
+    "rewardGold": 300,
+    "description": "Reach 2000 on gold earned."
+  },
+  {
+    "id": "ach_gold_earned_3",
+    "name": "Prosperous Homestead III",
+    "metric": "gold_earned",
+    "threshold": 5000,
+    "rewardGold": 450,
+    "description": "Reach 5000 on gold earned."
+  },
+  {
+    "id": "ach_gold_earned_4",
+    "name": "Prosperous Homestead IV",
+    "metric": "gold_earned",
+    "threshold": 15000,
+    "rewardGold": 600,
+    "description": "Reach 15000 on gold earned."
+  },
+  {
+    "id": "ach_gold_earned_5",
+    "name": "Prosperous Homestead V",
+    "metric": "gold_earned",
+    "threshold": 30000,
+    "rewardGold": 750,
+    "description": "Reach 30000 on gold earned."
+  },
+  {
+    "id": "ach_gold_earned_6",
+    "name": "Prosperous Homestead VI",
+    "metric": "gold_earned",
+    "threshold": 60000,
+    "rewardGold": 900,
+    "description": "Reach 60000 on gold earned."
+  },
+  {
+    "id": "ach_gold_earned_7",
+    "name": "Prosperous Homestead VII",
+    "metric": "gold_earned",
+    "threshold": 100000,
+    "rewardGold": 1050,
+    "description": "Reach 100000 on gold earned."
+  },
+  {
+    "id": "ach_gold_earned_8",
+    "name": "Prosperous Homestead VIII",
+    "metric": "gold_earned",
+    "threshold": 250000,
+    "rewardGold": 1200,
+    "description": "Reach 250000 on gold earned."
+  },
+  {
+    "id": "ach_region_discovered_1",
+    "name": "Valley Cartographer I",
+    "metric": "region_discovered",
+    "threshold": 2,
+    "rewardGold": 150,
+    "description": "Reach 2 on region discovered."
+  },
+  {
+    "id": "ach_region_discovered_2",
+    "name": "Valley Cartographer II",
+    "metric": "region_discovered",
+    "threshold": 4,
+    "rewardGold": 300,
+    "description": "Reach 4 on region discovered."
+  },
+  {
+    "id": "ach_region_discovered_3",
+    "name": "Valley Cartographer III",
+    "metric": "region_discovered",
+    "threshold": 6,
+    "rewardGold": 450,
+    "description": "Reach 6 on region discovered."
+  },
+  {
+    "id": "ach_region_discovered_4",
+    "name": "Valley Cartographer IV",
+    "metric": "region_discovered",
+    "threshold": 8,
+    "rewardGold": 600,
+    "description": "Reach 8 on region discovered."
+  },
+  {
+    "id": "ach_region_discovered_5",
+    "name": "Valley Cartographer V",
+    "metric": "region_discovered",
+    "threshold": 9,
+    "rewardGold": 750,
+    "description": "Reach 9 on region discovered."
+  },
+  {
+    "id": "ach_region_discovered_6",
+    "name": "Valley Cartographer VI",
+    "metric": "region_discovered",
+    "threshold": 10,
+    "rewardGold": 900,
+    "description": "Reach 10 on region discovered."
+  },
+  {
+    "id": "ach_region_discovered_7",
+    "name": "Valley Cartographer VII",
+    "metric": "region_discovered",
+    "threshold": 11,
+    "rewardGold": 1050,
+    "description": "Reach 11 on region discovered."
+  },
+  {
+    "id": "ach_region_discovered_8",
+    "name": "Valley Cartographer VIII",
+    "metric": "region_discovered",
+    "threshold": 12,
+    "rewardGold": 1200,
+    "description": "Reach 12 on region discovered."
+  }
+]

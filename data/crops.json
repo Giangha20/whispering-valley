@@ -1,0 +1,1184 @@
+[
+  {
+    "id": "turnip",
+    "name": "Turnip",
+    "category": "Vegetables",
+    "seedItemId": "turnip_seed",
+    "harvestItemId": "turnip",
+    "seasons": [
+      "spring"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 1,
+    "totalDays": 3,
+    "regrowthDays": 0,
+    "baseSellPrice": 55,
+    "waterRequired": true,
+    "atlasRow": 0,
+    "description": "A vegetables crop grown in Spring (3 days)."
+  },
+  {
+    "id": "parsnip",
+    "name": "Parsnip",
+    "category": "Vegetables",
+    "seedItemId": "parsnip_seed",
+    "harvestItemId": "parsnip",
+    "seasons": [
+      "spring"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 1,
+    "totalDays": 4,
+    "regrowthDays": 0,
+    "baseSellPrice": 65,
+    "waterRequired": true,
+    "atlasRow": 1,
+    "description": "A vegetables crop grown in Spring (4 days)."
+  },
+  {
+    "id": "potato",
+    "name": "Golden Potato",
+    "category": "Vegetables",
+    "seedItemId": "potato_seed",
+    "harvestItemId": "potato",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 6,
+    "regrowthDays": 0,
+    "baseSellPrice": 95,
+    "waterRequired": true,
+    "atlasRow": 2,
+    "description": "A vegetables crop grown in Spring, Autumn (6 days)."
+  },
+  {
+    "id": "carrot",
+    "name": "Crisp Carrot",
+    "category": "Vegetables",
+    "seedItemId": "carrot_seed",
+    "harvestItemId": "carrot",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 1,
+    "totalDays": 4,
+    "regrowthDays": 0,
+    "baseSellPrice": 70,
+    "waterRequired": true,
+    "atlasRow": 3,
+    "description": "A vegetables crop grown in Spring, Autumn (4 days)."
+  },
+  {
+    "id": "radish",
+    "name": "Ruby Radish",
+    "category": "Vegetables",
+    "seedItemId": "radish_seed",
+    "harvestItemId": "radish",
+    "seasons": [
+      "summer"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 1,
+    "totalDays": 5,
+    "regrowthDays": 0,
+    "baseSellPrice": 88,
+    "waterRequired": true,
+    "atlasRow": 4,
+    "description": "A vegetables crop grown in Summer (5 days)."
+  },
+  {
+    "id": "cauliflower",
+    "name": "Cloud Cauliflower",
+    "category": "Vegetables",
+    "seedItemId": "cauliflower_seed",
+    "harvestItemId": "cauliflower",
+    "seasons": [
+      "spring"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 10,
+    "regrowthDays": 0,
+    "baseSellPrice": 185,
+    "waterRequired": true,
+    "atlasRow": 5,
+    "description": "A vegetables crop grown in Spring (10 days)."
+  },
+  {
+    "id": "kale",
+    "name": "Emerald Kale",
+    "category": "Vegetables",
+    "seedItemId": "kale_seed",
+    "harvestItemId": "kale",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 1,
+    "totalDays": 5,
+    "regrowthDays": 0,
+    "baseSellPrice": 92,
+    "waterRequired": true,
+    "atlasRow": 6,
+    "description": "A vegetables crop grown in Spring, Autumn (5 days)."
+  },
+  {
+    "id": "garlic",
+    "name": "Wild Garlic",
+    "category": "Vegetables",
+    "seedItemId": "garlic_seed",
+    "harvestItemId": "garlic",
+    "seasons": [
+      "spring"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 1,
+    "totalDays": 4,
+    "regrowthDays": 0,
+    "baseSellPrice": 72,
+    "waterRequired": true,
+    "atlasRow": 7,
+    "description": "A vegetables crop grown in Spring (4 days)."
+  },
+  {
+    "id": "tomato",
+    "name": "Sun Tomato",
+    "category": "Vegetables",
+    "seedItemId": "tomato_seed",
+    "harvestItemId": "tomato",
+    "seasons": [
+      "summer"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 7,
+    "regrowthDays": 3,
+    "baseSellPrice": 75,
+    "waterRequired": true,
+    "atlasRow": 8,
+    "description": "A vegetables crop grown in Summer (7 days)."
+  },
+  {
+    "id": "corn",
+    "name": "Sweet Corn",
+    "category": "Vegetables",
+    "seedItemId": "corn_seed",
+    "harvestItemId": "corn",
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 9,
+    "regrowthDays": 4,
+    "baseSellPrice": 68,
+    "waterRequired": true,
+    "atlasRow": 9,
+    "description": "A vegetables crop grown in Summer, Autumn (9 days)."
+  },
+  {
+    "id": "pepper",
+    "name": "Ember Pepper",
+    "category": "Vegetables",
+    "seedItemId": "pepper_seed",
+    "harvestItemId": "pepper",
+    "seasons": [
+      "summer"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 6,
+    "regrowthDays": 3,
+    "baseSellPrice": 62,
+    "waterRequired": true,
+    "atlasRow": 10,
+    "description": "A vegetables crop grown in Summer (6 days)."
+  },
+  {
+    "id": "eggplant",
+    "name": "Velvet Eggplant",
+    "category": "Vegetables",
+    "seedItemId": "eggplant_seed",
+    "harvestItemId": "eggplant",
+    "seasons": [
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 1,
+    "totalDays": 5,
+    "regrowthDays": 4,
+    "baseSellPrice": 82,
+    "waterRequired": true,
+    "atlasRow": 11,
+    "description": "A vegetables crop grown in Autumn (5 days)."
+  },
+  {
+    "id": "pumpkin",
+    "name": "Harvest Pumpkin",
+    "category": "Vegetables",
+    "seedItemId": "pumpkin_seed",
+    "harvestItemId": "pumpkin",
+    "seasons": [
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 3,
+    "totalDays": 12,
+    "regrowthDays": 0,
+    "baseSellPrice": 290,
+    "waterRequired": true,
+    "atlasRow": 12,
+    "description": "A vegetables crop grown in Autumn (12 days)."
+  },
+  {
+    "id": "yam",
+    "name": "Honey Yam",
+    "category": "Vegetables",
+    "seedItemId": "yam_seed",
+    "harvestItemId": "yam",
+    "seasons": [
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 8,
+    "regrowthDays": 0,
+    "baseSellPrice": 160,
+    "waterRequired": true,
+    "atlasRow": 13,
+    "description": "A vegetables crop grown in Autumn (8 days)."
+  },
+  {
+    "id": "beetroot",
+    "name": "Crimson Beet",
+    "category": "Vegetables",
+    "seedItemId": "beetroot_seed",
+    "harvestItemId": "beetroot",
+    "seasons": [
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 6,
+    "regrowthDays": 0,
+    "baseSellPrice": 115,
+    "waterRequired": true,
+    "atlasRow": 14,
+    "description": "A vegetables crop grown in Autumn (6 days)."
+  },
+  {
+    "id": "winter_leek",
+    "name": "Frost Leek",
+    "category": "Vegetables",
+    "seedItemId": "winter_leek_seed",
+    "harvestItemId": "winter_leek",
+    "seasons": [
+      "winter"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 1,
+    "totalDays": 5,
+    "regrowthDays": 0,
+    "baseSellPrice": 110,
+    "waterRequired": true,
+    "atlasRow": 15,
+    "description": "A vegetables crop grown in Winter (5 days)."
+  },
+  {
+    "id": "strawberry",
+    "name": "Meadow Strawberry",
+    "category": "Fruits",
+    "seedItemId": "strawberry_seed",
+    "harvestItemId": "strawberry",
+    "seasons": [
+      "spring"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 8,
+    "regrowthDays": 4,
+    "baseSellPrice": 120,
+    "waterRequired": true,
+    "atlasRow": 16,
+    "description": "A fruits crop grown in Spring (8 days)."
+  },
+  {
+    "id": "rhubarb",
+    "name": "Tart Rhubarb",
+    "category": "Fruits",
+    "seedItemId": "rhubarb_seed",
+    "harvestItemId": "rhubarb",
+    "seasons": [
+      "spring"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 3,
+    "totalDays": 11,
+    "regrowthDays": 0,
+    "baseSellPrice": 220,
+    "waterRequired": true,
+    "atlasRow": 17,
+    "description": "A fruits crop grown in Spring (11 days)."
+  },
+  {
+    "id": "blueberry",
+    "name": "Sky Blueberry",
+    "category": "Fruits",
+    "seedItemId": "blueberry_seed",
+    "harvestItemId": "blueberry",
+    "seasons": [
+      "summer"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 10,
+    "regrowthDays": 4,
+    "baseSellPrice": 85,
+    "waterRequired": true,
+    "atlasRow": 18,
+    "description": "A fruits crop grown in Summer (10 days)."
+  },
+  {
+    "id": "melon",
+    "name": "Pink Melon",
+    "category": "Fruits",
+    "seedItemId": "melon_seed",
+    "harvestItemId": "melon",
+    "seasons": [
+      "summer"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 3,
+    "totalDays": 11,
+    "regrowthDays": 0,
+    "baseSellPrice": 260,
+    "waterRequired": true,
+    "atlasRow": 19,
+    "description": "A fruits crop grown in Summer (11 days)."
+  },
+  {
+    "id": "peach",
+    "name": "Blush Peach",
+    "category": "Fruits",
+    "seedItemId": "peach_seed",
+    "harvestItemId": "peach",
+    "seasons": [
+      "summer"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 9,
+    "regrowthDays": 3,
+    "baseSellPrice": 140,
+    "waterRequired": true,
+    "atlasRow": 20,
+    "description": "A fruits crop grown in Summer (9 days)."
+  },
+  {
+    "id": "cherry",
+    "name": "Ruby Cherry",
+    "category": "Fruits",
+    "seedItemId": "cherry_seed",
+    "harvestItemId": "cherry",
+    "seasons": [
+      "spring"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 8,
+    "regrowthDays": 3,
+    "baseSellPrice": 115,
+    "waterRequired": true,
+    "atlasRow": 21,
+    "description": "A fruits crop grown in Spring (8 days)."
+  },
+  {
+    "id": "grape",
+    "name": "Valley Grape",
+    "category": "Fruits",
+    "seedItemId": "grape_seed",
+    "harvestItemId": "grape",
+    "seasons": [
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 8,
+    "regrowthDays": 3,
+    "baseSellPrice": 95,
+    "waterRequired": true,
+    "atlasRow": 22,
+    "description": "A fruits crop grown in Autumn (8 days)."
+  },
+  {
+    "id": "cranberry",
+    "name": "Bog Cranberry",
+    "category": "Fruits",
+    "seedItemId": "cranberry_seed",
+    "harvestItemId": "cranberry",
+    "seasons": [
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 7,
+    "regrowthDays": 4,
+    "baseSellPrice": 90,
+    "waterRequired": true,
+    "atlasRow": 23,
+    "description": "A fruits crop grown in Autumn (7 days)."
+  },
+  {
+    "id": "apple",
+    "name": "Orchard Apple",
+    "category": "Fruits",
+    "seedItemId": "apple_seed",
+    "harvestItemId": "apple",
+    "seasons": [
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 9,
+    "regrowthDays": 3,
+    "baseSellPrice": 135,
+    "waterRequired": true,
+    "atlasRow": 24,
+    "description": "A fruits crop grown in Autumn (9 days)."
+  },
+  {
+    "id": "pineapple",
+    "name": "Tropica Pineapple",
+    "category": "Fruits",
+    "seedItemId": "pineapple_seed",
+    "harvestItemId": "pineapple",
+    "seasons": [
+      "summer"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 3,
+    "totalDays": 12,
+    "regrowthDays": 5,
+    "baseSellPrice": 280,
+    "waterRequired": true,
+    "atlasRow": 25,
+    "description": "A fruits crop grown in Summer (12 days)."
+  },
+  {
+    "id": "cactus_fig",
+    "name": "Dune Cactus Fig",
+    "category": "Fruits",
+    "seedItemId": "cactus_fig_seed",
+    "harvestItemId": "cactus_fig",
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 8,
+    "regrowthDays": 4,
+    "baseSellPrice": 145,
+    "waterRequired": true,
+    "atlasRow": 26,
+    "description": "A fruits crop grown in Summer, Autumn (8 days)."
+  },
+  {
+    "id": "coconut",
+    "name": "Golden Coconut",
+    "category": "Fruits",
+    "seedItemId": "coconut_seed",
+    "harvestItemId": "coconut",
+    "seasons": [
+      "summer"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 10,
+    "regrowthDays": 4,
+    "baseSellPrice": 175,
+    "waterRequired": true,
+    "atlasRow": 27,
+    "description": "A fruits crop grown in Summer (10 days)."
+  },
+  {
+    "id": "frostberry",
+    "name": "Glacier Berry",
+    "category": "Fruits",
+    "seedItemId": "frostberry_seed",
+    "harvestItemId": "frostberry",
+    "seasons": [
+      "winter"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 7,
+    "regrowthDays": 4,
+    "baseSellPrice": 155,
+    "waterRequired": true,
+    "atlasRow": 28,
+    "description": "A fruits crop grown in Winter (7 days)."
+  },
+  {
+    "id": "starfruit",
+    "name": "Celestial Starfruit",
+    "category": "Fruits",
+    "seedItemId": "starfruit_seed",
+    "harvestItemId": "starfruit",
+    "seasons": [
+      "summer"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 4,
+    "totalDays": 14,
+    "regrowthDays": 0,
+    "baseSellPrice": 620,
+    "waterRequired": true,
+    "atlasRow": 29,
+    "description": "A fruits crop grown in Summer (14 days)."
+  },
+  {
+    "id": "tulip",
+    "name": "Spring Tulip",
+    "category": "Flowers",
+    "seedItemId": "tulip_seed",
+    "harvestItemId": "tulip",
+    "seasons": [
+      "spring"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 1,
+    "totalDays": 4,
+    "regrowthDays": 0,
+    "baseSellPrice": 55,
+    "waterRequired": true,
+    "atlasRow": 30,
+    "description": "A flowers crop grown in Spring (4 days)."
+  },
+  {
+    "id": "dandelion",
+    "name": "Sunny Dandelion",
+    "category": "Flowers",
+    "seedItemId": "dandelion_seed",
+    "harvestItemId": "dandelion",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 1,
+    "totalDays": 3,
+    "regrowthDays": 0,
+    "baseSellPrice": 45,
+    "waterRequired": true,
+    "atlasRow": 31,
+    "description": "A flowers crop grown in Spring, Summer (3 days)."
+  },
+  {
+    "id": "daisy",
+    "name": "Willow Daisy",
+    "category": "Flowers",
+    "seedItemId": "daisy_seed",
+    "harvestItemId": "daisy",
+    "seasons": [
+      "spring"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 1,
+    "totalDays": 4,
+    "regrowthDays": 0,
+    "baseSellPrice": 60,
+    "waterRequired": true,
+    "atlasRow": 32,
+    "description": "A flowers crop grown in Spring (4 days)."
+  },
+  {
+    "id": "jazz_blossom",
+    "name": "Blue Jazz",
+    "category": "Flowers",
+    "seedItemId": "jazz_blossom_seed",
+    "harvestItemId": "jazz_blossom",
+    "seasons": [
+      "spring"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 6,
+    "regrowthDays": 0,
+    "baseSellPrice": 85,
+    "waterRequired": true,
+    "atlasRow": 33,
+    "description": "A flowers crop grown in Spring (6 days)."
+  },
+  {
+    "id": "sunflower",
+    "name": "Radiant Sunflower",
+    "category": "Flowers",
+    "seedItemId": "sunflower_seed",
+    "harvestItemId": "sunflower",
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 7,
+    "regrowthDays": 0,
+    "baseSellPrice": 115,
+    "waterRequired": true,
+    "atlasRow": 34,
+    "description": "A flowers crop grown in Summer, Autumn (7 days)."
+  },
+  {
+    "id": "rose",
+    "name": "Crimson Rose",
+    "category": "Flowers",
+    "seedItemId": "rose_seed",
+    "harvestItemId": "rose",
+    "seasons": [
+      "summer"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 8,
+    "regrowthDays": 0,
+    "baseSellPrice": 140,
+    "waterRequired": true,
+    "atlasRow": 35,
+    "description": "A flowers crop grown in Summer (8 days)."
+  },
+  {
+    "id": "poppy",
+    "name": "Summer Poppy",
+    "category": "Flowers",
+    "seedItemId": "poppy_seed",
+    "harvestItemId": "poppy",
+    "seasons": [
+      "summer"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 6,
+    "regrowthDays": 0,
+    "baseSellPrice": 120,
+    "waterRequired": true,
+    "atlasRow": 36,
+    "description": "A flowers crop grown in Summer (6 days)."
+  },
+  {
+    "id": "lavender",
+    "name": "Twilight Lavender",
+    "category": "Flowers",
+    "seedItemId": "lavender_seed",
+    "harvestItemId": "lavender",
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 6,
+    "regrowthDays": 0,
+    "baseSellPrice": 125,
+    "waterRequired": true,
+    "atlasRow": 37,
+    "description": "A flowers crop grown in Summer, Autumn (6 days)."
+  },
+  {
+    "id": "fairy_rose",
+    "name": "Fairy Rose",
+    "category": "Flowers",
+    "seedItemId": "fairy_rose_seed",
+    "harvestItemId": "fairy_rose",
+    "seasons": [
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 10,
+    "regrowthDays": 0,
+    "baseSellPrice": 290,
+    "waterRequired": true,
+    "atlasRow": 38,
+    "description": "A flowers crop grown in Autumn (10 days)."
+  },
+  {
+    "id": "lotus",
+    "name": "Crystal Lotus",
+    "category": "Flowers",
+    "seedItemId": "lotus_seed",
+    "harvestItemId": "lotus",
+    "seasons": [
+      "summer"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 9,
+    "regrowthDays": 0,
+    "baseSellPrice": 210,
+    "waterRequired": true,
+    "atlasRow": 39,
+    "description": "A flowers crop grown in Summer (9 days)."
+  },
+  {
+    "id": "moonflower",
+    "name": "Moonlight Bloom",
+    "category": "Flowers",
+    "seedItemId": "moonflower_seed",
+    "harvestItemId": "moonflower",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 9,
+    "regrowthDays": 0,
+    "baseSellPrice": 240,
+    "waterRequired": true,
+    "atlasRow": 40,
+    "description": "A flowers crop grown in Autumn, Winter (9 days)."
+  },
+  {
+    "id": "frost_orchid",
+    "name": "Frost Orchid",
+    "category": "Flowers",
+    "seedItemId": "frost_orchid_seed",
+    "harvestItemId": "frost_orchid",
+    "seasons": [
+      "winter"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 8,
+    "regrowthDays": 0,
+    "baseSellPrice": 230,
+    "waterRequired": true,
+    "atlasRow": 41,
+    "description": "A flowers crop grown in Winter (8 days)."
+  },
+  {
+    "id": "wheat",
+    "name": "Golden Wheat",
+    "category": "Grains",
+    "seedItemId": "wheat_seed",
+    "harvestItemId": "wheat",
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 1,
+    "totalDays": 4,
+    "regrowthDays": 0,
+    "baseSellPrice": 45,
+    "waterRequired": true,
+    "atlasRow": 42,
+    "description": "A grains crop grown in Summer, Autumn (4 days)."
+  },
+  {
+    "id": "rice",
+    "name": "Paddy Rice",
+    "category": "Grains",
+    "seedItemId": "rice_seed",
+    "harvestItemId": "rice",
+    "seasons": [
+      "spring"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 1,
+    "totalDays": 5,
+    "regrowthDays": 0,
+    "baseSellPrice": 60,
+    "waterRequired": true,
+    "atlasRow": 43,
+    "description": "A grains crop grown in Spring (5 days)."
+  },
+  {
+    "id": "oat",
+    "name": "Highland Oat",
+    "category": "Grains",
+    "seedItemId": "oat_seed",
+    "harvestItemId": "oat",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 1,
+    "totalDays": 5,
+    "regrowthDays": 0,
+    "baseSellPrice": 58,
+    "waterRequired": true,
+    "atlasRow": 44,
+    "description": "A grains crop grown in Spring, Autumn (5 days)."
+  },
+  {
+    "id": "barley",
+    "name": "Amber Barley",
+    "category": "Grains",
+    "seedItemId": "barley_seed",
+    "harvestItemId": "barley",
+    "seasons": [
+      "summer"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 1,
+    "totalDays": 5,
+    "regrowthDays": 0,
+    "baseSellPrice": 62,
+    "waterRequired": true,
+    "atlasRow": 45,
+    "description": "A grains crop grown in Summer (5 days)."
+  },
+  {
+    "id": "rye",
+    "name": "Winter Rye",
+    "category": "Grains",
+    "seedItemId": "rye_seed",
+    "harvestItemId": "rye",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 6,
+    "regrowthDays": 0,
+    "baseSellPrice": 74,
+    "waterRequired": true,
+    "atlasRow": 46,
+    "description": "A grains crop grown in Autumn, Winter (6 days)."
+  },
+  {
+    "id": "millet",
+    "name": "Sun Millet",
+    "category": "Grains",
+    "seedItemId": "millet_seed",
+    "harvestItemId": "millet",
+    "seasons": [
+      "summer"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 1,
+    "totalDays": 4,
+    "regrowthDays": 0,
+    "baseSellPrice": 54,
+    "waterRequired": true,
+    "atlasRow": 47,
+    "description": "A grains crop grown in Summer (4 days)."
+  },
+  {
+    "id": "buckwheat",
+    "name": "Valley Buckwheat",
+    "category": "Grains",
+    "seedItemId": "buckwheat_seed",
+    "harvestItemId": "buckwheat",
+    "seasons": [
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 1,
+    "totalDays": 5,
+    "regrowthDays": 0,
+    "baseSellPrice": 68,
+    "waterRequired": true,
+    "atlasRow": 48,
+    "description": "A grains crop grown in Autumn (5 days)."
+  },
+  {
+    "id": "amaranth",
+    "name": "Crimson Amaranth",
+    "category": "Grains",
+    "seedItemId": "amaranth_seed",
+    "harvestItemId": "amaranth",
+    "seasons": [
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 6,
+    "regrowthDays": 0,
+    "baseSellPrice": 125,
+    "waterRequired": true,
+    "atlasRow": 49,
+    "description": "A grains crop grown in Autumn (6 days)."
+  },
+  {
+    "id": "button_shroom",
+    "name": "Button Mushroom",
+    "category": "Mushrooms",
+    "seedItemId": "button_shroom_seed",
+    "harvestItemId": "button_shroom",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 1,
+    "totalDays": 4,
+    "regrowthDays": 3,
+    "baseSellPrice": 65,
+    "waterRequired": true,
+    "atlasRow": 50,
+    "description": "A mushrooms crop grown in Spring, Autumn (4 days)."
+  },
+  {
+    "id": "morel",
+    "name": "Forest Morel",
+    "category": "Mushrooms",
+    "seedItemId": "morel_seed",
+    "harvestItemId": "morel",
+    "seasons": [
+      "spring"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 6,
+    "regrowthDays": 0,
+    "baseSellPrice": 150,
+    "waterRequired": true,
+    "atlasRow": 51,
+    "description": "A mushrooms crop grown in Spring (6 days)."
+  },
+  {
+    "id": "chanterelle",
+    "name": "Gold Chanterelle",
+    "category": "Mushrooms",
+    "seedItemId": "chanterelle_seed",
+    "harvestItemId": "chanterelle",
+    "seasons": [
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 6,
+    "regrowthDays": 0,
+    "baseSellPrice": 165,
+    "waterRequired": true,
+    "atlasRow": 52,
+    "description": "A mushrooms crop grown in Autumn (6 days)."
+  },
+  {
+    "id": "purple_cap",
+    "name": "Amethyst Cap",
+    "category": "Mushrooms",
+    "seedItemId": "purple_cap_seed",
+    "harvestItemId": "purple_cap",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 7,
+    "regrowthDays": 3,
+    "baseSellPrice": 195,
+    "waterRequired": true,
+    "atlasRow": 53,
+    "description": "A mushrooms crop grown in Autumn, Winter (7 days)."
+  },
+  {
+    "id": "truffle",
+    "name": "Earth Truffle",
+    "category": "Mushrooms",
+    "seedItemId": "truffle_seed",
+    "harvestItemId": "truffle",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 10,
+    "regrowthDays": 0,
+    "baseSellPrice": 420,
+    "waterRequired": true,
+    "atlasRow": 54,
+    "description": "A mushrooms crop grown in Spring, Summer, Autumn (10 days)."
+  },
+  {
+    "id": "glowshroom",
+    "name": "Lantern Glowshroom",
+    "category": "Mushrooms",
+    "seedItemId": "glowshroom_seed",
+    "harvestItemId": "glowshroom",
+    "seasons": [
+      "winter",
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 7,
+    "regrowthDays": 3,
+    "baseSellPrice": 210,
+    "waterRequired": true,
+    "atlasRow": 55,
+    "description": "A mushrooms crop grown in Winter, Autumn (7 days)."
+  },
+  {
+    "id": "frost_cap",
+    "name": "Iceveil Mushroom",
+    "category": "Mushrooms",
+    "seedItemId": "frost_cap_seed",
+    "harvestItemId": "frost_cap",
+    "seasons": [
+      "winter"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 6,
+    "regrowthDays": 3,
+    "baseSellPrice": 180,
+    "waterRequired": true,
+    "atlasRow": 56,
+    "description": "A mushrooms crop grown in Winter (6 days)."
+  },
+  {
+    "id": "spirit_morel",
+    "name": "Spirit Morel",
+    "category": "Mushrooms",
+    "seedItemId": "spirit_morel_seed",
+    "harvestItemId": "spirit_morel",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 3,
+    "totalDays": 11,
+    "regrowthDays": 4,
+    "baseSellPrice": 340,
+    "waterRequired": true,
+    "atlasRow": 57,
+    "description": "A mushrooms crop grown in Spring, Summer, Autumn, Winter (11 days)."
+  },
+  {
+    "id": "ancient_fruit",
+    "name": "Ancient Relic Fruit",
+    "category": "Special",
+    "seedItemId": "ancient_fruit_seed",
+    "harvestItemId": "ancient_fruit",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 4,
+    "totalDays": 16,
+    "regrowthDays": 7,
+    "baseSellPrice": 580,
+    "waterRequired": true,
+    "atlasRow": 58,
+    "description": "A special crop grown in Spring, Summer, Autumn (16 days)."
+  },
+  {
+    "id": "crystal_berry",
+    "name": "Crystal Gem Berry",
+    "category": "Special",
+    "seedItemId": "crystal_berry_seed",
+    "harvestItemId": "crystal_berry",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 3,
+    "totalDays": 12,
+    "regrowthDays": 5,
+    "baseSellPrice": 360,
+    "waterRequired": true,
+    "atlasRow": 59,
+    "description": "A special crop grown in Spring, Summer, Autumn, Winter (12 days)."
+  },
+  {
+    "id": "sunblossom",
+    "name": "Solar Blossom",
+    "category": "Special",
+    "seedItemId": "sunblossom_seed",
+    "harvestItemId": "sunblossom",
+    "seasons": [
+      "summer"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 3,
+    "totalDays": 12,
+    "regrowthDays": 0,
+    "baseSellPrice": 390,
+    "waterRequired": true,
+    "atlasRow": 60,
+    "description": "A special crop grown in Summer (12 days)."
+  },
+  {
+    "id": "void_root",
+    "name": "Shadow Root",
+    "category": "Special",
+    "seedItemId": "void_root_seed",
+    "harvestItemId": "void_root",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 10,
+    "regrowthDays": 0,
+    "baseSellPrice": 310,
+    "waterRequired": true,
+    "atlasRow": 61,
+    "description": "A special crop grown in Autumn, Winter (10 days)."
+  },
+  {
+    "id": "whisper_herb",
+    "name": "Whispering Sage",
+    "category": "Special",
+    "seedItemId": "whisper_herb_seed",
+    "harvestItemId": "whisper_herb",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 2,
+    "totalDays": 8,
+    "regrowthDays": 4,
+    "baseSellPrice": 240,
+    "waterRequired": true,
+    "atlasRow": 62,
+    "description": "A special crop grown in Spring, Autumn (8 days)."
+  },
+  {
+    "id": "sanctuary_lotus",
+    "name": "Sanctuary Star Lotus",
+    "category": "Special",
+    "seedItemId": "sanctuary_lotus_seed",
+    "harvestItemId": "sanctuary_lotus",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "growthStages": 5,
+    "daysPerStage": 4,
+    "totalDays": 14,
+    "regrowthDays": 0,
+    "baseSellPrice": 750,
+    "waterRequired": true,
+    "atlasRow": 63,
+    "description": "A special crop grown in Spring, Summer, Autumn, Winter (14 days)."
+  }
+]

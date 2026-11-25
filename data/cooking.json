@@ -1,0 +1,1998 @@
+[
+  {
+    "id": "fried_egg",
+    "name": "Sunny Fried Egg",
+    "ingredients": [
+      {
+        "itemId": "egg",
+        "count": 1
+      }
+    ],
+    "sellPrice": 75,
+    "energyRecovery": 45,
+    "healthRecovery": 22,
+    "buffType": "none",
+    "buffDuration": 0,
+    "outputItemId": "fried_egg",
+    "unlockCondition": "starter",
+    "description": "Delicious dish: Sunny Fried Egg. Restores 45 EN & 22 HP."
+  },
+  {
+    "id": "baked_potato",
+    "name": "Herb Baked Potato",
+    "ingredients": [
+      {
+        "itemId": "potato",
+        "count": 1
+      },
+      {
+        "itemId": "garlic",
+        "count": 1
+      }
+    ],
+    "sellPrice": 150,
+    "energyRecovery": 70,
+    "healthRecovery": 32,
+    "buffType": "farming",
+    "buffDuration": 180,
+    "outputItemId": "baked_potato",
+    "unlockCondition": "starter",
+    "description": "Delicious dish: Herb Baked Potato. Restores 70 EN & 32 HP."
+  },
+  {
+    "id": "turnip_soup",
+    "name": "Creamy Turnip Soup",
+    "ingredients": [
+      {
+        "itemId": "turnip",
+        "count": 1
+      },
+      {
+        "itemId": "milk",
+        "count": 1
+      }
+    ],
+    "sellPrice": 185,
+    "energyRecovery": 80,
+    "healthRecovery": 38,
+    "buffType": "energy",
+    "buffDuration": 180,
+    "outputItemId": "turnip_soup",
+    "unlockCondition": "starter",
+    "description": "Delicious dish: Creamy Turnip Soup. Restores 80 EN & 38 HP."
+  },
+  {
+    "id": "parsnip_bisque",
+    "name": "Parsnip Velvet Bisque",
+    "ingredients": [
+      {
+        "itemId": "parsnip",
+        "count": 2
+      },
+      {
+        "itemId": "milk",
+        "count": 1
+      }
+    ],
+    "sellPrice": 210,
+    "energyRecovery": 88,
+    "healthRecovery": 42,
+    "buffType": "none",
+    "buffDuration": 0,
+    "outputItemId": "parsnip_bisque",
+    "unlockCondition": "starter",
+    "description": "Delicious dish: Parsnip Velvet Bisque. Restores 88 EN & 42 HP."
+  },
+  {
+    "id": "carrot_cake",
+    "name": "Spiced Carrot Cake",
+    "ingredients": [
+      {
+        "itemId": "carrot",
+        "count": 2
+      },
+      {
+        "itemId": "wheat",
+        "count": 1
+      },
+      {
+        "itemId": "egg",
+        "count": 1
+      }
+    ],
+    "sellPrice": 240,
+    "energyRecovery": 100,
+    "healthRecovery": 46,
+    "buffType": "speed",
+    "buffDuration": 240,
+    "outputItemId": "carrot_cake",
+    "unlockCondition": "starter",
+    "description": "Delicious dish: Spiced Carrot Cake. Restores 100 EN & 46 HP."
+  },
+  {
+    "id": "tomato_bruschetta",
+    "name": "Sun Tomato Bruschetta",
+    "ingredients": [
+      {
+        "itemId": "tomato",
+        "count": 1
+      },
+      {
+        "itemId": "wheat",
+        "count": 1
+      },
+      {
+        "itemId": "garlic",
+        "count": 1
+      }
+    ],
+    "sellPrice": 180,
+    "energyRecovery": 78,
+    "healthRecovery": 36,
+    "buffType": "none",
+    "buffDuration": 0,
+    "outputItemId": "tomato_bruschetta",
+    "unlockCondition": "starter",
+    "description": "Delicious dish: Sun Tomato Bruschetta. Restores 78 EN & 36 HP."
+  },
+  {
+    "id": "corn_chowder",
+    "name": "Sweet Corn Chowder",
+    "ingredients": [
+      {
+        "itemId": "corn",
+        "count": 2
+      },
+      {
+        "itemId": "potato",
+        "count": 1
+      },
+      {
+        "itemId": "milk",
+        "count": 1
+      }
+    ],
+    "sellPrice": 260,
+    "energyRecovery": 110,
+    "healthRecovery": 50,
+    "buffType": "farming",
+    "buffDuration": 240,
+    "outputItemId": "corn_chowder",
+    "unlockCondition": "starter",
+    "description": "Delicious dish: Sweet Corn Chowder. Restores 110 EN & 50 HP."
+  },
+  {
+    "id": "stuffed_pepper",
+    "name": "Stuffed Ember Pepper",
+    "ingredients": [
+      {
+        "itemId": "pepper",
+        "count": 1
+      },
+      {
+        "itemId": "rice",
+        "count": 1
+      },
+      {
+        "itemId": "cheese",
+        "count": 1
+      }
+    ],
+    "sellPrice": 290,
+    "energyRecovery": 115,
+    "healthRecovery": 52,
+    "buffType": "attack",
+    "buffDuration": 240,
+    "outputItemId": "stuffed_pepper",
+    "unlockCondition": "starter",
+    "description": "Delicious dish: Stuffed Ember Pepper. Restores 115 EN & 52 HP."
+  },
+  {
+    "id": "eggplant_parmesan",
+    "name": "Eggplant Parmesan",
+    "ingredients": [
+      {
+        "itemId": "eggplant",
+        "count": 1
+      },
+      {
+        "itemId": "tomato",
+        "count": 1
+      },
+      {
+        "itemId": "cheese",
+        "count": 1
+      }
+    ],
+    "sellPrice": 310,
+    "energyRecovery": 125,
+    "healthRecovery": 58,
+    "buffType": "defense",
+    "buffDuration": 300,
+    "outputItemId": "eggplant_parmesan",
+    "unlockCondition": "starter",
+    "description": "Delicious dish: Eggplant Parmesan. Restores 125 EN & 58 HP."
+  },
+  {
+    "id": "pumpkin_pie",
+    "name": "Autumn Pumpkin Pie",
+    "ingredients": [
+      {
+        "itemId": "pumpkin",
+        "count": 1
+      },
+      {
+        "itemId": "wheat",
+        "count": 1
+      },
+      {
+        "itemId": "egg",
+        "count": 1
+      },
+      {
+        "itemId": "milk",
+        "count": 1
+      }
+    ],
+    "sellPrice": 420,
+    "energyRecovery": 165,
+    "healthRecovery": 75,
+    "buffType": "luck",
+    "buffDuration": 360,
+    "outputItemId": "pumpkin_pie",
+    "unlockCondition": "starter",
+    "description": "Delicious dish: Autumn Pumpkin Pie. Restores 165 EN & 75 HP."
+  },
+  {
+    "id": "yam_gratin",
+    "name": "Honey Yam Gratin",
+    "ingredients": [
+      {
+        "itemId": "yam",
+        "count": 1
+      },
+      {
+        "itemId": "honey",
+        "count": 1
+      },
+      {
+        "itemId": "cheese",
+        "count": 1
+      }
+    ],
+    "sellPrice": 340,
+    "energyRecovery": 130,
+    "healthRecovery": 60,
+    "buffType": "energy",
+    "buffDuration": 300,
+    "outputItemId": "yam_gratin",
+    "unlockCondition": "starter",
+    "description": "Delicious dish: Honey Yam Gratin. Restores 130 EN & 60 HP."
+  },
+  {
+    "id": "beet_salad",
+    "name": "Roasted Beet Salad",
+    "ingredients": [
+      {
+        "itemId": "beetroot",
+        "count": 1
+      },
+      {
+        "itemId": "kale",
+        "count": 1
+      },
+      {
+        "itemId": "goat_cheese",
+        "count": 1
+      }
+    ],
+    "sellPrice": 360,
+    "energyRecovery": 140,
+    "healthRecovery": 64,
+    "buffType": "speed",
+    "buffDuration": 240,
+    "outputItemId": "beet_salad",
+    "unlockCondition": "starter",
+    "description": "Delicious dish: Roasted Beet Salad. Restores 140 EN & 64 HP."
+  },
+  {
+    "id": "leek_stew",
+    "name": "Winter Leek Stew",
+    "ingredients": [
+      {
+        "itemId": "winter_leek",
+        "count": 2
+      },
+      {
+        "itemId": "potato",
+        "count": 1
+      }
+    ],
+    "sellPrice": 220,
+    "energyRecovery": 95,
+    "healthRecovery": 44,
+    "buffType": "mining",
+    "buffDuration": 240,
+    "outputItemId": "leek_stew",
+    "unlockCondition": "cooking_lv_2",
+    "description": "Delicious dish: Winter Leek Stew. Restores 95 EN & 44 HP."
+  },
+  {
+    "id": "strawberry_tart",
+    "name": "Strawberry Shorttart",
+    "ingredients": [
+      {
+        "itemId": "strawberry",
+        "count": 2
+      },
+      {
+        "itemId": "wheat",
+        "count": 1
+      },
+      {
+        "itemId": "egg",
+        "count": 1
+      }
+    ],
+    "sellPrice": 285,
+    "energyRecovery": 115,
+    "healthRecovery": 55,
+    "buffType": "luck",
+    "buffDuration": 240,
+    "outputItemId": "strawberry_tart",
+    "unlockCondition": "cooking_lv_2",
+    "description": "Delicious dish: Strawberry Shorttart. Restores 115 EN & 55 HP."
+  },
+  {
+    "id": "rhubarb_compote",
+    "name": "Sweet Rhubarb Pie",
+    "ingredients": [
+      {
+        "itemId": "rhubarb",
+        "count": 1
+      },
+      {
+        "itemId": "wheat",
+        "count": 1
+      },
+      {
+        "itemId": "honey",
+        "count": 1
+      }
+    ],
+    "sellPrice": 350,
+    "energyRecovery": 140,
+    "healthRecovery": 65,
+    "buffType": "none",
+    "buffDuration": 0,
+    "outputItemId": "rhubarb_compote",
+    "unlockCondition": "cooking_lv_2",
+    "description": "Delicious dish: Sweet Rhubarb Pie. Restores 140 EN & 65 HP."
+  },
+  {
+    "id": "blueberry_muffin",
+    "name": "Blueberry Muffin",
+    "ingredients": [
+      {
+        "itemId": "blueberry",
+        "count": 2
+      },
+      {
+        "itemId": "wheat",
+        "count": 1
+      },
+      {
+        "itemId": "egg",
+        "count": 1
+      }
+    ],
+    "sellPrice": 255,
+    "energyRecovery": 105,
+    "healthRecovery": 48,
+    "buffType": "fishing",
+    "buffDuration": 240,
+    "outputItemId": "blueberry_muffin",
+    "unlockCondition": "cooking_lv_2",
+    "description": "Delicious dish: Blueberry Muffin. Restores 105 EN & 48 HP."
+  },
+  {
+    "id": "melon_sorbet",
+    "name": "Chilled Melon Sorbet",
+    "ingredients": [
+      {
+        "itemId": "melon",
+        "count": 1
+      },
+      {
+        "itemId": "honey",
+        "count": 1
+      }
+    ],
+    "sellPrice": 320,
+    "energyRecovery": 130,
+    "healthRecovery": 60,
+    "buffType": "speed",
+    "buffDuration": 300,
+    "outputItemId": "melon_sorbet",
+    "unlockCondition": "cooking_lv_2",
+    "description": "Delicious dish: Chilled Melon Sorbet. Restores 130 EN & 60 HP."
+  },
+  {
+    "id": "peach_cobbler",
+    "name": "Warm Peach Cobbler",
+    "ingredients": [
+      {
+        "itemId": "peach",
+        "count": 2
+      },
+      {
+        "itemId": "oat",
+        "count": 1
+      }
+    ],
+    "sellPrice": 275,
+    "energyRecovery": 115,
+    "healthRecovery": 52,
+    "buffType": "none",
+    "buffDuration": 0,
+    "outputItemId": "peach_cobbler",
+    "unlockCondition": "cooking_lv_2",
+    "description": "Delicious dish: Warm Peach Cobbler. Restores 115 EN & 52 HP."
+  },
+  {
+    "id": "cherry_jam_toast",
+    "name": "Cherry Jam Toast",
+    "ingredients": [
+      {
+        "itemId": "cherry",
+        "count": 2
+      },
+      {
+        "itemId": "wheat",
+        "count": 1
+      }
+    ],
+    "sellPrice": 230,
+    "energyRecovery": 95,
+    "healthRecovery": 45,
+    "buffType": "speed",
+    "buffDuration": 180,
+    "outputItemId": "cherry_jam_toast",
+    "unlockCondition": "cooking_lv_2",
+    "description": "Delicious dish: Cherry Jam Toast. Restores 95 EN & 45 HP."
+  },
+  {
+    "id": "grape_sorbet",
+    "name": "Frost Grape Sorbet",
+    "ingredients": [
+      {
+        "itemId": "grape",
+        "count": 2
+      },
+      {
+        "itemId": "frostberry",
+        "count": 1
+      }
+    ],
+    "sellPrice": 290,
+    "energyRecovery": 120,
+    "healthRecovery": 56,
+    "buffType": "luck",
+    "buffDuration": 240,
+    "outputItemId": "grape_sorbet",
+    "unlockCondition": "cooking_lv_2",
+    "description": "Delicious dish: Frost Grape Sorbet. Restores 120 EN & 56 HP."
+  },
+  {
+    "id": "cranberry_sauce",
+    "name": "Spiced Cranberry Sauce",
+    "ingredients": [
+      {
+        "itemId": "cranberry",
+        "count": 2
+      },
+      {
+        "itemId": "honey",
+        "count": 1
+      }
+    ],
+    "sellPrice": 225,
+    "energyRecovery": 92,
+    "healthRecovery": 44,
+    "buffType": "mining",
+    "buffDuration": 240,
+    "outputItemId": "cranberry_sauce",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Delicious dish: Spiced Cranberry Sauce. Restores 92 EN & 44 HP."
+  },
+  {
+    "id": "apple_cider",
+    "name": "Hot Orchard Cider",
+    "ingredients": [
+      {
+        "itemId": "apple",
+        "count": 2
+      },
+      {
+        "itemId": "honey",
+        "count": 1
+      }
+    ],
+    "sellPrice": 260,
+    "energyRecovery": 110,
+    "healthRecovery": 50,
+    "buffType": "farming",
+    "buffDuration": 300,
+    "outputItemId": "apple_cider",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Delicious dish: Hot Orchard Cider. Restores 110 EN & 50 HP."
+  },
+  {
+    "id": "pineapple_skewer",
+    "name": "Tropical Skewer",
+    "ingredients": [
+      {
+        "itemId": "pineapple",
+        "count": 1
+      },
+      {
+        "itemId": "coconut",
+        "count": 1
+      }
+    ],
+    "sellPrice": 390,
+    "energyRecovery": 150,
+    "healthRecovery": 70,
+    "buffType": "attack",
+    "buffDuration": 300,
+    "outputItemId": "pineapple_skewer",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Delicious dish: Tropical Skewer. Restores 150 EN & 70 HP."
+  },
+  {
+    "id": "cactus_juice",
+    "name": "Cool Cactus Cooler",
+    "ingredients": [
+      {
+        "itemId": "cactus_fig",
+        "count": 2
+      },
+      {
+        "itemId": "desert_aloe",
+        "count": 1
+      }
+    ],
+    "sellPrice": 270,
+    "energyRecovery": 120,
+    "healthRecovery": 55,
+    "buffType": "speed",
+    "buffDuration": 300,
+    "outputItemId": "cactus_juice",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Delicious dish: Cool Cactus Cooler. Restores 120 EN & 55 HP."
+  },
+  {
+    "id": "starfruit_pudding",
+    "name": "Celestial Star Pudding",
+    "ingredients": [
+      {
+        "itemId": "starfruit",
+        "count": 1
+      },
+      {
+        "itemId": "milk",
+        "count": 1
+      },
+      {
+        "itemId": "honey",
+        "count": 1
+      }
+    ],
+    "sellPrice": 780,
+    "energyRecovery": 220,
+    "healthRecovery": 110,
+    "buffType": "luck",
+    "buffDuration": 480,
+    "outputItemId": "starfruit_pudding",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Delicious dish: Celestial Star Pudding. Restores 220 EN & 110 HP."
+  },
+  {
+    "id": "mushroom_risotto",
+    "name": "Truffle Mushroom Risotto",
+    "ingredients": [
+      {
+        "itemId": "rice",
+        "count": 1
+      },
+      {
+        "itemId": "truffle",
+        "count": 1
+      },
+      {
+        "itemId": "cheese",
+        "count": 1
+      }
+    ],
+    "sellPrice": 680,
+    "energyRecovery": 195,
+    "healthRecovery": 95,
+    "buffType": "farming",
+    "buffDuration": 420,
+    "outputItemId": "mushroom_risotto",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Delicious dish: Truffle Mushroom Risotto. Restores 195 EN & 95 HP."
+  },
+  {
+    "id": "forest_omelette",
+    "name": "Morel Omelette",
+    "ingredients": [
+      {
+        "itemId": "egg",
+        "count": 2
+      },
+      {
+        "itemId": "morel",
+        "count": 1
+      },
+      {
+        "itemId": "kale",
+        "count": 1
+      }
+    ],
+    "sellPrice": 285,
+    "energyRecovery": 120,
+    "healthRecovery": 55,
+    "buffType": "foraging",
+    "buffDuration": 300,
+    "outputItemId": "forest_omelette",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Delicious dish: Morel Omelette. Restores 120 EN & 55 HP."
+  },
+  {
+    "id": "chanterelle_pasta",
+    "name": "Chanterelle Tagliatelle",
+    "ingredients": [
+      {
+        "itemId": "wheat",
+        "count": 2
+      },
+      {
+        "itemId": "chanterelle",
+        "count": 1
+      },
+      {
+        "itemId": "garlic",
+        "count": 1
+      }
+    ],
+    "sellPrice": 295,
+    "energyRecovery": 125,
+    "healthRecovery": 58,
+    "buffType": "energy",
+    "buffDuration": 300,
+    "outputItemId": "chanterelle_pasta",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Delicious dish: Chanterelle Tagliatelle. Restores 125 EN & 58 HP."
+  },
+  {
+    "id": "glowshroom_tea",
+    "name": "Luminescent Tea",
+    "ingredients": [
+      {
+        "itemId": "glowshroom",
+        "count": 1
+      },
+      {
+        "itemId": "whisper_herb",
+        "count": 1
+      }
+    ],
+    "sellPrice": 340,
+    "energyRecovery": 130,
+    "healthRecovery": 75,
+    "buffType": "mining",
+    "buffDuration": 360,
+    "outputItemId": "glowshroom_tea",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Delicious dish: Luminescent Tea. Restores 130 EN & 75 HP."
+  },
+  {
+    "id": "ancient_elixir",
+    "name": "Ancient Vitality Elixir",
+    "ingredients": [
+      {
+        "itemId": "ancient_fruit",
+        "count": 1
+      },
+      {
+        "itemId": "spirit_morel",
+        "count": 1
+      },
+      {
+        "itemId": "honey",
+        "count": 1
+      }
+    ],
+    "sellPrice": 920,
+    "energyRecovery": 250,
+    "healthRecovery": 140,
+    "buffType": "all",
+    "buffDuration": 480,
+    "outputItemId": "ancient_elixir",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Delicious dish: Ancient Vitality Elixir. Restores 250 EN & 140 HP."
+  },
+  {
+    "id": "sanctuary_ambrosia",
+    "name": "Sanctuary Ambrosia",
+    "ingredients": [
+      {
+        "itemId": "sanctuary_lotus",
+        "count": 1
+      },
+      {
+        "itemId": "starlight_antler",
+        "count": 1
+      }
+    ],
+    "sellPrice": 1250,
+    "energyRecovery": 300,
+    "healthRecovery": 180,
+    "buffType": "all",
+    "buffDuration": 600,
+    "outputItemId": "sanctuary_ambrosia",
+    "unlockCondition": "cooking_lv_4",
+    "description": "Delicious dish: Sanctuary Ambrosia. Restores 300 EN & 180 HP."
+  },
+  {
+    "id": "grilled_carp",
+    "name": "Crispy Grilled Carp",
+    "ingredients": [
+      {
+        "itemId": "fish_crystal_lake_crystal",
+        "count": 1
+      },
+      {
+        "itemId": "garlic",
+        "count": 1
+      }
+    ],
+    "sellPrice": 162,
+    "energyRecovery": 116,
+    "healthRecovery": 58,
+    "buffType": "farming",
+    "buffDuration": 240,
+    "outputItemId": "grilled_carp",
+    "unlockCondition": "starter",
+    "description": "Regional specialty: Crispy Grilled Carp. Restores 116 EN & grants Farming buff."
+  },
+  {
+    "id": "baked_trout",
+    "name": "Herb Baked Trout",
+    "ingredients": [
+      {
+        "itemId": "fish_willow_river_dappled",
+        "count": 1
+      },
+      {
+        "itemId": "carrot",
+        "count": 1
+      }
+    ],
+    "sellPrice": 227,
+    "energyRecovery": 126,
+    "healthRecovery": 63,
+    "buffType": "fishing",
+    "buffDuration": 240,
+    "outputItemId": "baked_trout",
+    "unlockCondition": "starter",
+    "description": "Regional specialty: Herb Baked Trout. Restores 126 EN & grants Fishing buff."
+  },
+  {
+    "id": "salmon_dinner",
+    "name": "Glazed Salmon Fillet",
+    "ingredients": [
+      {
+        "itemId": "fish_willow_river_mossback",
+        "count": 1
+      },
+      {
+        "itemId": "kale",
+        "count": 1
+      },
+      {
+        "itemId": "rice",
+        "count": 1
+      }
+    ],
+    "sellPrice": 426,
+    "energyRecovery": 164,
+    "healthRecovery": 82,
+    "buffType": "mining",
+    "buffDuration": 240,
+    "outputItemId": "salmon_dinner",
+    "unlockCondition": "starter",
+    "description": "Regional specialty: Glazed Salmon Fillet. Restores 164 EN & grants Mining buff."
+  },
+  {
+    "id": "ocean_paella",
+    "name": "Sunflower Paella",
+    "ingredients": [
+      {
+        "itemId": "fish_sunflower_ocean_sunlit",
+        "count": 1
+      },
+      {
+        "itemId": "rice",
+        "count": 1
+      },
+      {
+        "itemId": "tomato",
+        "count": 1
+      }
+    ],
+    "sellPrice": 288,
+    "energyRecovery": 174,
+    "healthRecovery": 87,
+    "buffType": "speed",
+    "buffDuration": 240,
+    "outputItemId": "ocean_paella",
+    "unlockCondition": "starter",
+    "description": "Regional specialty: Sunflower Paella. Restores 174 EN & grants Speed buff."
+  },
+  {
+    "id": "seafoam_sushi",
+    "name": "Seafoam Sashimi Roll",
+    "ingredients": [
+      {
+        "itemId": "fish_sunflower_ocean_coral",
+        "count": 1
+      },
+      {
+        "itemId": "rice",
+        "count": 1
+      }
+    ],
+    "sellPrice": 197,
+    "energyRecovery": 156,
+    "healthRecovery": 78,
+    "buffType": "luck",
+    "buffDuration": 240,
+    "outputItemId": "seafoam_sushi",
+    "unlockCondition": "starter",
+    "description": "Regional specialty: Seafoam Sashimi Roll. Restores 156 EN & grants Luck buff."
+  },
+  {
+    "id": "eel_rice_bowl",
+    "name": "Charcoal Eel Donburi",
+    "ingredients": [
+      {
+        "itemId": "fish_sunflower_ocean_dolphin",
+        "count": 1
+      },
+      {
+        "itemId": "rice",
+        "count": 1
+      },
+      {
+        "itemId": "honey",
+        "count": 1
+      }
+    ],
+    "sellPrice": 535,
+    "energyRecovery": 144,
+    "healthRecovery": 72,
+    "buffType": "defense",
+    "buffDuration": 240,
+    "outputItemId": "eel_rice_bowl",
+    "unlockCondition": "starter",
+    "description": "Regional specialty: Charcoal Eel Donburi. Restores 144 EN & grants Defense buff."
+  },
+  {
+    "id": "sturgeon_caviar_toast",
+    "name": "Sturgeon Canape",
+    "ingredients": [
+      {
+        "itemId": "fish_crystal_lake_sapphire",
+        "count": 1
+      },
+      {
+        "itemId": "wheat",
+        "count": 1
+      },
+      {
+        "itemId": "cheese",
+        "count": 1
+      }
+    ],
+    "sellPrice": 681,
+    "energyRecovery": 154,
+    "healthRecovery": 77,
+    "buffType": "attack",
+    "buffDuration": 240,
+    "outputItemId": "sturgeon_caviar_toast",
+    "unlockCondition": "starter",
+    "description": "Regional specialty: Sturgeon Canape. Restores 154 EN & grants Attack buff."
+  },
+  {
+    "id": "frost_chowder",
+    "name": "Glacier Fish Chowder",
+    "ingredients": [
+      {
+        "itemId": "fish_frostpeak_lake_glacier",
+        "count": 1
+      },
+      {
+        "itemId": "potato",
+        "count": 1
+      },
+      {
+        "itemId": "milk",
+        "count": 1
+      }
+    ],
+    "sellPrice": 446,
+    "energyRecovery": 164,
+    "healthRecovery": 82,
+    "buffType": "energy",
+    "buffDuration": 240,
+    "outputItemId": "frost_chowder",
+    "unlockCondition": "starter",
+    "description": "Regional specialty: Glacier Fish Chowder. Restores 164 EN & grants Energy buff."
+  },
+  {
+    "id": "desert_fish_taco",
+    "name": "Dune Spiced Taco",
+    "ingredients": [
+      {
+        "itemId": "fish_golden_oasis_sand",
+        "count": 1
+      },
+      {
+        "itemId": "corn",
+        "count": 1
+      },
+      {
+        "itemId": "pepper",
+        "count": 1
+      }
+    ],
+    "sellPrice": 333,
+    "energyRecovery": 174,
+    "healthRecovery": 87,
+    "buffType": "farming",
+    "buffDuration": 240,
+    "outputItemId": "desert_fish_taco",
+    "unlockCondition": "starter",
+    "description": "Regional specialty: Dune Spiced Taco. Restores 174 EN & grants Farming buff."
+  },
+  {
+    "id": "cavern_skewer",
+    "name": "Glowing Cavern Skewer",
+    "ingredients": [
+      {
+        "itemId": "fish_mine_cavern_stone",
+        "count": 1
+      },
+      {
+        "itemId": "cave_carrot",
+        "count": 1
+      }
+    ],
+    "sellPrice": 242,
+    "energyRecovery": 156,
+    "healthRecovery": 78,
+    "buffType": "fishing",
+    "buffDuration": 240,
+    "outputItemId": "cavern_skewer",
+    "unlockCondition": "starter",
+    "description": "Regional specialty: Glowing Cavern Skewer. Restores 156 EN & grants Fishing buff."
+  },
+  {
+    "id": "bread_loaf",
+    "name": "Country Wheat Loaf",
+    "ingredients": [
+      {
+        "itemId": "wheat",
+        "count": 2
+      }
+    ],
+    "sellPrice": 130,
+    "energyRecovery": 88,
+    "healthRecovery": 44,
+    "buffType": "mining",
+    "buffDuration": 240,
+    "outputItemId": "bread_loaf",
+    "unlockCondition": "starter",
+    "description": "Regional specialty: Country Wheat Loaf. Restores 88 EN & grants Mining buff."
+  },
+  {
+    "id": "oatmeal_bowl",
+    "name": "Warm Honey Oatmeal",
+    "ingredients": [
+      {
+        "itemId": "oat",
+        "count": 2
+      },
+      {
+        "itemId": "milk",
+        "count": 1
+      },
+      {
+        "itemId": "honey",
+        "count": 1
+      }
+    ],
+    "sellPrice": 552,
+    "energyRecovery": 154,
+    "healthRecovery": 77,
+    "buffType": "speed",
+    "buffDuration": 240,
+    "outputItemId": "oatmeal_bowl",
+    "unlockCondition": "starter",
+    "description": "Regional specialty: Warm Honey Oatmeal. Restores 154 EN & grants Speed buff."
+  },
+  {
+    "id": "barley_porridge",
+    "name": "Hearty Barley Bowl",
+    "ingredients": [
+      {
+        "itemId": "barley",
+        "count": 2
+      },
+      {
+        "itemId": "carrot",
+        "count": 1
+      }
+    ],
+    "sellPrice": 281,
+    "energyRecovery": 136,
+    "healthRecovery": 68,
+    "buffType": "luck",
+    "buffDuration": 240,
+    "outputItemId": "barley_porridge",
+    "unlockCondition": "starter",
+    "description": "Regional specialty: Hearty Barley Bowl. Restores 136 EN & grants Luck buff."
+  },
+  {
+    "id": "rye_pretzel",
+    "name": "Salted Rye Pretzel",
+    "ingredients": [
+      {
+        "itemId": "rye",
+        "count": 2
+      },
+      {
+        "itemId": "egg",
+        "count": 1
+      }
+    ],
+    "sellPrice": 294,
+    "energyRecovery": 146,
+    "healthRecovery": 73,
+    "buffType": "defense",
+    "buffDuration": 240,
+    "outputItemId": "rye_pretzel",
+    "unlockCondition": "starter",
+    "description": "Regional specialty: Salted Rye Pretzel. Restores 146 EN & grants Defense buff."
+  },
+  {
+    "id": "millet_pilaf",
+    "name": "Golden Millet Pilaf",
+    "ingredients": [
+      {
+        "itemId": "millet",
+        "count": 2
+      },
+      {
+        "itemId": "turnip",
+        "count": 1
+      }
+    ],
+    "sellPrice": 236,
+    "energyRecovery": 156,
+    "healthRecovery": 78,
+    "buffType": "attack",
+    "buffDuration": 240,
+    "outputItemId": "millet_pilaf",
+    "unlockCondition": "starter",
+    "description": "Regional specialty: Golden Millet Pilaf. Restores 156 EN & grants Attack buff."
+  },
+  {
+    "id": "buckwheat_noodles",
+    "name": "Willow Soba Noodles",
+    "ingredients": [
+      {
+        "itemId": "buckwheat",
+        "count": 2
+      },
+      {
+        "itemId": "spring_onion",
+        "count": 1
+      }
+    ],
+    "sellPrice": 240,
+    "energyRecovery": 116,
+    "healthRecovery": 58,
+    "buffType": "energy",
+    "buffDuration": 240,
+    "outputItemId": "buckwheat_noodles",
+    "unlockCondition": "cooking_lv_2",
+    "description": "Regional specialty: Willow Soba Noodles. Restores 116 EN & grants Energy buff."
+  },
+  {
+    "id": "amaranth_soup",
+    "name": "Crimson Grain Soup",
+    "ingredients": [
+      {
+        "itemId": "amaranth",
+        "count": 1
+      },
+      {
+        "itemId": "tomato",
+        "count": 1
+      }
+    ],
+    "sellPrice": 290,
+    "energyRecovery": 126,
+    "healthRecovery": 63,
+    "buffType": "farming",
+    "buffDuration": 240,
+    "outputItemId": "amaranth_soup",
+    "unlockCondition": "cooking_lv_2",
+    "description": "Regional specialty: Crimson Grain Soup. Restores 126 EN & grants Farming buff."
+  },
+  {
+    "id": "radish_salad",
+    "name": "Crisp Radish Salad",
+    "ingredients": [
+      {
+        "itemId": "radish",
+        "count": 2
+      },
+      {
+        "itemId": "mayonnaise",
+        "count": 1
+      }
+    ],
+    "sellPrice": 516,
+    "energyRecovery": 136,
+    "healthRecovery": 68,
+    "buffType": "fishing",
+    "buffDuration": 240,
+    "outputItemId": "radish_salad",
+    "unlockCondition": "cooking_lv_2",
+    "description": "Regional specialty: Crisp Radish Salad. Restores 136 EN & grants Fishing buff."
+  },
+  {
+    "id": "cauliflower_gratin",
+    "name": "Cheesy Cauliflower",
+    "ingredients": [
+      {
+        "itemId": "cauliflower",
+        "count": 1
+      },
+      {
+        "itemId": "cheese",
+        "count": 1
+      }
+    ],
+    "sellPrice": 601,
+    "energyRecovery": 146,
+    "healthRecovery": 73,
+    "buffType": "mining",
+    "buffDuration": 240,
+    "outputItemId": "cauliflower_gratin",
+    "unlockCondition": "cooking_lv_2",
+    "description": "Regional specialty: Cheesy Cauliflower. Restores 146 EN & grants Mining buff."
+  },
+  {
+    "id": "garlic_bread",
+    "name": "Roasted Garlic Toast",
+    "ingredients": [
+      {
+        "itemId": "wheat",
+        "count": 1
+      },
+      {
+        "itemId": "garlic",
+        "count": 2
+      }
+    ],
+    "sellPrice": 274,
+    "energyRecovery": 156,
+    "healthRecovery": 78,
+    "buffType": "speed",
+    "buffDuration": 240,
+    "outputItemId": "garlic_bread",
+    "unlockCondition": "cooking_lv_2",
+    "description": "Regional specialty: Roasted Garlic Toast. Restores 156 EN & grants Speed buff."
+  },
+  {
+    "id": "duck_egg_custard",
+    "name": "Silky Duck Custard",
+    "ingredients": [
+      {
+        "itemId": "duck_egg",
+        "count": 1
+      },
+      {
+        "itemId": "milk",
+        "count": 1
+      },
+      {
+        "itemId": "honey",
+        "count": 1
+      }
+    ],
+    "sellPrice": 522,
+    "energyRecovery": 144,
+    "healthRecovery": 72,
+    "buffType": "luck",
+    "buffDuration": 240,
+    "outputItemId": "duck_egg_custard",
+    "unlockCondition": "cooking_lv_2",
+    "description": "Regional specialty: Silky Duck Custard. Restores 144 EN & grants Luck buff."
+  },
+  {
+    "id": "quail_egg_skewers",
+    "name": "Herb Quail Skewers",
+    "ingredients": [
+      {
+        "itemId": "quail_egg",
+        "count": 2
+      },
+      {
+        "itemId": "pepper",
+        "count": 1
+      }
+    ],
+    "sellPrice": 321,
+    "energyRecovery": 126,
+    "healthRecovery": 63,
+    "buffType": "defense",
+    "buffDuration": 240,
+    "outputItemId": "quail_egg_skewers",
+    "unlockCondition": "cooking_lv_2",
+    "description": "Regional specialty: Herb Quail Skewers. Restores 126 EN & grants Defense buff."
+  },
+  {
+    "id": "goat_cheese_tart",
+    "name": "Savory Goat Tart",
+    "ingredients": [
+      {
+        "itemId": "goat_cheese",
+        "count": 1
+      },
+      {
+        "itemId": "wheat",
+        "count": 1
+      },
+      {
+        "itemId": "tomato",
+        "count": 1
+      }
+    ],
+    "sellPrice": 696,
+    "energyRecovery": 164,
+    "healthRecovery": 82,
+    "buffType": "attack",
+    "buffDuration": 240,
+    "outputItemId": "goat_cheese_tart",
+    "unlockCondition": "cooking_lv_2",
+    "description": "Regional specialty: Savory Goat Tart. Restores 164 EN & grants Attack buff."
+  },
+  {
+    "id": "truffle_pasta",
+    "name": "Black Truffle Pasta",
+    "ingredients": [
+      {
+        "itemId": "truffle_oil",
+        "count": 1
+      },
+      {
+        "itemId": "wheat",
+        "count": 2
+      }
+    ],
+    "sellPrice": 1073,
+    "energyRecovery": 146,
+    "healthRecovery": 73,
+    "buffType": "energy",
+    "buffDuration": 240,
+    "outputItemId": "truffle_pasta",
+    "unlockCondition": "cooking_lv_2",
+    "description": "Regional specialty: Black Truffle Pasta. Restores 146 EN & grants Energy buff."
+  },
+  {
+    "id": "berry_parfait",
+    "name": "Three-Berry Parfait",
+    "ingredients": [
+      {
+        "itemId": "strawberry",
+        "count": 1
+      },
+      {
+        "itemId": "blueberry",
+        "count": 1
+      },
+      {
+        "itemId": "milk",
+        "count": 1
+      }
+    ],
+    "sellPrice": 478,
+    "energyRecovery": 184,
+    "healthRecovery": 92,
+    "buffType": "farming",
+    "buffDuration": 240,
+    "outputItemId": "berry_parfait",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Regional specialty: Three-Berry Parfait. Restores 184 EN & grants Farming buff."
+  },
+  {
+    "id": "flower_tea",
+    "name": "Blossom Herbal Tea",
+    "ingredients": [
+      {
+        "itemId": "daisy",
+        "count": 1
+      },
+      {
+        "itemId": "lavender",
+        "count": 1
+      },
+      {
+        "itemId": "honey",
+        "count": 1
+      }
+    ],
+    "sellPrice": 471,
+    "energyRecovery": 144,
+    "healthRecovery": 72,
+    "buffType": "fishing",
+    "buffDuration": 240,
+    "outputItemId": "flower_tea",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Regional specialty: Blossom Herbal Tea. Restores 144 EN & grants Fishing buff."
+  },
+  {
+    "id": "sunflower_seed_bar",
+    "name": "Crunchy Seed Bar",
+    "ingredients": [
+      {
+        "itemId": "sunflower",
+        "count": 1
+      },
+      {
+        "itemId": "oat",
+        "count": 1
+      },
+      {
+        "itemId": "honey",
+        "count": 1
+      }
+    ],
+    "sellPrice": 453,
+    "energyRecovery": 154,
+    "healthRecovery": 77,
+    "buffType": "mining",
+    "buffDuration": 240,
+    "outputItemId": "sunflower_seed_bar",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Regional specialty: Crunchy Seed Bar. Restores 154 EN & grants Mining buff."
+  },
+  {
+    "id": "rose_macaron",
+    "name": "Crimson Rose Macaron",
+    "ingredients": [
+      {
+        "itemId": "rose",
+        "count": 1
+      },
+      {
+        "itemId": "egg",
+        "count": 1
+      },
+      {
+        "itemId": "wheat",
+        "count": 1
+      }
+    ],
+    "sellPrice": 348,
+    "energyRecovery": 164,
+    "healthRecovery": 82,
+    "buffType": "speed",
+    "buffDuration": 240,
+    "outputItemId": "rose_macaron",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Regional specialty: Crimson Rose Macaron. Restores 164 EN & grants Speed buff."
+  },
+  {
+    "id": "poppyseed_muffin",
+    "name": "Poppyseed Muffin",
+    "ingredients": [
+      {
+        "itemId": "poppy",
+        "count": 1
+      },
+      {
+        "itemId": "wheat",
+        "count": 1
+      },
+      {
+        "itemId": "milk",
+        "count": 1
+      }
+    ],
+    "sellPrice": 420,
+    "energyRecovery": 174,
+    "healthRecovery": 87,
+    "buffType": "luck",
+    "buffDuration": 240,
+    "outputItemId": "poppyseed_muffin",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Regional specialty: Poppyseed Muffin. Restores 174 EN & grants Luck buff."
+  },
+  {
+    "id": "fairy_rose_elixir",
+    "name": "Fairy Rose Infusion",
+    "ingredients": [
+      {
+        "itemId": "fairy_rose",
+        "count": 1
+      },
+      {
+        "itemId": "honey",
+        "count": 1
+      }
+    ],
+    "sellPrice": 623,
+    "energyRecovery": 156,
+    "healthRecovery": 78,
+    "buffType": "defense",
+    "buffDuration": 240,
+    "outputItemId": "fairy_rose_elixir",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Regional specialty: Fairy Rose Infusion. Restores 156 EN & grants Defense buff."
+  },
+  {
+    "id": "lotus_root_soup",
+    "name": "Crystal Lotus Broth",
+    "ingredients": [
+      {
+        "itemId": "lotus",
+        "count": 1
+      },
+      {
+        "itemId": "ginger_root",
+        "count": 1
+      }
+    ],
+    "sellPrice": 398,
+    "energyRecovery": 116,
+    "healthRecovery": 58,
+    "buffType": "attack",
+    "buffDuration": 240,
+    "outputItemId": "lotus_root_soup",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Regional specialty: Crystal Lotus Broth. Restores 116 EN & grants Attack buff."
+  },
+  {
+    "id": "moonflower_jelly",
+    "name": "Moonlight Gelato",
+    "ingredients": [
+      {
+        "itemId": "moonflower",
+        "count": 1
+      },
+      {
+        "itemId": "milk",
+        "count": 1
+      }
+    ],
+    "sellPrice": 529,
+    "energyRecovery": 126,
+    "healthRecovery": 63,
+    "buffType": "energy",
+    "buffDuration": 240,
+    "outputItemId": "moonflower_jelly",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Regional specialty: Moonlight Gelato. Restores 126 EN & grants Energy buff."
+  },
+  {
+    "id": "frost_orchid_tea",
+    "name": "Frost Orchid Tisane",
+    "ingredients": [
+      {
+        "itemId": "frost_orchid",
+        "count": 1
+      },
+      {
+        "itemId": "snowdrop",
+        "count": 1
+      }
+    ],
+    "sellPrice": 449,
+    "energyRecovery": 136,
+    "healthRecovery": 68,
+    "buffType": "farming",
+    "buffDuration": 240,
+    "outputItemId": "frost_orchid_tea",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Regional specialty: Frost Orchid Tisane. Restores 136 EN & grants Farming buff."
+  },
+  {
+    "id": "blackberry_cobbler",
+    "name": "Wild Berry Cobbler",
+    "ingredients": [
+      {
+        "itemId": "blackberry",
+        "count": 2
+      },
+      {
+        "itemId": "wheat",
+        "count": 1
+      }
+    ],
+    "sellPrice": 195,
+    "energyRecovery": 146,
+    "healthRecovery": 73,
+    "buffType": "fishing",
+    "buffDuration": 240,
+    "outputItemId": "blackberry_cobbler",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Regional specialty: Wild Berry Cobbler. Restores 146 EN & grants Fishing buff."
+  },
+  {
+    "id": "hazelnut_praline",
+    "name": "Roasted Hazelnut Crunch",
+    "ingredients": [
+      {
+        "itemId": "hazelnut",
+        "count": 2
+      },
+      {
+        "itemId": "honey",
+        "count": 1
+      }
+    ],
+    "sellPrice": 391,
+    "energyRecovery": 156,
+    "healthRecovery": 78,
+    "buffType": "mining",
+    "buffDuration": 240,
+    "outputItemId": "hazelnut_praline",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Regional specialty: Roasted Hazelnut Crunch. Restores 156 EN & grants Mining buff."
+  },
+  {
+    "id": "ginger_candy",
+    "name": "Spiced Ginger Candy",
+    "ingredients": [
+      {
+        "itemId": "ginger_root",
+        "count": 2
+      },
+      {
+        "itemId": "honey",
+        "count": 1
+      }
+    ],
+    "sellPrice": 391,
+    "energyRecovery": 116,
+    "healthRecovery": 58,
+    "buffType": "speed",
+    "buffDuration": 240,
+    "outputItemId": "ginger_candy",
+    "unlockCondition": "cooking_lv_3",
+    "description": "Regional specialty: Spiced Ginger Candy. Restores 116 EN & grants Speed buff."
+  },
+  {
+    "id": "bamboo_steamed_rice",
+    "name": "Bamboo Leaf Rice",
+    "ingredients": [
+      {
+        "itemId": "bamboo_shoot",
+        "count": 1
+      },
+      {
+        "itemId": "rice",
+        "count": 1
+      }
+    ],
+    "sellPrice": 174,
+    "energyRecovery": 126,
+    "healthRecovery": 63,
+    "buffType": "luck",
+    "buffDuration": 240,
+    "outputItemId": "bamboo_steamed_rice",
+    "unlockCondition": "cooking_lv_4",
+    "description": "Regional specialty: Bamboo Leaf Rice. Restores 126 EN & grants Luck buff."
+  },
+  {
+    "id": "fern_stirfry",
+    "name": "Wild Fern Stir-Fry",
+    "ingredients": [
+      {
+        "itemId": "fiddlehead_fern",
+        "count": 1
+      },
+      {
+        "itemId": "garlic",
+        "count": 1
+      }
+    ],
+    "sellPrice": 242,
+    "energyRecovery": 136,
+    "healthRecovery": 68,
+    "buffType": "defense",
+    "buffDuration": 240,
+    "outputItemId": "fern_stirfry",
+    "unlockCondition": "cooking_lv_4",
+    "description": "Regional specialty: Wild Fern Stir-Fry. Restores 136 EN & grants Defense buff."
+  },
+  {
+    "id": "aloe_smoothie",
+    "name": "Oasis Aloe Smoothie",
+    "ingredients": [
+      {
+        "itemId": "desert_aloe",
+        "count": 1
+      },
+      {
+        "itemId": "melon",
+        "count": 1
+      }
+    ],
+    "sellPrice": 485,
+    "energyRecovery": 146,
+    "healthRecovery": 73,
+    "buffType": "attack",
+    "buffDuration": 240,
+    "outputItemId": "aloe_smoothie",
+    "unlockCondition": "cooking_lv_4",
+    "description": "Regional specialty: Oasis Aloe Smoothie. Restores 146 EN & grants Attack buff."
+  },
+  {
+    "id": "snowdrop_sorbet",
+    "name": "Winter Snow Sorbet",
+    "ingredients": [
+      {
+        "itemId": "snowdrop",
+        "count": 1
+      },
+      {
+        "itemId": "frostberry",
+        "count": 1
+      }
+    ],
+    "sellPrice": 340,
+    "energyRecovery": 156,
+    "healthRecovery": 78,
+    "buffType": "energy",
+    "buffDuration": 240,
+    "outputItemId": "snowdrop_sorbet",
+    "unlockCondition": "cooking_lv_4",
+    "description": "Regional specialty: Winter Snow Sorbet. Restores 156 EN & grants Energy buff."
+  },
+  {
+    "id": "horseradish_roast",
+    "name": "Zesty Horseradish Bowl",
+    "ingredients": [
+      {
+        "itemId": "wild_horseradish",
+        "count": 1
+      },
+      {
+        "itemId": "potato",
+        "count": 1
+      }
+    ],
+    "sellPrice": 210,
+    "energyRecovery": 116,
+    "healthRecovery": 58,
+    "buffType": "farming",
+    "buffDuration": 240,
+    "outputItemId": "horseradish_roast",
+    "unlockCondition": "cooking_lv_4",
+    "description": "Regional specialty: Zesty Horseradish Bowl. Restores 116 EN & grants Farming buff."
+  },
+  {
+    "id": "purple_cap_skewer",
+    "name": "Grilled Amethyst Cap",
+    "ingredients": [
+      {
+        "itemId": "purple_cap",
+        "count": 1
+      },
+      {
+        "itemId": "garlic",
+        "count": 1
+      }
+    ],
+    "sellPrice": 387,
+    "energyRecovery": 126,
+    "healthRecovery": 63,
+    "buffType": "fishing",
+    "buffDuration": 240,
+    "outputItemId": "purple_cap_skewer",
+    "unlockCondition": "cooking_lv_4",
+    "description": "Regional specialty: Grilled Amethyst Cap. Restores 126 EN & grants Fishing buff."
+  },
+  {
+    "id": "frost_cap_bisque",
+    "name": "Iceveil Cream Soup",
+    "ingredients": [
+      {
+        "itemId": "frost_cap",
+        "count": 1
+      },
+      {
+        "itemId": "milk",
+        "count": 1
+      }
+    ],
+    "sellPrice": 442,
+    "energyRecovery": 136,
+    "healthRecovery": 68,
+    "buffType": "mining",
+    "buffDuration": 240,
+    "outputItemId": "frost_cap_bisque",
+    "unlockCondition": "cooking_lv_4",
+    "description": "Regional specialty: Iceveil Cream Soup. Restores 136 EN & grants Mining buff."
+  },
+  {
+    "id": "button_mushroom_toast",
+    "name": "Mushroom Toast",
+    "ingredients": [
+      {
+        "itemId": "button_shroom",
+        "count": 2
+      },
+      {
+        "itemId": "wheat",
+        "count": 1
+      }
+    ],
+    "sellPrice": 253,
+    "energyRecovery": 146,
+    "healthRecovery": 73,
+    "buffType": "speed",
+    "buffDuration": 240,
+    "outputItemId": "button_mushroom_toast",
+    "unlockCondition": "cooking_lv_4",
+    "description": "Regional specialty: Mushroom Toast. Restores 146 EN & grants Speed buff."
+  },
+  {
+    "id": "crystal_berry_tart",
+    "name": "Crystal Gem Tart",
+    "ingredients": [
+      {
+        "itemId": "crystal_berry",
+        "count": 1
+      },
+      {
+        "itemId": "wheat",
+        "count": 1
+      }
+    ],
+    "sellPrice": 587,
+    "energyRecovery": 156,
+    "healthRecovery": 78,
+    "buffType": "luck",
+    "buffDuration": 240,
+    "outputItemId": "crystal_berry_tart",
+    "unlockCondition": "cooking_lv_4",
+    "description": "Regional specialty: Crystal Gem Tart. Restores 156 EN & grants Luck buff."
+  },
+  {
+    "id": "sunblossom_honey_cake",
+    "name": "Solar Honey Cake",
+    "ingredients": [
+      {
+        "itemId": "sunblossom",
+        "count": 1
+      },
+      {
+        "itemId": "honey",
+        "count": 1
+      },
+      {
+        "itemId": "egg",
+        "count": 1
+      }
+    ],
+    "sellPrice": 848,
+    "energyRecovery": 144,
+    "healthRecovery": 72,
+    "buffType": "defense",
+    "buffDuration": 240,
+    "outputItemId": "sunblossom_honey_cake",
+    "unlockCondition": "cooking_lv_4",
+    "description": "Regional specialty: Solar Honey Cake. Restores 144 EN & grants Defense buff."
+  },
+  {
+    "id": "void_root_tonic",
+    "name": "Shadow Vitality Brew",
+    "ingredients": [
+      {
+        "itemId": "void_root",
+        "count": 1
+      },
+      {
+        "itemId": "cave_carrot",
+        "count": 1
+      }
+    ],
+    "sellPrice": 529,
+    "energyRecovery": 126,
+    "healthRecovery": 63,
+    "buffType": "attack",
+    "buffDuration": 240,
+    "outputItemId": "void_root_tonic",
+    "unlockCondition": "cooking_lv_4",
+    "description": "Regional specialty: Shadow Vitality Brew. Restores 126 EN & grants Attack buff."
+  },
+  {
+    "id": "whisper_herb_broth",
+    "name": "Whispering Recovery Broth",
+    "ingredients": [
+      {
+        "itemId": "whisper_herb",
+        "count": 1
+      },
+      {
+        "itemId": "spring_onion",
+        "count": 1
+      }
+    ],
+    "sellPrice": 391,
+    "energyRecovery": 136,
+    "healthRecovery": 68,
+    "buffType": "energy",
+    "buffDuration": 240,
+    "outputItemId": "whisper_herb_broth",
+    "unlockCondition": "cooking_lv_4",
+    "description": "Regional specialty: Whispering Recovery Broth. Restores 136 EN & grants Energy buff."
+  },
+  {
+    "id": "farmer_lunch",
+    "name": "Grand Farmer's Platter",
+    "ingredients": [
+      {
+        "itemId": "parsnip",
+        "count": 1
+      },
+      {
+        "itemId": "potato",
+        "count": 1
+      },
+      {
+        "itemId": "cheese",
+        "count": 1
+      },
+      {
+        "itemId": "egg",
+        "count": 1
+      }
+    ],
+    "sellPrice": 645,
+    "energyRecovery": 202,
+    "healthRecovery": 101,
+    "buffType": "farming",
+    "buffDuration": 240,
+    "outputItemId": "farmer_lunch",
+    "unlockCondition": "cooking_lv_5",
+    "description": "Regional specialty: Grand Farmer's Platter. Restores 202 EN & grants Farming buff."
+  },
+  {
+    "id": "miner_treat",
+    "name": "Miner's Crunch Bar",
+    "ingredients": [
+      {
+        "itemId": "cave_carrot",
+        "count": 2
+      },
+      {
+        "itemId": "hazelnut",
+        "count": 1
+      },
+      {
+        "itemId": "milk",
+        "count": 1
+      }
+    ],
+    "sellPrice": 435,
+    "energyRecovery": 184,
+    "healthRecovery": 92,
+    "buffType": "fishing",
+    "buffDuration": 240,
+    "outputItemId": "miner_treat",
+    "unlockCondition": "cooking_lv_5",
+    "description": "Regional specialty: Miner's Crunch Bar. Restores 184 EN & grants Fishing buff."
+  },
+  {
+    "id": "lucky_lunch",
+    "name": "Sea & Star Bento",
+    "ingredients": [
+      {
+        "itemId": "fish_crystal_lake_silver",
+        "count": 1
+      },
+      {
+        "itemId": "rice",
+        "count": 1
+      },
+      {
+        "itemId": "jazz_blossom",
+        "count": 1
+      }
+    ],
+    "sellPrice": 285,
+    "energyRecovery": 144,
+    "healthRecovery": 72,
+    "buffType": "mining",
+    "buffDuration": 240,
+    "outputItemId": "lucky_lunch",
+    "unlockCondition": "cooking_lv_5",
+    "description": "Regional specialty: Sea & Star Bento. Restores 144 EN & grants Mining buff."
+  },
+  {
+    "id": "autumn_bounty",
+    "name": "Autumn Harvest Feast",
+    "ingredients": [
+      {
+        "itemId": "pumpkin",
+        "count": 1
+      },
+      {
+        "itemId": "yam",
+        "count": 1
+      },
+      {
+        "itemId": "cranberry",
+        "count": 1
+      }
+    ],
+    "sellPrice": 783,
+    "energyRecovery": 154,
+    "healthRecovery": 77,
+    "buffType": "speed",
+    "buffDuration": 240,
+    "outputItemId": "autumn_bounty",
+    "unlockCondition": "cooking_lv_5",
+    "description": "Regional specialty: Autumn Harvest Feast. Restores 154 EN & grants Speed buff."
+  },
+  {
+    "id": "spring_picnic",
+    "name": "Willow Picnic Basket",
+    "ingredients": [
+      {
+        "itemId": "strawberry",
+        "count": 1
+      },
+      {
+        "itemId": "daffodil",
+        "count": 1
+      },
+      {
+        "itemId": "cheese",
+        "count": 1
+      },
+      {
+        "itemId": "wheat",
+        "count": 1
+      }
+    ],
+    "sellPrice": 623,
+    "energyRecovery": 192,
+    "healthRecovery": 96,
+    "buffType": "luck",
+    "buffDuration": 240,
+    "outputItemId": "spring_picnic",
+    "unlockCondition": "cooking_lv_5",
+    "description": "Regional specialty: Willow Picnic Basket. Restores 192 EN & grants Luck buff."
+  }
+]

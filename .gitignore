@@ -1,0 +1,13 @@
+# Godot 4
+.godot/
+*.translation
+
+# OS and Editor files
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
+desktop.ini
+
+# Builds
+builds/

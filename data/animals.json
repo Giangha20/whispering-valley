@@ -1,0 +1,110 @@
+[
+  {
+    "id": "chicken",
+    "name": "White Chicken",
+    "building": "coop",
+    "buyPrice": 400,
+    "productItemId": "egg",
+    "intervalDays": 1,
+    "description": "Friendly hen that lays daily Farm Eggs."
+  },
+  {
+    "id": "brown_chicken",
+    "name": "Amber Chicken",
+    "building": "coop",
+    "buyPrice": 450,
+    "productItemId": "egg",
+    "intervalDays": 1,
+    "description": "Warm-feathered hen producing rich eggs."
+  },
+  {
+    "id": "duck",
+    "name": "Stream Duck",
+    "building": "coop",
+    "buyPrice": 750,
+    "productItemId": "duck_egg",
+    "intervalDays": 2,
+    "description": "Cheerful pond-loving duck laying Duck Eggs."
+  },
+  {
+    "id": "quail",
+    "name": "Spotted Quail",
+    "building": "coop",
+    "buyPrice": 620,
+    "productItemId": "quail_egg",
+    "intervalDays": 1,
+    "description": "Dainty bird yielding Speckled Quail Eggs."
+  },
+  {
+    "id": "rabbit",
+    "name": "Fluffy Rabbit",
+    "building": "coop",
+    "buyPrice": 1400,
+    "productItemId": "wool",
+    "intervalDays": 3,
+    "description": "Soft meadow rabbit shedding tufts of Wool."
+  },
+  {
+    "id": "cow",
+    "name": "Meadow Cow",
+    "building": "barn",
+    "buyPrice": 1100,
+    "productItemId": "milk",
+    "intervalDays": 1,
+    "description": "Gentle dairy cow producing Fresh Milk."
+  },
+  {
+    "id": "goat",
+    "name": "Alpine Goat",
+    "building": "barn",
+    "buyPrice": 1700,
+    "productItemId": "goat_milk",
+    "intervalDays": 2,
+    "description": "Agile mountain goat yielding Goat Milk."
+  },
+  {
+    "id": "sheep",
+    "name": "Cloud Sheep",
+    "building": "barn",
+    "buyPrice": 1900,
+    "productItemId": "wool",
+    "intervalDays": 2,
+    "description": "Fluffy pasture sheep ready for Wool shearing."
+  },
+  {
+    "id": "alpaca",
+    "name": "Highland Alpaca",
+    "building": "barn",
+    "buyPrice": 2800,
+    "productItemId": "alpaca_wool",
+    "intervalDays": 3,
+    "description": "Produces luxurious Silky Alpaca Fleece."
+  },
+  {
+    "id": "pig",
+    "name": "Forager Pig",
+    "building": "barn",
+    "buyPrice": 3400,
+    "productItemId": "truffle",
+    "intervalDays": 2,
+    "description": "Sniffs out valuable Earth Truffles outdoors."
+  },
+  {
+    "id": "bee_colony",
+    "name": "Meadow Bee Colony",
+    "building": "coop",
+    "buyPrice": 900,
+    "productItemId": "honey",
+    "intervalDays": 2,
+    "description": "Gentle pollinators crafting Wildflower Honey."
+  },
+  {
+    "id": "starlight_deer",
+    "name": "Starlight Fawn",
+    "building": "barn",
+    "buyPrice": 5200,
+    "productItemId": "starlight_antler",
+    "intervalDays": 4,
+    "description": "Rare mystical deer shedding Starlight Essence Dew."
+  }
+]

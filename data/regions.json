@@ -1,0 +1,730 @@
+[
+  {
+    "id": "greenfield_farm",
+    "name": "Greenfield Farm",
+    "biome": "farm",
+    "width": 52,
+    "height": 38,
+    "discoveredDefault": true,
+    "locked": false,
+    "unlockCondition": "",
+    "worldMapPos": [
+      140,
+      175
+    ],
+    "music": "spring",
+    "ambient": "animals",
+    "foragePool": [
+      "daffodil",
+      "dandelion",
+      "spring_onion",
+      "pine_cone"
+    ],
+    "fishBiome": "willow_river",
+    "connections": [
+      {
+        "to": "willow_village",
+        "edge": "east",
+        "fromTile": [
+          50,
+          18
+        ],
+        "toTile": [
+          2,
+          18
+        ]
+      },
+      {
+        "to": "whispering_forest",
+        "edge": "north",
+        "fromTile": [
+          24,
+          1
+        ],
+        "toTile": [
+          24,
+          34
+        ]
+      },
+      {
+        "to": "crystal_lake",
+        "edge": "south",
+        "fromTile": [
+          24,
+          36
+        ],
+        "toTile": [
+          24,
+          2
+        ]
+      }
+    ],
+    "interiors": [
+      {
+        "id": "farmhouse",
+        "name": "Farmhouse",
+        "doorTile": [
+          10,
+          8
+        ],
+        "spawnTile": [
+          10,
+          10
+        ]
+      },
+      {
+        "id": "greenhouse_interior",
+        "name": "Greenhouse",
+        "doorTile": [
+          38,
+          8
+        ],
+        "spawnTile": [
+          38,
+          10
+        ]
+      }
+    ]
+  },
+  {
+    "id": "willow_village",
+    "name": "Willow Village",
+    "biome": "village",
+    "width": 52,
+    "height": 38,
+    "discoveredDefault": true,
+    "locked": false,
+    "unlockCondition": "",
+    "worldMapPos": [
+      275,
+      175
+    ],
+    "music": "spring",
+    "ambient": "village",
+    "foragePool": [
+      "sweet_pea",
+      "daffodil",
+      "blackberry"
+    ],
+    "fishBiome": "willow_river",
+    "connections": [
+      {
+        "to": "greenfield_farm",
+        "edge": "west",
+        "fromTile": [
+          1,
+          18
+        ],
+        "toTile": [
+          49,
+          18
+        ]
+      },
+      {
+        "to": "ancient_mine",
+        "edge": "north",
+        "fromTile": [
+          26,
+          1
+        ],
+        "toTile": [
+          22,
+          34
+        ]
+      },
+      {
+        "to": "moonlight_garden",
+        "edge": "east",
+        "fromTile": [
+          50,
+          18
+        ],
+        "toTile": [
+          2,
+          18
+        ]
+      },
+      {
+        "to": "sunflower_beach",
+        "edge": "south",
+        "fromTile": [
+          26,
+          36
+        ],
+        "toTile": [
+          26,
+          2
+        ]
+      }
+    ],
+    "interiors": [
+      {
+        "id": "general_store",
+        "name": "Clara's General Store",
+        "doorTile": [
+          14,
+          11
+        ],
+        "spawnTile": [
+          14,
+          13
+        ]
+      },
+      {
+        "id": "blacksmith_shop",
+        "name": "Rowan's Smithy",
+        "doorTile": [
+          32,
+          11
+        ],
+        "spawnTile": [
+          32,
+          13
+        ]
+      },
+      {
+        "id": "tavern",
+        "name": "The Golden Loaf Tavern",
+        "doorTile": [
+          22,
+          11
+        ],
+        "spawnTile": [
+          22,
+          13
+        ]
+      },
+      {
+        "id": "clinic",
+        "name": "Dr. Julian's Clinic",
+        "doorTile": [
+          40,
+          11
+        ],
+        "spawnTile": [
+          40,
+          13
+        ]
+      }
+    ]
+  },
+  {
+    "id": "whispering_forest",
+    "name": "Whispering Forest",
+    "biome": "forest",
+    "width": 50,
+    "height": 36,
+    "discoveredDefault": false,
+    "locked": false,
+    "unlockCondition": "",
+    "worldMapPos": [
+      140,
+      100
+    ],
+    "music": "summer",
+    "ambient": "forest",
+    "foragePool": [
+      "wild_horseradish",
+      "fiddlehead_fern",
+      "hazelnut",
+      "morel",
+      "blackberry"
+    ],
+    "fishBiome": "whispering_pond",
+    "connections": [
+      {
+        "to": "greenfield_farm",
+        "edge": "south",
+        "fromTile": [
+          24,
+          35
+        ],
+        "toTile": [
+          24,
+          3
+        ]
+      },
+      {
+        "to": "mushroom_valley",
+        "edge": "west",
+        "fromTile": [
+          1,
+          18
+        ],
+        "toTile": [
+          45,
+          18
+        ]
+      },
+      {
+        "to": "frostpeak_mountain",
+        "edge": "north",
+        "fromTile": [
+          24,
+          1
+        ],
+        "toTile": [
+          24,
+          34
+        ]
+      }
+    ],
+    "interiors": []
+  },
+  {
+    "id": "crystal_lake",
+    "name": "Crystal Lake",
+    "biome": "lake",
+    "width": 48,
+    "height": 36,
+    "discoveredDefault": false,
+    "locked": false,
+    "unlockCondition": "",
+    "worldMapPos": [
+      140,
+      255
+    ],
+    "music": "spring",
+    "ambient": "forest",
+    "foragePool": [
+      "lotus_pod",
+      "sweet_pea",
+      "ginger_root"
+    ],
+    "fishBiome": "crystal_lake",
+    "connections": [
+      {
+        "to": "greenfield_farm",
+        "edge": "north",
+        "fromTile": [
+          24,
+          1
+        ],
+        "toTile": [
+          24,
+          34
+        ]
+      },
+      {
+        "to": "sunflower_beach",
+        "edge": "east",
+        "fromTile": [
+          46,
+          18
+        ],
+        "toTile": [
+          2,
+          18
+        ]
+      }
+    ],
+    "interiors": []
+  },
+  {
+    "id": "sunflower_beach",
+    "name": "Sunflower Beach",
+    "biome": "beach",
+    "width": 52,
+    "height": 36,
+    "discoveredDefault": false,
+    "locked": false,
+    "unlockCondition": "",
+    "worldMapPos": [
+      275,
+      255
+    ],
+    "music": "summer",
+    "ambient": "ocean",
+    "foragePool": [
+      "sea_shell",
+      "coral_piece",
+      "driftwood",
+      "sea_urchin"
+    ],
+    "fishBiome": "sunflower_ocean",
+    "connections": [
+      {
+        "to": "willow_village",
+        "edge": "north",
+        "fromTile": [
+          26,
+          1
+        ],
+        "toTile": [
+          26,
+          34
+        ]
+      },
+      {
+        "to": "crystal_lake",
+        "edge": "west",
+        "fromTile": [
+          1,
+          18
+        ],
+        "toTile": [
+          45,
+          18
+        ]
+      },
+      {
+        "to": "golden_desert",
+        "edge": "east",
+        "fromTile": [
+          50,
+          18
+        ],
+        "toTile": [
+          2,
+          18
+        ]
+      }
+    ],
+    "interiors": []
+  },
+  {
+    "id": "ancient_mine",
+    "name": "Ancient Mine Quarry",
+    "biome": "quarry",
+    "width": 46,
+    "height": 36,
+    "discoveredDefault": false,
+    "locked": false,
+    "unlockCondition": "",
+    "worldMapPos": [
+      275,
+      100
+    ],
+    "music": "mine",
+    "ambient": "forest",
+    "foragePool": [
+      "cave_carrot",
+      "quartz",
+      "stone"
+    ],
+    "fishBiome": "mine_cavern",
+    "connections": [
+      {
+        "to": "willow_village",
+        "edge": "south",
+        "fromTile": [
+          22,
+          35
+        ],
+        "toTile": [
+          26,
+          3
+        ]
+      },
+      {
+        "to": "frostpeak_mountain",
+        "edge": "west",
+        "fromTile": [
+          1,
+          18
+        ],
+        "toTile": [
+          45,
+          18
+        ]
+      }
+    ],
+    "interiors": [
+      {
+        "id": "mine_shaft",
+        "name": "Ancient Mine Shaft",
+        "doorTile": [
+          23,
+          12
+        ],
+        "spawnTile": [
+          15,
+          18
+        ]
+      }
+    ]
+  },
+  {
+    "id": "frostpeak_mountain",
+    "name": "Frostpeak Mountain",
+    "biome": "snow",
+    "width": 48,
+    "height": 36,
+    "discoveredDefault": false,
+    "locked": false,
+    "unlockCondition": "",
+    "worldMapPos": [
+      205,
+      42
+    ],
+    "music": "winter",
+    "ambient": "forest",
+    "foragePool": [
+      "snowdrop",
+      "pine_cone",
+      "crystal_moss"
+    ],
+    "fishBiome": "frostpeak_lake",
+    "connections": [
+      {
+        "to": "whispering_forest",
+        "edge": "south",
+        "fromTile": [
+          24,
+          35
+        ],
+        "toTile": [
+          24,
+          3
+        ]
+      },
+      {
+        "to": "ancient_mine",
+        "edge": "east",
+        "fromTile": [
+          46,
+          18
+        ],
+        "toTile": [
+          2,
+          18
+        ]
+      },
+      {
+        "to": "hidden_sanctuary",
+        "edge": "north",
+        "fromTile": [
+          24,
+          1
+        ],
+        "toTile": [
+          24,
+          33
+        ]
+      }
+    ],
+    "interiors": []
+  },
+  {
+    "id": "golden_desert",
+    "name": "Golden Desert",
+    "biome": "desert",
+    "width": 48,
+    "height": 36,
+    "discoveredDefault": false,
+    "locked": false,
+    "unlockCondition": "",
+    "worldMapPos": [
+      420,
+      255
+    ],
+    "music": "summer",
+    "ambient": "ocean",
+    "foragePool": [
+      "desert_aloe",
+      "ginger_root",
+      "spice_berry"
+    ],
+    "fishBiome": "golden_oasis",
+    "connections": [
+      {
+        "to": "sunflower_beach",
+        "edge": "west",
+        "fromTile": [
+          1,
+          18
+        ],
+        "toTile": [
+          49,
+          18
+        ]
+      },
+      {
+        "to": "forgotten_ruins",
+        "edge": "north",
+        "fromTile": [
+          24,
+          1
+        ],
+        "toTile": [
+          24,
+          33
+        ]
+      }
+    ],
+    "interiors": []
+  },
+  {
+    "id": "moonlight_garden",
+    "name": "Moonlight Garden",
+    "biome": "garden",
+    "width": 48,
+    "height": 36,
+    "discoveredDefault": false,
+    "locked": false,
+    "unlockCondition": "",
+    "worldMapPos": [
+      420,
+      175
+    ],
+    "music": "autumn",
+    "ambient": "forest",
+    "foragePool": [
+      "crystal_moss",
+      "sweet_pea",
+      "bamboo_shoot"
+    ],
+    "fishBiome": "crystal_lake",
+    "connections": [
+      {
+        "to": "willow_village",
+        "edge": "west",
+        "fromTile": [
+          1,
+          18
+        ],
+        "toTile": [
+          49,
+          18
+        ]
+      },
+      {
+        "to": "forgotten_ruins",
+        "edge": "south",
+        "fromTile": [
+          24,
+          35
+        ],
+        "toTile": [
+          24,
+          3
+        ]
+      }
+    ],
+    "interiors": []
+  },
+  {
+    "id": "forgotten_ruins",
+    "name": "Forgotten Ruins",
+    "biome": "ruins",
+    "width": 48,
+    "height": 36,
+    "discoveredDefault": false,
+    "locked": true,
+    "unlockCondition": "reach_mine_floor_10",
+    "worldMapPos": [
+      495,
+      215
+    ],
+    "music": "autumn",
+    "ambient": "forest",
+    "foragePool": [
+      "ancient_fruit",
+      "crystal_moss",
+      "bone_fragment"
+    ],
+    "fishBiome": "mine_cavern",
+    "connections": [
+      {
+        "to": "moonlight_garden",
+        "edge": "north",
+        "fromTile": [
+          24,
+          1
+        ],
+        "toTile": [
+          24,
+          34
+        ]
+      },
+      {
+        "to": "golden_desert",
+        "edge": "south",
+        "fromTile": [
+          24,
+          35
+        ],
+        "toTile": [
+          24,
+          3
+        ]
+      }
+    ],
+    "interiors": []
+  },
+  {
+    "id": "mushroom_valley",
+    "name": "Mushroom Valley",
+    "biome": "mushroom",
+    "width": 48,
+    "height": 36,
+    "discoveredDefault": false,
+    "locked": false,
+    "unlockCondition": "",
+    "worldMapPos": [
+      55,
+      100
+    ],
+    "music": "autumn",
+    "ambient": "forest",
+    "foragePool": [
+      "button_shroom",
+      "morel",
+      "chanterelle",
+      "purple_cap"
+    ],
+    "fishBiome": "whispering_pond",
+    "connections": [
+      {
+        "to": "whispering_forest",
+        "edge": "east",
+        "fromTile": [
+          46,
+          18
+        ],
+        "toTile": [
+          2,
+          18
+        ]
+      }
+    ],
+    "interiors": []
+  },
+  {
+    "id": "hidden_sanctuary",
+    "name": "Hidden Sanctuary",
+    "biome": "sanctuary",
+    "width": 48,
+    "height": 36,
+    "discoveredDefault": false,
+    "locked": true,
+    "unlockCondition": "reach_mine_floor_25",
+    "worldMapPos": [
+      345,
+      32
+    ],
+    "music": "winter",
+    "ambient": "forest",
+    "foragePool": [
+      "crystal_moss",
+      "spirit_morel",
+      "sanctuary_lotus"
+    ],
+    "fishBiome": "hidden_sanctuary",
+    "connections": [
+      {
+        "to": "frostpeak_mountain",
+        "edge": "south",
+        "fromTile": [
+          24,
+          34
+        ],
+        "toTile": [
+          24,
+          3
+        ]
+      }
+    ],
+    "interiors": []
+  }
+]

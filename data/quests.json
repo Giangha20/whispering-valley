@@ -1,0 +1,3910 @@
+[
+  {
+    "id": "main_01",
+    "title": "New Roots in Greenfield",
+    "description": "Plant and harvest your very first Turnip or Parsnip on Greenfield Farm.",
+    "category": "Main",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "any",
+        "required": 3
+      }
+    ],
+    "rewards": {
+      "gold": 150,
+      "items": [
+        {
+          "itemId": "turnip_seed",
+          "count": 6
+        },
+        {
+          "itemId": "basic_fertilizer",
+          "count": 4
+        }
+      ],
+      "xp": 59
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "main_02",
+    "title": "Meet Your Neighbors",
+    "description": "Introduce yourself to 5 residents of Willow Village.",
+    "category": "Main",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "npc_talked",
+        "target": "unique",
+        "required": 5
+      }
+    ],
+    "rewards": {
+      "gold": 200,
+      "items": [
+        {
+          "itemId": "parsnip_seed",
+          "count": 6
+        }
+      ],
+      "xp": 75
+    },
+    "unlockCondition": "main_01"
+  },
+  {
+    "id": "main_03",
+    "title": "First Market Sale",
+    "description": "Ship or sell 10 farm items to boost the local economy.",
+    "category": "Main",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "item_sold",
+        "target": "any",
+        "required": 10
+      }
+    ],
+    "rewards": {
+      "gold": 250,
+      "items": [
+        {
+          "itemId": "copper_ore",
+          "count": 5
+        }
+      ],
+      "xp": 115
+    },
+    "unlockCondition": "main_02"
+  },
+  {
+    "id": "main_04",
+    "title": "Into the Whispering Woods",
+    "description": "Explore Whispering Forest north of your farm.",
+    "category": "Main",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "region_discovered",
+        "target": "whispering_forest",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 200,
+      "items": [
+        {
+          "itemId": "quest_bridge_permit",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": "main_02"
+  },
+  {
+    "id": "main_05",
+    "title": "Casting the Line",
+    "description": "Catch 5 fish across Crystal Lake or Sunflower Beach.",
+    "category": "Main",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "fish_caught",
+        "target": "any",
+        "required": 5
+      }
+    ],
+    "rewards": {
+      "gold": 300,
+      "items": [
+        {
+          "itemId": "quality_bait",
+          "count": 5
+        }
+      ],
+      "xp": 75
+    },
+    "unlockCondition": "main_03"
+  },
+  {
+    "id": "main_06",
+    "title": "Descent into Ancient Mine",
+    "description": "Reach Floor 10 of the Ancient Mine to unlock the Forgotten Ruins trail.",
+    "category": "Main",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "mine_floor_reached",
+        "target": "any",
+        "required": 10
+      }
+    ],
+    "rewards": {
+      "gold": 450,
+      "items": [
+        {
+          "itemId": "quest_rusty_key",
+          "count": 1
+        },
+        {
+          "itemId": "equip_steel_blade",
+          "count": 1
+        }
+      ],
+      "xp": 115
+    },
+    "unlockCondition": "main_04"
+  },
+  {
+    "id": "main_07",
+    "title": "Whispers in the Ruins",
+    "description": "Explore the Forgotten Ruins beyond Golden Desert.",
+    "category": "Main",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "region_discovered",
+        "target": "forgotten_ruins",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 500,
+      "items": [
+        {
+          "itemId": "quest_ancient_tablet",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": "main_06"
+  },
+  {
+    "id": "main_08",
+    "title": "Heart of the Frostpeak",
+    "description": "Defeat the Frostpeak Warden on Mine Floor 25 to unseal Hidden Sanctuary.",
+    "category": "Main",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "mine_floor_reached",
+        "target": "any",
+        "required": 25
+      }
+    ],
+    "rewards": {
+      "gold": 800,
+      "items": [
+        {
+          "itemId": "quest_sanctuary_seal",
+          "count": 1
+        }
+      ],
+      "xp": 235
+    },
+    "unlockCondition": "main_06"
+  },
+  {
+    "id": "main_09",
+    "title": "Heartland Rancher",
+    "description": "Build a Coop or Barn and care for your farm animals.",
+    "category": "Main",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "animal_product_collected",
+        "target": "any",
+        "required": 3
+      }
+    ],
+    "rewards": {
+      "gold": 600,
+      "items": [
+        {
+          "itemId": "cheese",
+          "count": 2
+        }
+      ],
+      "xp": 59
+    },
+    "unlockCondition": "main_05"
+  },
+  {
+    "id": "main_10",
+    "title": "Artisan Awakening",
+    "description": "Craft 8 useful machines or tools on your farm.",
+    "category": "Main",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "item_crafted",
+        "target": "any",
+        "required": 8
+      }
+    ],
+    "rewards": {
+      "gold": 750,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 2
+        }
+      ],
+      "xp": 99
+    },
+    "unlockCondition": "main_08"
+  },
+  {
+    "id": "main_11",
+    "title": "The Hidden Sanctuary",
+    "description": "Step foot inside the Hidden Sanctuary north of Frostpeak Mountain.",
+    "category": "Main",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "region_discovered",
+        "target": "hidden_sanctuary",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 1000,
+      "items": [
+        {
+          "itemId": "sanctuary_lotus_seed",
+          "count": 2
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": "main_08"
+  },
+  {
+    "id": "main_12",
+    "title": "Crown of Whispering Valley",
+    "description": "Conquer Floor 100 of the Ancient Mine and defeat the Hollow Sovereign.",
+    "category": "Main",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "mine_floor_reached",
+        "target": "any",
+        "required": 100
+      }
+    ],
+    "rewards": {
+      "gold": 3000,
+      "items": [
+        {
+          "itemId": "prismatic_shard",
+          "count": 2
+        }
+      ],
+      "xp": 835
+    },
+    "unlockCondition": "main_11"
+  },
+  {
+    "id": "npc_q_mayor_aldric",
+    "title": "Mayor Aldric's Special Request",
+    "description": "Bring a Harvest Pumpkin to Mayor Aldric and brighten their day.",
+    "category": "NPC",
+    "npcId": "mayor_aldric",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "mayor_aldric",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 220,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_clara",
+    "title": "Clara's Special Request",
+    "description": "Bring a Meadow Strawberry to Clara and brighten their day.",
+    "category": "NPC",
+    "npcId": "clara",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "clara",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 235,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_rowan",
+    "title": "Rowan's Special Request",
+    "description": "Bring a Iridium Bar to Rowan and brighten their day.",
+    "category": "NPC",
+    "npcId": "rowan",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "rowan",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 250,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_maya",
+    "title": "Maya's Special Request",
+    "description": "Bring a Black Truffle Pasta to Maya and brighten their day.",
+    "category": "NPC",
+    "npcId": "maya",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "maya",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 265,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_dr_julian",
+    "title": "Dr. Julian's Special Request",
+    "description": "Bring a Whispering Sage to Dr. Julian and brighten their day.",
+    "category": "NPC",
+    "npcId": "dr_julian",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "dr_julian",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 280,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_toby",
+    "title": "Toby's Special Request",
+    "description": "Bring a Hardwood to Toby and brighten their day.",
+    "category": "NPC",
+    "npcId": "toby",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "toby",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 295,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_mira",
+    "title": "Mira's Special Request",
+    "description": "Bring a Marlin Salmon to Mira and brighten their day.",
+    "category": "NPC",
+    "npcId": "mira",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "mira",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 310,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_gareth",
+    "title": "Gareth's Special Request",
+    "description": "Bring a Pure Diamond to Gareth and brighten their day.",
+    "category": "NPC",
+    "npcId": "gareth",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "gareth",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 325,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_elise",
+    "title": "Elise's Special Request",
+    "description": "Bring a Strawberry Shorttart to Elise and brighten their day.",
+    "category": "NPC",
+    "npcId": "elise",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "elise",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 340,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_barnaby",
+    "title": "Barnaby's Special Request",
+    "description": "Bring a Farmhouse Cheese to Barnaby and brighten their day.",
+    "category": "NPC",
+    "npcId": "barnaby",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "barnaby",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 355,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_lyra",
+    "title": "Lyra's Special Request",
+    "description": "Bring a Celestial Starfruit to Lyra and brighten their day.",
+    "category": "NPC",
+    "npcId": "lyra",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "lyra",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 370,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_kael",
+    "title": "Kael's Special Request",
+    "description": "Bring a Fiddlehead Fern to Kael and brighten their day.",
+    "category": "NPC",
+    "npcId": "kael",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "kael",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 385,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_zara",
+    "title": "Zara's Special Request",
+    "description": "Bring a Dune Cactus Fig to Zara and brighten their day.",
+    "category": "NPC",
+    "npcId": "zara",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "zara",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 400,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_pip",
+    "title": "Pip's Special Request",
+    "description": "Bring a Earth Truffle to Pip and brighten their day.",
+    "category": "NPC",
+    "npcId": "pip",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "pip",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 415,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_sage_orin",
+    "title": "Sage Orin's Special Request",
+    "description": "Bring a Sanctuary Star Lotus to Sage Orin and brighten their day.",
+    "category": "NPC",
+    "npcId": "sage_orin",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "sage_orin",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 430,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_nora",
+    "title": "Nora's Special Request",
+    "description": "Bring a Blue Jazz to Nora and brighten their day.",
+    "category": "NPC",
+    "npcId": "nora",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "nora",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 445,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_leo",
+    "title": "Leo's Special Request",
+    "description": "Bring a Hot Orchard Cider to Leo and brighten their day.",
+    "category": "NPC",
+    "npcId": "leo",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "leo",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 460,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_poppy",
+    "title": "Poppy's Special Request",
+    "description": "Bring a Fairy Rose to Poppy and brighten their day.",
+    "category": "NPC",
+    "npcId": "poppy",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "poppy",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 475,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_finn",
+    "title": "Finn's Special Request",
+    "description": "Bring a Pink Melon to Finn and brighten their day.",
+    "category": "NPC",
+    "npcId": "finn",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "finn",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 490,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_iris",
+    "title": "Iris's Special Request",
+    "description": "Bring a Twilight Lavender to Iris and brighten their day.",
+    "category": "NPC",
+    "npcId": "iris",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "iris",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 505,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_theo",
+    "title": "Theo's Special Request",
+    "description": "Bring a Wildflower Honey to Theo and brighten their day.",
+    "category": "NPC",
+    "npcId": "theo",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "theo",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 520,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_vera",
+    "title": "Vera's Special Request",
+    "description": "Bring a Pure Diamond to Vera and brighten their day.",
+    "category": "NPC",
+    "npcId": "vera",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "vera",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 535,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_hugo",
+    "title": "Hugo's Special Request",
+    "description": "Bring a Glazed Salmon Fillet to Hugo and brighten their day.",
+    "category": "NPC",
+    "npcId": "hugo",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "hugo",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 550,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_sable",
+    "title": "Sable's Special Request",
+    "description": "Bring a Amethyst Cap to Sable and brighten their day.",
+    "category": "NPC",
+    "npcId": "sable",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "sable",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 565,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_caspian",
+    "title": "Caspian's Special Request",
+    "description": "Bring a Glacier Berry to Caspian and brighten their day.",
+    "category": "NPC",
+    "npcId": "caspian",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "caspian",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 580,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_wren",
+    "title": "Wren's Special Request",
+    "description": "Bring a Gold Bar to Wren and brighten their day.",
+    "category": "NPC",
+    "npcId": "wren",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "wren",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 595,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_felix",
+    "title": "Felix's Special Request",
+    "description": "Bring a Forgotten Rune Tablet to Felix and brighten their day.",
+    "category": "NPC",
+    "npcId": "felix",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "felix",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 610,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_freya",
+    "title": "Freya's Special Request",
+    "description": "Bring a Blush Peach to Freya and brighten their day.",
+    "category": "NPC",
+    "npcId": "freya",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "freya",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 625,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_jasper",
+    "title": "Jasper's Special Request",
+    "description": "Bring a Spice Berry to Jasper and brighten their day.",
+    "category": "NPC",
+    "npcId": "jasper",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "jasper",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 640,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_daphne",
+    "title": "Daphne's Special Request",
+    "description": "Bring a Aged Goat Cheese to Daphne and brighten their day.",
+    "category": "NPC",
+    "npcId": "daphne",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "daphne",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 655,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_milo",
+    "title": "Milo's Special Request",
+    "description": "Bring a Iron Bar to Milo and brighten their day.",
+    "category": "NPC",
+    "npcId": "milo",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "milo",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 670,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "npc_q_astra",
+    "title": "Astra's Special Request",
+    "description": "Bring a Crystal Gem Berry to Astra and brighten their day.",
+    "category": "NPC",
+    "npcId": "astra",
+    "objectives": [
+      {
+        "type": "gift_given",
+        "target": "astra",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 685,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_01",
+    "title": "Harvest Fresh Produce #1",
+    "description": "Harvest 4 crops on your farm.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "any",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 120,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_02",
+    "title": "Fresh Catch of the Day #2",
+    "description": "Reel in 3 fish from valley waters.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "fish_caught",
+        "target": "any",
+        "required": 3
+      }
+    ],
+    "rewards": {
+      "gold": 130,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 59
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_03",
+    "title": "Clear the Cavern #3",
+    "description": "Defeat 4 monsters inside Ancient Mine.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "monster_defeated",
+        "target": "any",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 140,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_04",
+    "title": "Workshop Practice #4",
+    "description": "Craft 2 items or supplies.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "item_crafted",
+        "target": "any",
+        "required": 2
+      }
+    ],
+    "rewards": {
+      "gold": 150,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 51
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_05",
+    "title": "Daily Kitchen Practice #5",
+    "description": "Cook 2 nourishing meals.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "dish_cooked",
+        "target": "any",
+        "required": 2
+      }
+    ],
+    "rewards": {
+      "gold": 160,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 51
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_06",
+    "title": "Valley Check-in #6",
+    "description": "Chat with 3 villagers today.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "npc_talked",
+        "target": "any",
+        "required": 3
+      }
+    ],
+    "rewards": {
+      "gold": 170,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 59
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_07",
+    "title": "Harvest Fresh Produce #7",
+    "description": "Harvest 4 crops on your farm.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "any",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 180,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_08",
+    "title": "Fresh Catch of the Day #8",
+    "description": "Reel in 3 fish from valley waters.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "fish_caught",
+        "target": "any",
+        "required": 3
+      }
+    ],
+    "rewards": {
+      "gold": 190,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 59
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_09",
+    "title": "Clear the Cavern #9",
+    "description": "Defeat 4 monsters inside Ancient Mine.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "monster_defeated",
+        "target": "any",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 200,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_10",
+    "title": "Workshop Practice #10",
+    "description": "Craft 2 items or supplies.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "item_crafted",
+        "target": "any",
+        "required": 2
+      }
+    ],
+    "rewards": {
+      "gold": 210,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 51
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_11",
+    "title": "Daily Kitchen Practice #11",
+    "description": "Cook 2 nourishing meals.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "dish_cooked",
+        "target": "any",
+        "required": 2
+      }
+    ],
+    "rewards": {
+      "gold": 220,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 51
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_12",
+    "title": "Valley Check-in #12",
+    "description": "Chat with 3 villagers today.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "npc_talked",
+        "target": "any",
+        "required": 3
+      }
+    ],
+    "rewards": {
+      "gold": 230,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 59
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_13",
+    "title": "Harvest Fresh Produce #13",
+    "description": "Harvest 4 crops on your farm.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "any",
+        "required": 5
+      }
+    ],
+    "rewards": {
+      "gold": 240,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 75
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_14",
+    "title": "Fresh Catch of the Day #14",
+    "description": "Reel in 3 fish from valley waters.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "fish_caught",
+        "target": "any",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 250,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_15",
+    "title": "Clear the Cavern #15",
+    "description": "Defeat 4 monsters inside Ancient Mine.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "monster_defeated",
+        "target": "any",
+        "required": 5
+      }
+    ],
+    "rewards": {
+      "gold": 260,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 75
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_16",
+    "title": "Workshop Practice #16",
+    "description": "Craft 2 items or supplies.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "item_crafted",
+        "target": "any",
+        "required": 3
+      }
+    ],
+    "rewards": {
+      "gold": 270,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 59
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_17",
+    "title": "Daily Kitchen Practice #17",
+    "description": "Cook 2 nourishing meals.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "dish_cooked",
+        "target": "any",
+        "required": 3
+      }
+    ],
+    "rewards": {
+      "gold": 280,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 59
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_18",
+    "title": "Valley Check-in #18",
+    "description": "Chat with 3 villagers today.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "npc_talked",
+        "target": "any",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 290,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_19",
+    "title": "Harvest Fresh Produce #19",
+    "description": "Harvest 4 crops on your farm.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "any",
+        "required": 5
+      }
+    ],
+    "rewards": {
+      "gold": 300,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 75
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_20",
+    "title": "Fresh Catch of the Day #20",
+    "description": "Reel in 3 fish from valley waters.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "fish_caught",
+        "target": "any",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 310,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_21",
+    "title": "Clear the Cavern #21",
+    "description": "Defeat 4 monsters inside Ancient Mine.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "monster_defeated",
+        "target": "any",
+        "required": 5
+      }
+    ],
+    "rewards": {
+      "gold": 320,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 75
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_22",
+    "title": "Workshop Practice #22",
+    "description": "Craft 2 items or supplies.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "item_crafted",
+        "target": "any",
+        "required": 3
+      }
+    ],
+    "rewards": {
+      "gold": 330,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 59
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_23",
+    "title": "Daily Kitchen Practice #23",
+    "description": "Cook 2 nourishing meals.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "dish_cooked",
+        "target": "any",
+        "required": 3
+      }
+    ],
+    "rewards": {
+      "gold": 340,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 59
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_24",
+    "title": "Valley Check-in #24",
+    "description": "Chat with 3 villagers today.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "npc_talked",
+        "target": "any",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 350,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_25",
+    "title": "Harvest Fresh Produce #25",
+    "description": "Harvest 4 crops on your farm.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "any",
+        "required": 6
+      }
+    ],
+    "rewards": {
+      "gold": 360,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 83
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_26",
+    "title": "Fresh Catch of the Day #26",
+    "description": "Reel in 3 fish from valley waters.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "fish_caught",
+        "target": "any",
+        "required": 5
+      }
+    ],
+    "rewards": {
+      "gold": 370,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 75
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_27",
+    "title": "Clear the Cavern #27",
+    "description": "Defeat 4 monsters inside Ancient Mine.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "monster_defeated",
+        "target": "any",
+        "required": 6
+      }
+    ],
+    "rewards": {
+      "gold": 380,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 83
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_28",
+    "title": "Workshop Practice #28",
+    "description": "Craft 2 items or supplies.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "item_crafted",
+        "target": "any",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 390,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_29",
+    "title": "Daily Kitchen Practice #29",
+    "description": "Cook 2 nourishing meals.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "dish_cooked",
+        "target": "any",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 400,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_30",
+    "title": "Valley Check-in #30",
+    "description": "Chat with 3 villagers today.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "npc_talked",
+        "target": "any",
+        "required": 5
+      }
+    ],
+    "rewards": {
+      "gold": 410,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 75
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_31",
+    "title": "Harvest Fresh Produce #31",
+    "description": "Harvest 4 crops on your farm.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "any",
+        "required": 6
+      }
+    ],
+    "rewards": {
+      "gold": 420,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 83
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_32",
+    "title": "Fresh Catch of the Day #32",
+    "description": "Reel in 3 fish from valley waters.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "fish_caught",
+        "target": "any",
+        "required": 5
+      }
+    ],
+    "rewards": {
+      "gold": 430,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 75
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_33",
+    "title": "Clear the Cavern #33",
+    "description": "Defeat 4 monsters inside Ancient Mine.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "monster_defeated",
+        "target": "any",
+        "required": 6
+      }
+    ],
+    "rewards": {
+      "gold": 440,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 83
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_34",
+    "title": "Workshop Practice #34",
+    "description": "Craft 2 items or supplies.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "item_crafted",
+        "target": "any",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 450,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_35",
+    "title": "Daily Kitchen Practice #35",
+    "description": "Cook 2 nourishing meals.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "dish_cooked",
+        "target": "any",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 460,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "daily_36",
+    "title": "Valley Check-in #36",
+    "description": "Chat with 3 villagers today.",
+    "category": "Daily",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "npc_talked",
+        "target": "any",
+        "required": 5
+      }
+    ],
+    "rewards": {
+      "gold": 470,
+      "items": [
+        {
+          "itemId": "bait",
+          "count": 3
+        }
+      ],
+      "xp": 75
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_spring_1",
+    "title": "Spring Harvest: Turnip",
+    "description": "Grow and harvest 4 Turnip during Spring.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "turnip",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 280,
+      "items": [
+        {
+          "itemId": "turnip_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_spring_2",
+    "title": "Spring Harvest: Parsnip",
+    "description": "Grow and harvest 4 Parsnip during Spring.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "parsnip",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 320,
+      "items": [
+        {
+          "itemId": "parsnip_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_spring_3",
+    "title": "Spring Harvest: Meadow Strawberry",
+    "description": "Grow and harvest 4 Meadow Strawberry during Spring.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "strawberry",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 360,
+      "items": [
+        {
+          "itemId": "strawberry_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_spring_4",
+    "title": "Spring Harvest: Cloud Cauliflower",
+    "description": "Grow and harvest 4 Cloud Cauliflower during Spring.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "cauliflower",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 400,
+      "items": [
+        {
+          "itemId": "cauliflower_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_spring_5",
+    "title": "Spring Harvest: Spring Tulip",
+    "description": "Grow and harvest 4 Spring Tulip during Spring.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "tulip",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 440,
+      "items": [
+        {
+          "itemId": "tulip_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_spring_6",
+    "title": "Spring Harvest: Forest Morel",
+    "description": "Grow and harvest 4 Forest Morel during Spring.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "morel",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 480,
+      "items": [
+        {
+          "itemId": "morel_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_summer_1",
+    "title": "Summer Harvest: Sun Tomato",
+    "description": "Grow and harvest 4 Sun Tomato during Summer.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "tomato",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 280,
+      "items": [
+        {
+          "itemId": "tomato_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_summer_2",
+    "title": "Summer Harvest: Sky Blueberry",
+    "description": "Grow and harvest 4 Sky Blueberry during Summer.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "blueberry",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 320,
+      "items": [
+        {
+          "itemId": "blueberry_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_summer_3",
+    "title": "Summer Harvest: Pink Melon",
+    "description": "Grow and harvest 4 Pink Melon during Summer.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "melon",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 360,
+      "items": [
+        {
+          "itemId": "melon_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_summer_4",
+    "title": "Summer Harvest: Radiant Sunflower",
+    "description": "Grow and harvest 4 Radiant Sunflower during Summer.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "sunflower",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 400,
+      "items": [
+        {
+          "itemId": "sunflower_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_summer_5",
+    "title": "Summer Harvest: Tropica Pineapple",
+    "description": "Grow and harvest 4 Tropica Pineapple during Summer.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "pineapple",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 440,
+      "items": [
+        {
+          "itemId": "pineapple_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_summer_6",
+    "title": "Summer Harvest: Celestial Starfruit",
+    "description": "Grow and harvest 4 Celestial Starfruit during Summer.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "starfruit",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 480,
+      "items": [
+        {
+          "itemId": "starfruit_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_autumn_1",
+    "title": "Autumn Harvest: Harvest Pumpkin",
+    "description": "Grow and harvest 4 Harvest Pumpkin during Autumn.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "pumpkin",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 280,
+      "items": [
+        {
+          "itemId": "pumpkin_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_autumn_2",
+    "title": "Autumn Harvest: Honey Yam",
+    "description": "Grow and harvest 4 Honey Yam during Autumn.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "yam",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 320,
+      "items": [
+        {
+          "itemId": "yam_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_autumn_3",
+    "title": "Autumn Harvest: Valley Grape",
+    "description": "Grow and harvest 4 Valley Grape during Autumn.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "grape",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 360,
+      "items": [
+        {
+          "itemId": "grape_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_autumn_4",
+    "title": "Autumn Harvest: Bog Cranberry",
+    "description": "Grow and harvest 4 Bog Cranberry during Autumn.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "cranberry",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 400,
+      "items": [
+        {
+          "itemId": "cranberry_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_autumn_5",
+    "title": "Autumn Harvest: Fairy Rose",
+    "description": "Grow and harvest 4 Fairy Rose during Autumn.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "fairy_rose",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 440,
+      "items": [
+        {
+          "itemId": "fairy_rose_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_autumn_6",
+    "title": "Autumn Harvest: Gold Chanterelle",
+    "description": "Grow and harvest 4 Gold Chanterelle during Autumn.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "chanterelle",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 480,
+      "items": [
+        {
+          "itemId": "chanterelle_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_winter_1",
+    "title": "Winter Harvest: Frost Leek",
+    "description": "Grow and harvest 4 Frost Leek during Winter.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "winter_leek",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 280,
+      "items": [
+        {
+          "itemId": "winter_leek_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_winter_2",
+    "title": "Winter Harvest: Glacier Berry",
+    "description": "Grow and harvest 4 Glacier Berry during Winter.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "frostberry",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 320,
+      "items": [
+        {
+          "itemId": "frostberry_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_winter_3",
+    "title": "Winter Harvest: Frost Orchid",
+    "description": "Grow and harvest 4 Frost Orchid during Winter.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "frost_orchid",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 360,
+      "items": [
+        {
+          "itemId": "frost_orchid_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_winter_4",
+    "title": "Winter Harvest: Winter Rye",
+    "description": "Grow and harvest 4 Winter Rye during Winter.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "rye",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 400,
+      "items": [
+        {
+          "itemId": "rye_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_winter_5",
+    "title": "Winter Harvest: Lantern Glowshroom",
+    "description": "Grow and harvest 4 Lantern Glowshroom during Winter.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "glowshroom",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 440,
+      "items": [
+        {
+          "itemId": "glowshroom_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "seasonal_winter_6",
+    "title": "Winter Harvest: Iceveil Mushroom",
+    "description": "Grow and harvest 4 Iceveil Mushroom during Winter.",
+    "category": "Seasonal",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "frost_cap",
+        "required": 4
+      }
+    ],
+    "rewards": {
+      "gold": 480,
+      "items": [
+        {
+          "itemId": "frost_cap_seed",
+          "count": 3
+        }
+      ],
+      "xp": 67
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_greenfield_farm",
+    "title": "Discover Greenfield Farm",
+    "description": "Travel to and chart Greenfield Farm on your World Map.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "region_discovered",
+        "target": "greenfield_farm",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 200,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_willow_village",
+    "title": "Discover Willow Village",
+    "description": "Travel to and chart Willow Village on your World Map.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "region_discovered",
+        "target": "willow_village",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 200,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_whispering_forest",
+    "title": "Discover Whispering Forest",
+    "description": "Travel to and chart Whispering Forest on your World Map.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "region_discovered",
+        "target": "whispering_forest",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 200,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_crystal_lake",
+    "title": "Discover Crystal Lake",
+    "description": "Travel to and chart Crystal Lake on your World Map.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "region_discovered",
+        "target": "crystal_lake",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 200,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_sunflower_beach",
+    "title": "Discover Sunflower Beach",
+    "description": "Travel to and chart Sunflower Beach on your World Map.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "region_discovered",
+        "target": "sunflower_beach",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 200,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_ancient_mine",
+    "title": "Discover Ancient Mine Quarry",
+    "description": "Travel to and chart Ancient Mine Quarry on your World Map.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "region_discovered",
+        "target": "ancient_mine",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 200,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_frostpeak_mountain",
+    "title": "Discover Frostpeak Mountain",
+    "description": "Travel to and chart Frostpeak Mountain on your World Map.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "region_discovered",
+        "target": "frostpeak_mountain",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 200,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_golden_desert",
+    "title": "Discover Golden Desert",
+    "description": "Travel to and chart Golden Desert on your World Map.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "region_discovered",
+        "target": "golden_desert",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 200,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_moonlight_garden",
+    "title": "Discover Moonlight Garden",
+    "description": "Travel to and chart Moonlight Garden on your World Map.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "region_discovered",
+        "target": "moonlight_garden",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 200,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_forgotten_ruins",
+    "title": "Discover Forgotten Ruins",
+    "description": "Travel to and chart Forgotten Ruins on your World Map.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "region_discovered",
+        "target": "forgotten_ruins",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 200,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_mushroom_valley",
+    "title": "Discover Mushroom Valley",
+    "description": "Travel to and chart Mushroom Valley on your World Map.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "region_discovered",
+        "target": "mushroom_valley",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 200,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_hidden_sanctuary",
+    "title": "Discover Hidden Sanctuary",
+    "description": "Travel to and chart Hidden Sanctuary on your World Map.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "region_discovered",
+        "target": "hidden_sanctuary",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 200,
+      "items": [
+        {
+          "itemId": "special_energy_tonic",
+          "count": 1
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_mine_5",
+    "title": "Mine Expedition: Floor 5",
+    "description": "Descend to Floor 5 of the Ancient Mine.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "mine_floor_reached",
+        "target": "any",
+        "required": 5
+      }
+    ],
+    "rewards": {
+      "gold": 255,
+      "items": [
+        {
+          "itemId": "special_cherry_bomb",
+          "count": 3
+        }
+      ],
+      "xp": 75
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_mine_15",
+    "title": "Mine Expedition: Floor 15",
+    "description": "Descend to Floor 15 of the Ancient Mine.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "mine_floor_reached",
+        "target": "any",
+        "required": 15
+      }
+    ],
+    "rewards": {
+      "gold": 405,
+      "items": [
+        {
+          "itemId": "special_cherry_bomb",
+          "count": 3
+        }
+      ],
+      "xp": 155
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_mine_20",
+    "title": "Mine Expedition: Floor 20",
+    "description": "Descend to Floor 20 of the Ancient Mine.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "mine_floor_reached",
+        "target": "any",
+        "required": 20
+      }
+    ],
+    "rewards": {
+      "gold": 480,
+      "items": [
+        {
+          "itemId": "special_cherry_bomb",
+          "count": 3
+        }
+      ],
+      "xp": 195
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_mine_35",
+    "title": "Mine Expedition: Floor 35",
+    "description": "Descend to Floor 35 of the Ancient Mine.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "mine_floor_reached",
+        "target": "any",
+        "required": 35
+      }
+    ],
+    "rewards": {
+      "gold": 705,
+      "items": [
+        {
+          "itemId": "special_cherry_bomb",
+          "count": 3
+        }
+      ],
+      "xp": 315
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_mine_50",
+    "title": "Mine Expedition: Floor 50",
+    "description": "Descend to Floor 50 of the Ancient Mine.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "mine_floor_reached",
+        "target": "any",
+        "required": 50
+      }
+    ],
+    "rewards": {
+      "gold": 930,
+      "items": [
+        {
+          "itemId": "special_cherry_bomb",
+          "count": 3
+        }
+      ],
+      "xp": 435
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_mine_65",
+    "title": "Mine Expedition: Floor 65",
+    "description": "Descend to Floor 65 of the Ancient Mine.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "mine_floor_reached",
+        "target": "any",
+        "required": 65
+      }
+    ],
+    "rewards": {
+      "gold": 1155,
+      "items": [
+        {
+          "itemId": "special_cherry_bomb",
+          "count": 3
+        }
+      ],
+      "xp": 555
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_mine_75",
+    "title": "Mine Expedition: Floor 75",
+    "description": "Descend to Floor 75 of the Ancient Mine.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "mine_floor_reached",
+        "target": "any",
+        "required": 75
+      }
+    ],
+    "rewards": {
+      "gold": 1305,
+      "items": [
+        {
+          "itemId": "special_cherry_bomb",
+          "count": 3
+        }
+      ],
+      "xp": 635
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "explore_mine_90",
+    "title": "Mine Expedition: Floor 90",
+    "description": "Descend to Floor 90 of the Ancient Mine.",
+    "category": "Exploration",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "mine_floor_reached",
+        "target": "any",
+        "required": 90
+      }
+    ],
+    "rewards": {
+      "gold": 1530,
+      "items": [
+        {
+          "itemId": "special_cherry_bomb",
+          "count": 3
+        }
+      ],
+      "xp": 755
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_01",
+    "title": "Angler's Pride (10)",
+    "description": "Catch 10 fish for the Valley Compendium.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "fish_caught",
+        "target": "any",
+        "required": 10
+      }
+    ],
+    "rewards": {
+      "gold": 370,
+      "items": [
+        {
+          "itemId": "copper_bar",
+          "count": 2
+        }
+      ],
+      "xp": 115
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_02",
+    "title": "Angler's Pride (20)",
+    "description": "Catch 20 fish for the Valley Compendium.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "fish_caught",
+        "target": "any",
+        "required": 20
+      }
+    ],
+    "rewards": {
+      "gold": 490,
+      "items": [
+        {
+          "itemId": "copper_bar",
+          "count": 2
+        }
+      ],
+      "xp": 195
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_03",
+    "title": "Angler's Pride (35)",
+    "description": "Catch 35 fish for the Valley Compendium.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "fish_caught",
+        "target": "any",
+        "required": 35
+      }
+    ],
+    "rewards": {
+      "gold": 670,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 315
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_04",
+    "title": "Angler's Pride (50)",
+    "description": "Catch 50 fish for the Valley Compendium.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "fish_caught",
+        "target": "any",
+        "required": 50
+      }
+    ],
+    "rewards": {
+      "gold": 850,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 435
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_05",
+    "title": "Angler's Pride (75)",
+    "description": "Catch 75 fish for the Valley Compendium.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "fish_caught",
+        "target": "any",
+        "required": 75
+      }
+    ],
+    "rewards": {
+      "gold": 1150,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 635
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_06",
+    "title": "Angler's Pride (100)",
+    "description": "Catch 100 fish for the Valley Compendium.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "fish_caught",
+        "target": "any",
+        "required": 100
+      }
+    ],
+    "rewards": {
+      "gold": 1450,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 835
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_07",
+    "title": "Master Cultivator (15)",
+    "description": "Harvest 15 crops across the seasons.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "any",
+        "required": 15
+      }
+    ],
+    "rewards": {
+      "gold": 430,
+      "items": [
+        {
+          "itemId": "copper_bar",
+          "count": 2
+        }
+      ],
+      "xp": 155
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_08",
+    "title": "Master Cultivator (30)",
+    "description": "Harvest 30 crops across the seasons.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "any",
+        "required": 30
+      }
+    ],
+    "rewards": {
+      "gold": 610,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 275
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_09",
+    "title": "Master Cultivator (60)",
+    "description": "Harvest 60 crops across the seasons.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "any",
+        "required": 60
+      }
+    ],
+    "rewards": {
+      "gold": 970,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 515
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_10",
+    "title": "Master Cultivator (100)",
+    "description": "Harvest 100 crops across the seasons.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "any",
+        "required": 100
+      }
+    ],
+    "rewards": {
+      "gold": 1450,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 835
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_11",
+    "title": "Master Cultivator (150)",
+    "description": "Harvest 150 crops across the seasons.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "any",
+        "required": 150
+      }
+    ],
+    "rewards": {
+      "gold": 2050,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 1235
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_12",
+    "title": "Master Cultivator (200)",
+    "description": "Harvest 200 crops across the seasons.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "crop_harvested",
+        "target": "any",
+        "required": 200
+      }
+    ],
+    "rewards": {
+      "gold": 2650,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 1635
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_13",
+    "title": "Artisan Guild (5)",
+    "description": "Craft 5 tools, machines, or supplies.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "item_crafted",
+        "target": "any",
+        "required": 5
+      }
+    ],
+    "rewards": {
+      "gold": 310,
+      "items": [
+        {
+          "itemId": "copper_bar",
+          "count": 2
+        }
+      ],
+      "xp": 75
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_14",
+    "title": "Artisan Guild (12)",
+    "description": "Craft 12 tools, machines, or supplies.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "item_crafted",
+        "target": "any",
+        "required": 12
+      }
+    ],
+    "rewards": {
+      "gold": 394,
+      "items": [
+        {
+          "itemId": "copper_bar",
+          "count": 2
+        }
+      ],
+      "xp": 131
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_15",
+    "title": "Artisan Guild (25)",
+    "description": "Craft 25 tools, machines, or supplies.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "item_crafted",
+        "target": "any",
+        "required": 25
+      }
+    ],
+    "rewards": {
+      "gold": 550,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 235
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_16",
+    "title": "Artisan Guild (45)",
+    "description": "Craft 45 tools, machines, or supplies.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "item_crafted",
+        "target": "any",
+        "required": 45
+      }
+    ],
+    "rewards": {
+      "gold": 790,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 395
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_17",
+    "title": "Artisan Guild (70)",
+    "description": "Craft 70 tools, machines, or supplies.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "item_crafted",
+        "target": "any",
+        "required": 70
+      }
+    ],
+    "rewards": {
+      "gold": 1090,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 595
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_18",
+    "title": "Culinary Legend (5)",
+    "description": "Cook 5 dishes in your farmhouse kitchen.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "dish_cooked",
+        "target": "any",
+        "required": 5
+      }
+    ],
+    "rewards": {
+      "gold": 310,
+      "items": [
+        {
+          "itemId": "copper_bar",
+          "count": 2
+        }
+      ],
+      "xp": 75
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_19",
+    "title": "Culinary Legend (12)",
+    "description": "Cook 12 dishes in your farmhouse kitchen.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "dish_cooked",
+        "target": "any",
+        "required": 12
+      }
+    ],
+    "rewards": {
+      "gold": 394,
+      "items": [
+        {
+          "itemId": "copper_bar",
+          "count": 2
+        }
+      ],
+      "xp": 131
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_20",
+    "title": "Culinary Legend (25)",
+    "description": "Cook 25 dishes in your farmhouse kitchen.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "dish_cooked",
+        "target": "any",
+        "required": 25
+      }
+    ],
+    "rewards": {
+      "gold": 550,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 235
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_21",
+    "title": "Culinary Legend (40)",
+    "description": "Cook 40 dishes in your farmhouse kitchen.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "dish_cooked",
+        "target": "any",
+        "required": 40
+      }
+    ],
+    "rewards": {
+      "gold": 730,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 355
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_22",
+    "title": "Culinary Legend (60)",
+    "description": "Cook 60 dishes in your farmhouse kitchen.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "dish_cooked",
+        "target": "any",
+        "required": 60
+      }
+    ],
+    "rewards": {
+      "gold": 970,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 515
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_23",
+    "title": "Adventurer's Guild (10)",
+    "description": "Defeat 10 cave monsters.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "monster_defeated",
+        "target": "any",
+        "required": 10
+      }
+    ],
+    "rewards": {
+      "gold": 370,
+      "items": [
+        {
+          "itemId": "copper_bar",
+          "count": 2
+        }
+      ],
+      "xp": 115
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_24",
+    "title": "Adventurer's Guild (25)",
+    "description": "Defeat 25 cave monsters.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "monster_defeated",
+        "target": "any",
+        "required": 25
+      }
+    ],
+    "rewards": {
+      "gold": 550,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 235
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_25",
+    "title": "Adventurer's Guild (50)",
+    "description": "Defeat 50 cave monsters.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "monster_defeated",
+        "target": "any",
+        "required": 50
+      }
+    ],
+    "rewards": {
+      "gold": 850,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 435
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_26",
+    "title": "Adventurer's Guild (80)",
+    "description": "Defeat 80 cave monsters.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "monster_defeated",
+        "target": "any",
+        "required": 80
+      }
+    ],
+    "rewards": {
+      "gold": 1210,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 675
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_27",
+    "title": "Adventurer's Guild (120)",
+    "description": "Defeat 120 cave monsters.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "monster_defeated",
+        "target": "any",
+        "required": 120
+      }
+    ],
+    "rewards": {
+      "gold": 1690,
+      "items": [
+        {
+          "itemId": "gold_bar",
+          "count": 1
+        }
+      ],
+      "xp": 995
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_28",
+    "title": "Master Architect (1)",
+    "description": "Construct 1 buildings or structures on your farm.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "building_placed",
+        "target": "any",
+        "required": 1
+      }
+    ],
+    "rewards": {
+      "gold": 262,
+      "items": [
+        {
+          "itemId": "copper_bar",
+          "count": 2
+        }
+      ],
+      "xp": 43
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_29",
+    "title": "Master Architect (3)",
+    "description": "Construct 3 buildings or structures on your farm.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "building_placed",
+        "target": "any",
+        "required": 3
+      }
+    ],
+    "rewards": {
+      "gold": 286,
+      "items": [
+        {
+          "itemId": "copper_bar",
+          "count": 2
+        }
+      ],
+      "xp": 59
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_30",
+    "title": "Master Architect (6)",
+    "description": "Construct 6 buildings or structures on your farm.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "building_placed",
+        "target": "any",
+        "required": 6
+      }
+    ],
+    "rewards": {
+      "gold": 322,
+      "items": [
+        {
+          "itemId": "copper_bar",
+          "count": 2
+        }
+      ],
+      "xp": 83
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_31",
+    "title": "Master Architect (10)",
+    "description": "Construct 10 buildings or structures on your farm.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "building_placed",
+        "target": "any",
+        "required": 10
+      }
+    ],
+    "rewards": {
+      "gold": 370,
+      "items": [
+        {
+          "itemId": "copper_bar",
+          "count": 2
+        }
+      ],
+      "xp": 115
+    },
+    "unlockCondition": ""
+  },
+  {
+    "id": "collect_32",
+    "title": "Master Architect (15)",
+    "description": "Construct 15 buildings or structures on your farm.",
+    "category": "Collection",
+    "npcId": "",
+    "objectives": [
+      {
+        "type": "building_placed",
+        "target": "any",
+        "required": 15
+      }
+    ],
+    "rewards": {
+      "gold": 430,
+      "items": [
+        {
+          "itemId": "copper_bar",
+          "count": 2
+        }
+      ],
+      "xp": 155
+    },
+    "unlockCondition": ""
+  }
+]

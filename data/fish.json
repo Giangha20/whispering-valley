@@ -1,0 +1,1732 @@
+[
+  {
+    "id": "fish_crystal_lake_crystal",
+    "name": "Crystal Carp",
+    "biome": "crystal_lake",
+    "biomeName": "Crystal Lake",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "any",
+    "rarity": "common",
+    "difficulty": 22,
+    "sellPrice": 40,
+    "sprite": "fish_crystal_lake_crystal",
+    "description": "Found in Crystal Lake during Spring, Summer."
+  },
+  {
+    "id": "fish_crystal_lake_silver",
+    "name": "Silver Perch",
+    "biome": "crystal_lake",
+    "biomeName": "Crystal Lake",
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "timeRange": [
+      6,
+      14
+    ],
+    "weather": "any",
+    "rarity": "common",
+    "difficulty": 26,
+    "sellPrice": 52,
+    "sprite": "fish_crystal_lake_silver",
+    "description": "Found in Crystal Lake during Summer, Autumn."
+  },
+  {
+    "id": "fish_crystal_lake_azure",
+    "name": "Azure Bream",
+    "biome": "crystal_lake",
+    "biomeName": "Crystal Lake",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      12,
+      20
+    ],
+    "weather": "rainy",
+    "rarity": "common",
+    "difficulty": 28,
+    "sellPrice": 58,
+    "sprite": "fish_crystal_lake_azure",
+    "description": "Found in Crystal Lake during Autumn, Winter."
+  },
+  {
+    "id": "fish_crystal_lake_mirror",
+    "name": "Mirror Trout",
+    "biome": "crystal_lake",
+    "biomeName": "Crystal Lake",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "timeRange": [
+      18,
+      26
+    ],
+    "weather": "sunny",
+    "rarity": "uncommon",
+    "difficulty": 34,
+    "sellPrice": 75,
+    "sprite": "fish_crystal_lake_mirror",
+    "description": "Found in Crystal Lake during Spring, Autumn."
+  },
+  {
+    "id": "fish_crystal_lake_shimmer",
+    "name": "Shimmer Bass",
+    "biome": "crystal_lake",
+    "biomeName": "Crystal Lake",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "stormy",
+    "rarity": "uncommon",
+    "difficulty": 40,
+    "sellPrice": 88,
+    "sprite": "fish_crystal_lake_shimmer",
+    "description": "Found in Crystal Lake during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_crystal_lake_lake",
+    "name": "Lake Pike",
+    "biome": "crystal_lake",
+    "biomeName": "Crystal Lake",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "any",
+    "rarity": "uncommon",
+    "difficulty": 48,
+    "sellPrice": 110,
+    "sprite": "fish_crystal_lake_lake",
+    "description": "Found in Crystal Lake during Spring, Summer."
+  },
+  {
+    "id": "fish_crystal_lake_pearl",
+    "name": "Pearl Salmon",
+    "biome": "crystal_lake",
+    "biomeName": "Crystal Lake",
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "timeRange": [
+      6,
+      14
+    ],
+    "weather": "any",
+    "rarity": "rare",
+    "difficulty": 52,
+    "sellPrice": 130,
+    "sprite": "fish_crystal_lake_pearl",
+    "description": "Found in Crystal Lake during Summer, Autumn."
+  },
+  {
+    "id": "fish_crystal_lake_glint",
+    "name": "Glint Eel",
+    "biome": "crystal_lake",
+    "biomeName": "Crystal Lake",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      12,
+      20
+    ],
+    "weather": "rainy",
+    "rarity": "rare",
+    "difficulty": 58,
+    "sellPrice": 145,
+    "sprite": "fish_crystal_lake_glint",
+    "description": "Found in Crystal Lake during Autumn, Winter."
+  },
+  {
+    "id": "fish_crystal_lake_sapphire",
+    "name": "Sapphire Sturgeon",
+    "biome": "crystal_lake",
+    "biomeName": "Crystal Lake",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "timeRange": [
+      18,
+      26
+    ],
+    "weather": "sunny",
+    "rarity": "rare",
+    "difficulty": 68,
+    "sellPrice": 195,
+    "sprite": "fish_crystal_lake_sapphire",
+    "description": "Found in Crystal Lake during Spring, Autumn."
+  },
+  {
+    "id": "fish_crystal_lake_aurora",
+    "name": "Aurora Koi",
+    "biome": "crystal_lake",
+    "biomeName": "Crystal Lake",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "stormy",
+    "rarity": "epic",
+    "difficulty": 62,
+    "sellPrice": 240,
+    "sprite": "fish_crystal_lake_aurora",
+    "description": "Found in Crystal Lake during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_crystal_lake_starlight",
+    "name": "Starlight Leviathan",
+    "biome": "crystal_lake",
+    "biomeName": "Crystal Lake",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "any",
+    "rarity": "legendary",
+    "difficulty": 84,
+    "sellPrice": 480,
+    "sprite": "fish_crystal_lake_starlight",
+    "description": "Found in Crystal Lake during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_willow_river_willow",
+    "name": "Willow Carp",
+    "biome": "willow_river",
+    "biomeName": "Willow River",
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "timeRange": [
+      6,
+      14
+    ],
+    "weather": "any",
+    "rarity": "common",
+    "difficulty": 24,
+    "sellPrice": 52,
+    "sprite": "fish_willow_river_willow",
+    "description": "Found in Willow River during Summer, Autumn."
+  },
+  {
+    "id": "fish_willow_river_brook",
+    "name": "Brook Perch",
+    "biome": "willow_river",
+    "biomeName": "Willow River",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      12,
+      20
+    ],
+    "weather": "rainy",
+    "rarity": "common",
+    "difficulty": 28,
+    "sellPrice": 64,
+    "sprite": "fish_willow_river_brook",
+    "description": "Found in Willow River during Autumn, Winter."
+  },
+  {
+    "id": "fish_willow_river_amber",
+    "name": "Amber Bream",
+    "biome": "willow_river",
+    "biomeName": "Willow River",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "timeRange": [
+      18,
+      26
+    ],
+    "weather": "sunny",
+    "rarity": "common",
+    "difficulty": 30,
+    "sellPrice": 70,
+    "sprite": "fish_willow_river_amber",
+    "description": "Found in Willow River during Spring, Autumn."
+  },
+  {
+    "id": "fish_willow_river_dappled",
+    "name": "Dappled Trout",
+    "biome": "willow_river",
+    "biomeName": "Willow River",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "stormy",
+    "rarity": "uncommon",
+    "difficulty": 36,
+    "sellPrice": 87,
+    "sprite": "fish_willow_river_dappled",
+    "description": "Found in Willow River during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_willow_river_swift",
+    "name": "Swift Bass",
+    "biome": "willow_river",
+    "biomeName": "Willow River",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "any",
+    "rarity": "uncommon",
+    "difficulty": 42,
+    "sellPrice": 100,
+    "sprite": "fish_willow_river_swift",
+    "description": "Found in Willow River during Spring, Summer."
+  },
+  {
+    "id": "fish_willow_river_river",
+    "name": "River Pike",
+    "biome": "willow_river",
+    "biomeName": "Willow River",
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "timeRange": [
+      6,
+      14
+    ],
+    "weather": "any",
+    "rarity": "uncommon",
+    "difficulty": 50,
+    "sellPrice": 122,
+    "sprite": "fish_willow_river_river",
+    "description": "Found in Willow River during Summer, Autumn."
+  },
+  {
+    "id": "fish_willow_river_mossback",
+    "name": "Mossback Salmon",
+    "biome": "willow_river",
+    "biomeName": "Willow River",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      12,
+      20
+    ],
+    "weather": "rainy",
+    "rarity": "rare",
+    "difficulty": 54,
+    "sellPrice": 142,
+    "sprite": "fish_willow_river_mossback",
+    "description": "Found in Willow River during Autumn, Winter."
+  },
+  {
+    "id": "fish_willow_river_pebble",
+    "name": "Pebble Eel",
+    "biome": "willow_river",
+    "biomeName": "Willow River",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "timeRange": [
+      18,
+      26
+    ],
+    "weather": "rainy",
+    "rarity": "rare",
+    "difficulty": 60,
+    "sellPrice": 157,
+    "sprite": "fish_willow_river_pebble",
+    "description": "Found in Willow River during Spring, Autumn."
+  },
+  {
+    "id": "fish_willow_river_reed",
+    "name": "Reed Sturgeon",
+    "biome": "willow_river",
+    "biomeName": "Willow River",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "stormy",
+    "rarity": "rare",
+    "difficulty": 70,
+    "sellPrice": 207,
+    "sprite": "fish_willow_river_reed",
+    "description": "Found in Willow River during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_willow_river_golden",
+    "name": "Golden Koi",
+    "biome": "willow_river",
+    "biomeName": "Willow River",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "any",
+    "rarity": "epic",
+    "difficulty": 64,
+    "sellPrice": 252,
+    "sprite": "fish_willow_river_golden",
+    "description": "Found in Willow River during Spring, Summer."
+  },
+  {
+    "id": "fish_willow_river_sovereign",
+    "name": "Sovereign Leviathan",
+    "biome": "willow_river",
+    "biomeName": "Willow River",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      14
+    ],
+    "weather": "any",
+    "rarity": "legendary",
+    "difficulty": 86,
+    "sellPrice": 492,
+    "sprite": "fish_willow_river_sovereign",
+    "description": "Found in Willow River during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_sunflower_ocean_sunlit",
+    "name": "Sunlit Carp",
+    "biome": "sunflower_ocean",
+    "biomeName": "Sunflower Ocean",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      12,
+      20
+    ],
+    "weather": "rainy",
+    "rarity": "common",
+    "difficulty": 26,
+    "sellPrice": 64,
+    "sprite": "fish_sunflower_ocean_sunlit",
+    "description": "Found in Sunflower Ocean during Autumn, Winter."
+  },
+  {
+    "id": "fish_sunflower_ocean_coral",
+    "name": "Coral Perch",
+    "biome": "sunflower_ocean",
+    "biomeName": "Sunflower Ocean",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "timeRange": [
+      18,
+      26
+    ],
+    "weather": "sunny",
+    "rarity": "common",
+    "difficulty": 30,
+    "sellPrice": 76,
+    "sprite": "fish_sunflower_ocean_coral",
+    "description": "Found in Sunflower Ocean during Spring, Autumn."
+  },
+  {
+    "id": "fish_sunflower_ocean_tide",
+    "name": "Tide Bream",
+    "biome": "sunflower_ocean",
+    "biomeName": "Sunflower Ocean",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "stormy",
+    "rarity": "common",
+    "difficulty": 32,
+    "sellPrice": 82,
+    "sprite": "fish_sunflower_ocean_tide",
+    "description": "Found in Sunflower Ocean during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_sunflower_ocean_seafoam",
+    "name": "Seafoam Trout",
+    "biome": "sunflower_ocean",
+    "biomeName": "Sunflower Ocean",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "any",
+    "rarity": "uncommon",
+    "difficulty": 38,
+    "sellPrice": 99,
+    "sprite": "fish_sunflower_ocean_seafoam",
+    "description": "Found in Sunflower Ocean during Spring, Summer."
+  },
+  {
+    "id": "fish_sunflower_ocean_crimson",
+    "name": "Crimson Bass",
+    "biome": "sunflower_ocean",
+    "biomeName": "Sunflower Ocean",
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "timeRange": [
+      6,
+      14
+    ],
+    "weather": "any",
+    "rarity": "uncommon",
+    "difficulty": 44,
+    "sellPrice": 112,
+    "sprite": "fish_sunflower_ocean_crimson",
+    "description": "Found in Sunflower Ocean during Summer, Autumn."
+  },
+  {
+    "id": "fish_sunflower_ocean_sardine",
+    "name": "Sardine Pike",
+    "biome": "sunflower_ocean",
+    "biomeName": "Sunflower Ocean",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      12,
+      20
+    ],
+    "weather": "rainy",
+    "rarity": "uncommon",
+    "difficulty": 52,
+    "sellPrice": 134,
+    "sprite": "fish_sunflower_ocean_sardine",
+    "description": "Found in Sunflower Ocean during Autumn, Winter."
+  },
+  {
+    "id": "fish_sunflower_ocean_marlin",
+    "name": "Marlin Salmon",
+    "biome": "sunflower_ocean",
+    "biomeName": "Sunflower Ocean",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "timeRange": [
+      18,
+      26
+    ],
+    "weather": "sunny",
+    "rarity": "rare",
+    "difficulty": 56,
+    "sellPrice": 154,
+    "sprite": "fish_sunflower_ocean_marlin",
+    "description": "Found in Sunflower Ocean during Spring, Autumn."
+  },
+  {
+    "id": "fish_sunflower_ocean_dolphin",
+    "name": "Dolphin Eel",
+    "biome": "sunflower_ocean",
+    "biomeName": "Sunflower Ocean",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "rainy",
+    "rarity": "rare",
+    "difficulty": 62,
+    "sellPrice": 169,
+    "sprite": "fish_sunflower_ocean_dolphin",
+    "description": "Found in Sunflower Ocean during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_sunflower_ocean_manta",
+    "name": "Manta Sturgeon",
+    "biome": "sunflower_ocean",
+    "biomeName": "Sunflower Ocean",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "any",
+    "rarity": "rare",
+    "difficulty": 72,
+    "sellPrice": 219,
+    "sprite": "fish_sunflower_ocean_manta",
+    "description": "Found in Sunflower Ocean during Spring, Summer."
+  },
+  {
+    "id": "fish_sunflower_ocean_tidal",
+    "name": "Tidal Koi",
+    "biome": "sunflower_ocean",
+    "biomeName": "Sunflower Ocean",
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "timeRange": [
+      6,
+      14
+    ],
+    "weather": "any",
+    "rarity": "epic",
+    "difficulty": 66,
+    "sellPrice": 264,
+    "sprite": "fish_sunflower_ocean_tidal",
+    "description": "Found in Sunflower Ocean during Summer, Autumn."
+  },
+  {
+    "id": "fish_sunflower_ocean_abyssal",
+    "name": "Abyssal Leviathan",
+    "biome": "sunflower_ocean",
+    "biomeName": "Sunflower Ocean",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      12,
+      20
+    ],
+    "weather": "rainy",
+    "rarity": "legendary",
+    "difficulty": 88,
+    "sellPrice": 504,
+    "sprite": "fish_sunflower_ocean_abyssal",
+    "description": "Found in Sunflower Ocean during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_whispering_pond_leaf",
+    "name": "Leaf Carp",
+    "biome": "whispering_pond",
+    "biomeName": "Forest Pond",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "timeRange": [
+      18,
+      26
+    ],
+    "weather": "sunny",
+    "rarity": "common",
+    "difficulty": 28,
+    "sellPrice": 76,
+    "sprite": "fish_whispering_pond_leaf",
+    "description": "Found in Forest Pond during Spring, Autumn."
+  },
+  {
+    "id": "fish_whispering_pond_fern",
+    "name": "Fern Perch",
+    "biome": "whispering_pond",
+    "biomeName": "Forest Pond",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "stormy",
+    "rarity": "common",
+    "difficulty": 32,
+    "sellPrice": 88,
+    "sprite": "fish_whispering_pond_fern",
+    "description": "Found in Forest Pond during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_whispering_pond_whisper",
+    "name": "Whisper Bream",
+    "biome": "whispering_pond",
+    "biomeName": "Forest Pond",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "any",
+    "rarity": "common",
+    "difficulty": 34,
+    "sellPrice": 94,
+    "sprite": "fish_whispering_pond_whisper",
+    "description": "Found in Forest Pond during Spring, Summer."
+  },
+  {
+    "id": "fish_whispering_pond_shadow",
+    "name": "Shadow Trout",
+    "biome": "whispering_pond",
+    "biomeName": "Forest Pond",
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "timeRange": [
+      6,
+      14
+    ],
+    "weather": "any",
+    "rarity": "uncommon",
+    "difficulty": 40,
+    "sellPrice": 111,
+    "sprite": "fish_whispering_pond_shadow",
+    "description": "Found in Forest Pond during Summer, Autumn."
+  },
+  {
+    "id": "fish_whispering_pond_dew",
+    "name": "Dew Bass",
+    "biome": "whispering_pond",
+    "biomeName": "Forest Pond",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      12,
+      20
+    ],
+    "weather": "rainy",
+    "rarity": "uncommon",
+    "difficulty": 46,
+    "sellPrice": 124,
+    "sprite": "fish_whispering_pond_dew",
+    "description": "Found in Forest Pond during Autumn, Winter."
+  },
+  {
+    "id": "fish_whispering_pond_sprig",
+    "name": "Sprig Pike",
+    "biome": "whispering_pond",
+    "biomeName": "Forest Pond",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "timeRange": [
+      18,
+      26
+    ],
+    "weather": "sunny",
+    "rarity": "uncommon",
+    "difficulty": 54,
+    "sellPrice": 146,
+    "sprite": "fish_whispering_pond_sprig",
+    "description": "Found in Forest Pond during Spring, Autumn."
+  },
+  {
+    "id": "fish_whispering_pond_bramble",
+    "name": "Bramble Salmon",
+    "biome": "whispering_pond",
+    "biomeName": "Forest Pond",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "stormy",
+    "rarity": "rare",
+    "difficulty": 58,
+    "sellPrice": 166,
+    "sprite": "fish_whispering_pond_bramble",
+    "description": "Found in Forest Pond during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_whispering_pond_thorn",
+    "name": "Thorn Eel",
+    "biome": "whispering_pond",
+    "biomeName": "Forest Pond",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "rainy",
+    "rarity": "rare",
+    "difficulty": 64,
+    "sellPrice": 181,
+    "sprite": "fish_whispering_pond_thorn",
+    "description": "Found in Forest Pond during Spring, Summer."
+  },
+  {
+    "id": "fish_whispering_pond_emerald",
+    "name": "Emerald Sturgeon",
+    "biome": "whispering_pond",
+    "biomeName": "Forest Pond",
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "timeRange": [
+      6,
+      14
+    ],
+    "weather": "any",
+    "rarity": "rare",
+    "difficulty": 74,
+    "sellPrice": 231,
+    "sprite": "fish_whispering_pond_emerald",
+    "description": "Found in Forest Pond during Summer, Autumn."
+  },
+  {
+    "id": "fish_whispering_pond_sylvan",
+    "name": "Sylvan Koi",
+    "biome": "whispering_pond",
+    "biomeName": "Forest Pond",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      12,
+      20
+    ],
+    "weather": "rainy",
+    "rarity": "epic",
+    "difficulty": 68,
+    "sellPrice": 276,
+    "sprite": "fish_whispering_pond_sylvan",
+    "description": "Found in Forest Pond during Autumn, Winter."
+  },
+  {
+    "id": "fish_whispering_pond_elder",
+    "name": "Elder Leviathan",
+    "biome": "whispering_pond",
+    "biomeName": "Forest Pond",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      18,
+      26
+    ],
+    "weather": "sunny",
+    "rarity": "legendary",
+    "difficulty": 90,
+    "sellPrice": 516,
+    "sprite": "fish_whispering_pond_elder",
+    "description": "Found in Forest Pond during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_frostpeak_lake_glacier",
+    "name": "Glacier Carp",
+    "biome": "frostpeak_lake",
+    "biomeName": "Frostpeak Springs",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "stormy",
+    "rarity": "common",
+    "difficulty": 30,
+    "sellPrice": 88,
+    "sprite": "fish_frostpeak_lake_glacier",
+    "description": "Found in Frostpeak Springs during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_frostpeak_lake_frost",
+    "name": "Frost Perch",
+    "biome": "frostpeak_lake",
+    "biomeName": "Frostpeak Springs",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "any",
+    "rarity": "common",
+    "difficulty": 34,
+    "sellPrice": 100,
+    "sprite": "fish_frostpeak_lake_frost",
+    "description": "Found in Frostpeak Springs during Summer, Spring, Winter."
+  },
+  {
+    "id": "fish_frostpeak_lake_icicle",
+    "name": "Icicle Bream",
+    "biome": "frostpeak_lake",
+    "biomeName": "Frostpeak Springs",
+    "seasons": [
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      14
+    ],
+    "weather": "any",
+    "rarity": "common",
+    "difficulty": 36,
+    "sellPrice": 106,
+    "sprite": "fish_frostpeak_lake_icicle",
+    "description": "Found in Frostpeak Springs during Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_frostpeak_lake_alpine",
+    "name": "Alpine Trout",
+    "biome": "frostpeak_lake",
+    "biomeName": "Frostpeak Springs",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      12,
+      20
+    ],
+    "weather": "rainy",
+    "rarity": "uncommon",
+    "difficulty": 42,
+    "sellPrice": 123,
+    "sprite": "fish_frostpeak_lake_alpine",
+    "description": "Found in Frostpeak Springs during Autumn, Winter."
+  },
+  {
+    "id": "fish_frostpeak_lake_snow",
+    "name": "Snow Bass",
+    "biome": "frostpeak_lake",
+    "biomeName": "Frostpeak Springs",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      18,
+      26
+    ],
+    "weather": "sunny",
+    "rarity": "uncommon",
+    "difficulty": 48,
+    "sellPrice": 136,
+    "sprite": "fish_frostpeak_lake_snow",
+    "description": "Found in Frostpeak Springs during Spring, Autumn, Winter."
+  },
+  {
+    "id": "fish_frostpeak_lake_chilled",
+    "name": "Chilled Pike",
+    "biome": "frostpeak_lake",
+    "biomeName": "Frostpeak Springs",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "stormy",
+    "rarity": "uncommon",
+    "difficulty": 56,
+    "sellPrice": 158,
+    "sprite": "fish_frostpeak_lake_chilled",
+    "description": "Found in Frostpeak Springs during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_frostpeak_lake_blizzard",
+    "name": "Blizzard Salmon",
+    "biome": "frostpeak_lake",
+    "biomeName": "Frostpeak Springs",
+    "seasons": [
+      "summer",
+      "spring",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "any",
+    "rarity": "rare",
+    "difficulty": 60,
+    "sellPrice": 178,
+    "sprite": "fish_frostpeak_lake_blizzard",
+    "description": "Found in Frostpeak Springs during Summer, Spring, Winter."
+  },
+  {
+    "id": "fish_frostpeak_lake_cryo",
+    "name": "Cryo Eel",
+    "biome": "frostpeak_lake",
+    "biomeName": "Frostpeak Springs",
+    "seasons": [
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      14
+    ],
+    "weather": "rainy",
+    "rarity": "rare",
+    "difficulty": 66,
+    "sellPrice": 193,
+    "sprite": "fish_frostpeak_lake_cryo",
+    "description": "Found in Frostpeak Springs during Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_frostpeak_lake_rime",
+    "name": "Rime Sturgeon",
+    "biome": "frostpeak_lake",
+    "biomeName": "Frostpeak Springs",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      12,
+      20
+    ],
+    "weather": "rainy",
+    "rarity": "rare",
+    "difficulty": 76,
+    "sellPrice": 243,
+    "sprite": "fish_frostpeak_lake_rime",
+    "description": "Found in Frostpeak Springs during Autumn, Winter."
+  },
+  {
+    "id": "fish_frostpeak_lake_avalanche",
+    "name": "Avalanche Koi",
+    "biome": "frostpeak_lake",
+    "biomeName": "Frostpeak Springs",
+    "seasons": [
+      "spring",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      18,
+      26
+    ],
+    "weather": "sunny",
+    "rarity": "epic",
+    "difficulty": 70,
+    "sellPrice": 288,
+    "sprite": "fish_frostpeak_lake_avalanche",
+    "description": "Found in Frostpeak Springs during Spring, Autumn, Winter."
+  },
+  {
+    "id": "fish_frostpeak_lake_boreal",
+    "name": "Boreal Leviathan",
+    "biome": "frostpeak_lake",
+    "biomeName": "Frostpeak Springs",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "stormy",
+    "rarity": "legendary",
+    "difficulty": 92,
+    "sellPrice": 528,
+    "sprite": "fish_frostpeak_lake_boreal",
+    "description": "Found in Frostpeak Springs during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_golden_oasis_sand",
+    "name": "Sand Carp",
+    "biome": "golden_oasis",
+    "biomeName": "Desert Oasis",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "any",
+    "rarity": "common",
+    "difficulty": 32,
+    "sellPrice": 100,
+    "sprite": "fish_golden_oasis_sand",
+    "description": "Found in Desert Oasis during Spring, Summer."
+  },
+  {
+    "id": "fish_golden_oasis_mirage",
+    "name": "Mirage Perch",
+    "biome": "golden_oasis",
+    "biomeName": "Desert Oasis",
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "timeRange": [
+      6,
+      14
+    ],
+    "weather": "any",
+    "rarity": "common",
+    "difficulty": 36,
+    "sellPrice": 112,
+    "sprite": "fish_golden_oasis_mirage",
+    "description": "Found in Desert Oasis during Summer, Autumn."
+  },
+  {
+    "id": "fish_golden_oasis_dune",
+    "name": "Dune Bream",
+    "biome": "golden_oasis",
+    "biomeName": "Desert Oasis",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      12,
+      20
+    ],
+    "weather": "rainy",
+    "rarity": "common",
+    "difficulty": 38,
+    "sellPrice": 118,
+    "sprite": "fish_golden_oasis_dune",
+    "description": "Found in Desert Oasis during Autumn, Winter."
+  },
+  {
+    "id": "fish_golden_oasis_scorpion",
+    "name": "Scorpion Trout",
+    "biome": "golden_oasis",
+    "biomeName": "Desert Oasis",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "timeRange": [
+      18,
+      26
+    ],
+    "weather": "sunny",
+    "rarity": "uncommon",
+    "difficulty": 44,
+    "sellPrice": 135,
+    "sprite": "fish_golden_oasis_scorpion",
+    "description": "Found in Desert Oasis during Spring, Autumn."
+  },
+  {
+    "id": "fish_golden_oasis_oasis",
+    "name": "Oasis Bass",
+    "biome": "golden_oasis",
+    "biomeName": "Desert Oasis",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "stormy",
+    "rarity": "uncommon",
+    "difficulty": 50,
+    "sellPrice": 148,
+    "sprite": "fish_golden_oasis_oasis",
+    "description": "Found in Desert Oasis during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_golden_oasis_amber",
+    "name": "Amber Pike",
+    "biome": "golden_oasis",
+    "biomeName": "Desert Oasis",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "any",
+    "rarity": "uncommon",
+    "difficulty": 58,
+    "sellPrice": 170,
+    "sprite": "fish_golden_oasis_amber",
+    "description": "Found in Desert Oasis during Spring, Summer."
+  },
+  {
+    "id": "fish_golden_oasis_sunscale",
+    "name": "Sunscale Salmon",
+    "biome": "golden_oasis",
+    "biomeName": "Desert Oasis",
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "timeRange": [
+      6,
+      14
+    ],
+    "weather": "any",
+    "rarity": "rare",
+    "difficulty": 62,
+    "sellPrice": 190,
+    "sprite": "fish_golden_oasis_sunscale",
+    "description": "Found in Desert Oasis during Summer, Autumn."
+  },
+  {
+    "id": "fish_golden_oasis_sphinx",
+    "name": "Sphinx Eel",
+    "biome": "golden_oasis",
+    "biomeName": "Desert Oasis",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      12,
+      20
+    ],
+    "weather": "rainy",
+    "rarity": "rare",
+    "difficulty": 68,
+    "sellPrice": 205,
+    "sprite": "fish_golden_oasis_sphinx",
+    "description": "Found in Desert Oasis during Autumn, Winter."
+  },
+  {
+    "id": "fish_golden_oasis_pyrite",
+    "name": "Pyrite Sturgeon",
+    "biome": "golden_oasis",
+    "biomeName": "Desert Oasis",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "timeRange": [
+      18,
+      26
+    ],
+    "weather": "sunny",
+    "rarity": "rare",
+    "difficulty": 78,
+    "sellPrice": 255,
+    "sprite": "fish_golden_oasis_pyrite",
+    "description": "Found in Desert Oasis during Spring, Autumn."
+  },
+  {
+    "id": "fish_golden_oasis_pharaoh",
+    "name": "Pharaoh Koi",
+    "biome": "golden_oasis",
+    "biomeName": "Desert Oasis",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "stormy",
+    "rarity": "epic",
+    "difficulty": 72,
+    "sellPrice": 300,
+    "sprite": "fish_golden_oasis_pharaoh",
+    "description": "Found in Desert Oasis during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_golden_oasis_solstice",
+    "name": "Solstice Leviathan",
+    "biome": "golden_oasis",
+    "biomeName": "Desert Oasis",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "any",
+    "rarity": "legendary",
+    "difficulty": 92,
+    "sellPrice": 540,
+    "sprite": "fish_golden_oasis_solstice",
+    "description": "Found in Desert Oasis during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_mine_cavern_stone",
+    "name": "Stone Carp",
+    "biome": "mine_cavern",
+    "biomeName": "Underground Cavern",
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "timeRange": [
+      6,
+      14
+    ],
+    "weather": "any",
+    "rarity": "common",
+    "difficulty": 34,
+    "sellPrice": 112,
+    "sprite": "fish_mine_cavern_stone",
+    "description": "Found in Underground Cavern during Summer, Autumn."
+  },
+  {
+    "id": "fish_mine_cavern_cave",
+    "name": "Cave Perch",
+    "biome": "mine_cavern",
+    "biomeName": "Underground Cavern",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      12,
+      20
+    ],
+    "weather": "rainy",
+    "rarity": "common",
+    "difficulty": 38,
+    "sellPrice": 124,
+    "sprite": "fish_mine_cavern_cave",
+    "description": "Found in Underground Cavern during Autumn, Winter."
+  },
+  {
+    "id": "fish_mine_cavern_blind",
+    "name": "Blind Bream",
+    "biome": "mine_cavern",
+    "biomeName": "Underground Cavern",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "timeRange": [
+      18,
+      26
+    ],
+    "weather": "sunny",
+    "rarity": "common",
+    "difficulty": 40,
+    "sellPrice": 130,
+    "sprite": "fish_mine_cavern_blind",
+    "description": "Found in Underground Cavern during Spring, Autumn."
+  },
+  {
+    "id": "fish_mine_cavern_lava",
+    "name": "Lava Trout",
+    "biome": "mine_cavern",
+    "biomeName": "Underground Cavern",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "stormy",
+    "rarity": "uncommon",
+    "difficulty": 46,
+    "sellPrice": 147,
+    "sprite": "fish_mine_cavern_lava",
+    "description": "Found in Underground Cavern during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_mine_cavern_ghost",
+    "name": "Ghost Bass",
+    "biome": "mine_cavern",
+    "biomeName": "Underground Cavern",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "any",
+    "rarity": "uncommon",
+    "difficulty": 52,
+    "sellPrice": 160,
+    "sprite": "fish_mine_cavern_ghost",
+    "description": "Found in Underground Cavern during Spring, Summer."
+  },
+  {
+    "id": "fish_mine_cavern_iron",
+    "name": "Iron Pike",
+    "biome": "mine_cavern",
+    "biomeName": "Underground Cavern",
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "timeRange": [
+      6,
+      14
+    ],
+    "weather": "any",
+    "rarity": "uncommon",
+    "difficulty": 60,
+    "sellPrice": 182,
+    "sprite": "fish_mine_cavern_iron",
+    "description": "Found in Underground Cavern during Summer, Autumn."
+  },
+  {
+    "id": "fish_mine_cavern_quartz",
+    "name": "Quartz Salmon",
+    "biome": "mine_cavern",
+    "biomeName": "Underground Cavern",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      12,
+      20
+    ],
+    "weather": "rainy",
+    "rarity": "rare",
+    "difficulty": 64,
+    "sellPrice": 202,
+    "sprite": "fish_mine_cavern_quartz",
+    "description": "Found in Underground Cavern during Autumn, Winter."
+  },
+  {
+    "id": "fish_mine_cavern_onyx",
+    "name": "Onyx Eel",
+    "biome": "mine_cavern",
+    "biomeName": "Underground Cavern",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "timeRange": [
+      18,
+      26
+    ],
+    "weather": "rainy",
+    "rarity": "rare",
+    "difficulty": 70,
+    "sellPrice": 217,
+    "sprite": "fish_mine_cavern_onyx",
+    "description": "Found in Underground Cavern during Spring, Autumn."
+  },
+  {
+    "id": "fish_mine_cavern_magma",
+    "name": "Magma Sturgeon",
+    "biome": "mine_cavern",
+    "biomeName": "Underground Cavern",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "stormy",
+    "rarity": "rare",
+    "difficulty": 80,
+    "sellPrice": 267,
+    "sprite": "fish_mine_cavern_magma",
+    "description": "Found in Underground Cavern during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_mine_cavern_obsidian",
+    "name": "Obsidian Koi",
+    "biome": "mine_cavern",
+    "biomeName": "Underground Cavern",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "any",
+    "rarity": "epic",
+    "difficulty": 74,
+    "sellPrice": 312,
+    "sprite": "fish_mine_cavern_obsidian",
+    "description": "Found in Underground Cavern during Spring, Summer."
+  },
+  {
+    "id": "fish_mine_cavern_depths",
+    "name": "Depths Leviathan",
+    "biome": "mine_cavern",
+    "biomeName": "Underground Cavern",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      14
+    ],
+    "weather": "any",
+    "rarity": "legendary",
+    "difficulty": 92,
+    "sellPrice": 552,
+    "sprite": "fish_mine_cavern_depths",
+    "description": "Found in Underground Cavern during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_hidden_sanctuary_spirit",
+    "name": "Spirit Carp",
+    "biome": "hidden_sanctuary",
+    "biomeName": "Sanctuary Pool",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      12,
+      20
+    ],
+    "weather": "rainy",
+    "rarity": "common",
+    "difficulty": 36,
+    "sellPrice": 124,
+    "sprite": "fish_hidden_sanctuary_spirit",
+    "description": "Found in Sanctuary Pool during Autumn, Winter."
+  },
+  {
+    "id": "fish_hidden_sanctuary_halo",
+    "name": "Halo Perch",
+    "biome": "hidden_sanctuary",
+    "biomeName": "Sanctuary Pool",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "timeRange": [
+      18,
+      26
+    ],
+    "weather": "sunny",
+    "rarity": "common",
+    "difficulty": 40,
+    "sellPrice": 136,
+    "sprite": "fish_hidden_sanctuary_halo",
+    "description": "Found in Sanctuary Pool during Spring, Autumn."
+  },
+  {
+    "id": "fish_hidden_sanctuary_prism",
+    "name": "Prism Bream",
+    "biome": "hidden_sanctuary",
+    "biomeName": "Sanctuary Pool",
+    "seasons": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "stormy",
+    "rarity": "common",
+    "difficulty": 42,
+    "sellPrice": 142,
+    "sprite": "fish_hidden_sanctuary_prism",
+    "description": "Found in Sanctuary Pool during Spring, Summer, Autumn, Winter."
+  },
+  {
+    "id": "fish_hidden_sanctuary_celestial",
+    "name": "Celestial Trout",
+    "biome": "hidden_sanctuary",
+    "biomeName": "Sanctuary Pool",
+    "seasons": [
+      "spring",
+      "summer"
+    ],
+    "timeRange": [
+      6,
+      26
+    ],
+    "weather": "any",
+    "rarity": "uncommon",
+    "difficulty": 48,
+    "sellPrice": 159,
+    "sprite": "fish_hidden_sanctuary_celestial",
+    "description": "Found in Sanctuary Pool during Spring, Summer."
+  },
+  {
+    "id": "fish_hidden_sanctuary_moon",
+    "name": "Moon Bass",
+    "biome": "hidden_sanctuary",
+    "biomeName": "Sanctuary Pool",
+    "seasons": [
+      "summer",
+      "autumn"
+    ],
+    "timeRange": [
+      6,
+      14
+    ],
+    "weather": "any",
+    "rarity": "uncommon",
+    "difficulty": 54,
+    "sellPrice": 172,
+    "sprite": "fish_hidden_sanctuary_moon",
+    "description": "Found in Sanctuary Pool during Summer, Autumn."
+  },
+  {
+    "id": "fish_hidden_sanctuary_ether",
+    "name": "Ether Pike",
+    "biome": "hidden_sanctuary",
+    "biomeName": "Sanctuary Pool",
+    "seasons": [
+      "autumn",
+      "winter"
+    ],
+    "timeRange": [
+      12,
+      20
+    ],
+    "weather": "rainy",
+    "rarity": "uncommon",
+    "difficulty": 62,
+    "sellPrice": 194,
+    "sprite": "fish_hidden_sanctuary_ether",
+    "description": "Found in Sanctuary Pool during Autumn, Winter."
+  },
+  {
+    "id": "fish_hidden_sanctuary_astral",
+    "name": "Astral Salmon",
+    "biome": "hidden_sanctuary",
+    "biomeName": "Sanctuary Pool",
+    "seasons": [
+      "spring",
+      "autumn"
+    ],
+    "timeRange": [
+      18,
+      26
+    ],
+    "weather": "sunny",
+    "rarity": "rare",
+    "difficulty": 66,
+    "sellPrice": 214,
+    "sprite": "fish_hidden_sanctuary_astral",
+    "description": "Found in Sanctuary Pool during Spring, Autumn."
+  }
+]

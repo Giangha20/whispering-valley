@@ -1,0 +1,188 @@
+[
+  {
+    "id": "fest_spring_bloom",
+    "name": "Blossom Awakening Festival",
+    "season": "spring",
+    "day": 7,
+    "region": "willow_village",
+    "minigame": "flower_hunt",
+    "specialShop": [
+      "tulip_seed",
+      "strawberry_seed",
+      "special_friendship_bouquet"
+    ],
+    "rewardItem": "special_golden_seed_pack",
+    "rewardGold": 250,
+    "description": "Celebrate the first bloom of spring with flower dancing and rare seeds."
+  },
+  {
+    "id": "fest_spring_egg",
+    "name": "Meadow Egg Hunt",
+    "season": "spring",
+    "day": 15,
+    "region": "greenfield_farm",
+    "minigame": "egg_hunt",
+    "specialShop": [
+      "egg",
+      "duck_egg",
+      "quail_egg"
+    ],
+    "rewardItem": "place_scarecrow",
+    "rewardGold": 300,
+    "description": "Search the meadows for painted eggs hidden by the villagers!"
+  },
+  {
+    "id": "fest_spring_kite",
+    "name": "Crystal Lake Kite Day",
+    "season": "spring",
+    "day": 24,
+    "region": "crystal_lake",
+    "minigame": "fishing_derby",
+    "specialShop": [
+      "quality_bait",
+      "blueberry_muffin"
+    ],
+    "rewardItem": "tool_fishing_iridium",
+    "rewardGold": 350,
+    "description": "Kites soar over Crystal Lake alongside a friendly lakeside fishing derby."
+  },
+  {
+    "id": "fest_summer_sun",
+    "name": "Sunflower Luau",
+    "season": "summer",
+    "day": 7,
+    "region": "sunflower_beach",
+    "minigame": "potluck_soup",
+    "specialShop": [
+      "pineapple_seed",
+      "coconut_seed",
+      "ocean_paella"
+    ],
+    "rewardItem": "equip_glow_ring",
+    "rewardGold": 400,
+    "description": "Share your finest harvest in the beach potluck stew under warm sunbeams."
+  },
+  {
+    "id": "fest_summer_tide",
+    "name": "Tidepool Treasure Fair",
+    "season": "summer",
+    "day": 15,
+    "region": "sunflower_beach",
+    "minigame": "pearl_dive",
+    "specialShop": [
+      "sea_shell",
+      "coral_piece",
+      "starfruit_seed"
+    ],
+    "rewardItem": "quest_star_pearl",
+    "rewardGold": 450,
+    "description": "Low tide reveals glittering shells and ocean pearls along the shore."
+  },
+  {
+    "id": "fest_summer_firefly",
+    "name": "Moonlight Firefly Gala",
+    "season": "summer",
+    "day": 24,
+    "region": "moonlight_garden",
+    "minigame": "lantern_launch",
+    "specialShop": [
+      "moonflower_seed",
+      "glowshroom_tea"
+    ],
+    "rewardItem": "place_lamp_post",
+    "rewardGold": 500,
+    "description": "Float paper lanterns across the glowing garden beneath summer stars."
+  },
+  {
+    "id": "fest_autumn_harvest",
+    "name": "Whispering Harvest Fair",
+    "season": "autumn",
+    "day": 7,
+    "region": "willow_village",
+    "minigame": "harvest_display",
+    "specialShop": [
+      "pumpkin_seed",
+      "fairy_rose_seed",
+      "pumpkin_pie"
+    ],
+    "rewardItem": "place_sprinkler_quality",
+    "rewardGold": 550,
+    "description": "Showcase your highest-quality crops and artisan goods for grand prizes!"
+  },
+  {
+    "id": "fest_autumn_shroom",
+    "name": "Fungi Forager Jamboree",
+    "season": "autumn",
+    "day": 15,
+    "region": "mushroom_valley",
+    "minigame": "mushroom_forage",
+    "specialShop": [
+      "truffle_seed",
+      "mushroom_risotto"
+    ],
+    "rewardItem": "place_preserve_jar",
+    "rewardGold": 500,
+    "description": "Gather rare mushrooms amidst the bioluminescent caps of Mushroom Valley."
+  },
+  {
+    "id": "fest_autumn_lantern",
+    "name": "Spirit Eve Lantern Night",
+    "season": "autumn",
+    "day": 24,
+    "region": "whispering_forest",
+    "minigame": "maze_trial",
+    "specialShop": [
+      "void_root_seed",
+      "ancient_fruit_seed"
+    ],
+    "rewardItem": "special_mega_bomb",
+    "rewardGold": 650,
+    "description": "Brave the mist-draped forest maze for mystical autumn rewards."
+  },
+  {
+    "id": "fest_winter_ice",
+    "name": "Frostpeak Ice Carving",
+    "season": "winter",
+    "day": 7,
+    "region": "frostpeak_mountain",
+    "minigame": "ice_fishing",
+    "specialShop": [
+      "frostberry_seed",
+      "frost_orchid_seed",
+      "frost_chowder"
+    ],
+    "rewardItem": "equip_frost_boots",
+    "rewardGold": 600,
+    "description": "Sculpt shimmering ice statues and compete in the mountain fishing contest."
+  },
+  {
+    "id": "fest_winter_hearth",
+    "name": "Solstice Hearth Feast",
+    "season": "winter",
+    "day": 15,
+    "region": "willow_village",
+    "minigame": "gift_exchange",
+    "specialShop": [
+      "special_friendship_bouquet",
+      "ancient_elixir"
+    ],
+    "rewardItem": "place_keg",
+    "rewardGold": 700,
+    "description": "Exchange heartfelt gifts with friends around Willow Village's grand hearth."
+  },
+  {
+    "id": "fest_winter_star",
+    "name": "Winter Starlight Eve",
+    "season": "winter",
+    "day": 24,
+    "region": "moonlight_garden",
+    "minigame": "stargazing",
+    "specialShop": [
+      "crystal_berry_seed",
+      "sanctuary_lotus_seed"
+    ],
+    "rewardItem": "prismatic_shard",
+    "rewardGold": 900,
+    "description": "Ring in the new year beneath a dazzling shower of winter shooting stars!"
+  }
+]

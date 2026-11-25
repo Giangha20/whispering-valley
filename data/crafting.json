@@ -1,0 +1,2146 @@
+[
+  {
+    "id": "craft_coop",
+    "name": "Wooden Coop",
+    "outputItemId": "place_coop",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 40
+      },
+      {
+        "itemId": "stone",
+        "count": 15
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 2,
+    "craftingTime": 2,
+    "unlockCondition": "foraging_lv_2"
+  },
+  {
+    "id": "craft_big_coop",
+    "name": "Grand Coop",
+    "outputItemId": "place_big_coop",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 70
+      },
+      {
+        "itemId": "hardwood",
+        "count": 20
+      },
+      {
+        "itemId": "stone",
+        "count": 30
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 3,
+    "craftingTime": 2,
+    "unlockCondition": "foraging_lv_3"
+  },
+  {
+    "id": "craft_barn",
+    "name": "Timber Barn",
+    "outputItemId": "place_barn",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 55
+      },
+      {
+        "itemId": "stone",
+        "count": 25
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 3,
+    "craftingTime": 2,
+    "unlockCondition": "foraging_lv_3"
+  },
+  {
+    "id": "craft_big_barn",
+    "name": "Deluxe Barn",
+    "outputItemId": "place_big_barn",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 90
+      },
+      {
+        "itemId": "hardwood",
+        "count": 30
+      },
+      {
+        "itemId": "iron_bar",
+        "count": 5
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 3,
+    "craftingTime": 2,
+    "unlockCondition": "foraging_lv_3"
+  },
+  {
+    "id": "craft_greenhouse",
+    "name": "Glass Greenhouse",
+    "outputItemId": "place_greenhouse",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 60
+      },
+      {
+        "itemId": "quartz",
+        "count": 20
+      },
+      {
+        "itemId": "iron_bar",
+        "count": 8
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 3,
+    "craftingTime": 2,
+    "unlockCondition": "foraging_lv_3"
+  },
+  {
+    "id": "craft_silo",
+    "name": "Grain Silo",
+    "outputItemId": "place_silo",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "stone",
+        "count": 25
+      },
+      {
+        "itemId": "clay",
+        "count": 10
+      },
+      {
+        "itemId": "copper_bar",
+        "count": 4
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 2,
+    "craftingTime": 2,
+    "unlockCondition": "foraging_lv_2"
+  },
+  {
+    "id": "craft_shed",
+    "name": "Craftsman Shed",
+    "outputItemId": "place_shed",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 65
+      },
+      {
+        "itemId": "stone",
+        "count": 20
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 3,
+    "craftingTime": 2,
+    "unlockCondition": "foraging_lv_3"
+  },
+  {
+    "id": "craft_well",
+    "name": "Stone Water Well",
+    "outputItemId": "place_well",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "stone",
+        "count": 35
+      },
+      {
+        "itemId": "wood",
+        "count": 10
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 2,
+    "craftingTime": 2,
+    "unlockCondition": "foraging_lv_2"
+  },
+  {
+    "id": "craft_mill",
+    "name": "Windmill",
+    "outputItemId": "place_mill",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 70
+      },
+      {
+        "itemId": "stone",
+        "count": 40
+      },
+      {
+        "itemId": "cloth",
+        "count": 2
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 3,
+    "craftingTime": 2,
+    "unlockCondition": "foraging_lv_3"
+  },
+  {
+    "id": "craft_bee_house",
+    "name": "Cedar Bee House",
+    "outputItemId": "place_bee_house",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 15
+      },
+      {
+        "itemId": "coal",
+        "count": 2
+      },
+      {
+        "itemId": "iron_bar",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_preserve_jar",
+    "name": "Preserves Jar",
+    "outputItemId": "place_preserve_jar",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 20
+      },
+      {
+        "itemId": "stone",
+        "count": 12
+      },
+      {
+        "itemId": "coal",
+        "count": 4
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_keg",
+    "name": "Oak Aging Keg",
+    "outputItemId": "place_keg",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 25
+      },
+      {
+        "itemId": "copper_bar",
+        "count": 2
+      },
+      {
+        "itemId": "iron_bar",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 2,
+    "craftingTime": 2,
+    "unlockCondition": "foraging_lv_2"
+  },
+  {
+    "id": "craft_cheese_press",
+    "name": "Cheese Press",
+    "outputItemId": "place_cheese_press",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 20
+      },
+      {
+        "itemId": "stone",
+        "count": 15
+      },
+      {
+        "itemId": "hardwood",
+        "count": 4
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_loom",
+    "name": "Spinning Loom",
+    "outputItemId": "place_loom",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 24
+      },
+      {
+        "itemId": "fiber",
+        "count": 15
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_mayo_machine",
+    "name": "Mayonnaise Churn",
+    "outputItemId": "place_mayo_machine",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 12
+      },
+      {
+        "itemId": "stone",
+        "count": 10
+      },
+      {
+        "itemId": "copper_bar",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_oil_maker",
+    "name": "Truffle Oil Press",
+    "outputItemId": "place_oil_maker",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "hardwood",
+        "count": 15
+      },
+      {
+        "itemId": "gold_bar",
+        "count": 2
+      },
+      {
+        "itemId": "slime_jelly",
+        "count": 10
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 2,
+    "craftingTime": 2,
+    "unlockCondition": "foraging_lv_2"
+  },
+  {
+    "id": "craft_furnace",
+    "name": "Stone Smelter Furnace",
+    "outputItemId": "place_furnace",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "stone",
+        "count": 25
+      },
+      {
+        "itemId": "copper_ore",
+        "count": 10
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_sprinkler_basic",
+    "name": "Basic Sprinkler",
+    "outputItemId": "place_sprinkler_basic",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "copper_bar",
+        "count": 1
+      },
+      {
+        "itemId": "iron_bar",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_sprinkler_quality",
+    "name": "Quality Sprinkler",
+    "outputItemId": "place_sprinkler_quality",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "iron_bar",
+        "count": 2
+      },
+      {
+        "itemId": "gold_bar",
+        "count": 1
+      },
+      {
+        "itemId": "quartz",
+        "count": 2
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 2,
+    "craftingTime": 2,
+    "unlockCondition": "foraging_lv_2"
+  },
+  {
+    "id": "craft_sprinkler_iridium",
+    "name": "Iridium Sprinkler",
+    "outputItemId": "place_sprinkler_iridium",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "gold_bar",
+        "count": 2
+      },
+      {
+        "itemId": "iridium_bar",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 2,
+    "craftingTime": 2,
+    "unlockCondition": "foraging_lv_2"
+  },
+  {
+    "id": "craft_shipping_bin_extra",
+    "name": "Farm Shipping Bin",
+    "outputItemId": "place_shipping_bin_extra",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 30
+      },
+      {
+        "itemId": "iron_bar",
+        "count": 2
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_storage_chest",
+    "name": "Oak Storage Chest",
+    "outputItemId": "place_storage_chest",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 25
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_stone_chest",
+    "name": "Reinforced Stone Chest",
+    "outputItemId": "place_stone_chest",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "stone",
+        "count": 30
+      },
+      {
+        "itemId": "iron_bar",
+        "count": 2
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_wood_fence",
+    "name": "Oak Picket Fence",
+    "outputItemId": "place_wood_fence",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 2
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_stone_wall_fence",
+    "name": "Cobble Border Wall",
+    "outputItemId": "place_stone_wall_fence",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "stone",
+        "count": 3
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_cobble_path",
+    "name": "Cobblestone Path",
+    "outputItemId": "place_cobble_path",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "stone",
+        "count": 2
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_wood_path",
+    "name": "Plank Walkway",
+    "outputItemId": "place_wood_path",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 2
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_lamp_post",
+    "name": "Iron Garden Lamp",
+    "outputItemId": "place_lamp_post",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "iron_bar",
+        "count": 1
+      },
+      {
+        "itemId": "coal",
+        "count": 2
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_scarecrow",
+    "name": "Friendly Scarecrow",
+    "outputItemId": "place_scarecrow",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 15
+      },
+      {
+        "itemId": "fiber",
+        "count": 10
+      },
+      {
+        "itemId": "coal",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_wooden_bench",
+    "name": "Garden Bench",
+    "outputItemId": "place_wooden_bench",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 15
+      },
+      {
+        "itemId": "hardwood",
+        "count": 4
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_flower_planter",
+    "name": "Blossom Planter Box",
+    "outputItemId": "place_flower_planter",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 8
+      },
+      {
+        "itemId": "clay",
+        "count": 4
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_sanctuary_statue",
+    "name": "Spirit Guardian Statue",
+    "outputItemId": "place_sanctuary_statue",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "stone",
+        "count": 30
+      },
+      {
+        "itemId": "crystal_moss",
+        "count": 5
+      },
+      {
+        "itemId": "gold_bar",
+        "count": 2
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 2,
+    "craftingTime": 2,
+    "unlockCondition": "foraging_lv_2"
+  },
+  {
+    "id": "craft_copper_hoe",
+    "name": "Copper Hoe",
+    "outputItemId": "tool_hoe_copper",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "copper_bar",
+        "count": 5
+      },
+      {
+        "itemId": "wood",
+        "count": 10
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_copper_can",
+    "name": "Copper Watering Can",
+    "outputItemId": "tool_watering_copper",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "copper_bar",
+        "count": 5
+      },
+      {
+        "itemId": "wood",
+        "count": 10
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_steel_axe",
+    "name": "Steel Axe",
+    "outputItemId": "tool_axe_steel",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "iron_bar",
+        "count": 6
+      },
+      {
+        "itemId": "hardwood",
+        "count": 8
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 3,
+    "craftingTime": 2,
+    "unlockCondition": "foraging_lv_3"
+  },
+  {
+    "id": "craft_gold_pickaxe",
+    "name": "Gold Pickaxe",
+    "outputItemId": "tool_pickaxe_gold",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "gold_bar",
+        "count": 6
+      },
+      {
+        "itemId": "hardwood",
+        "count": 8
+      }
+    ],
+    "requiredSkill": "mining",
+    "requiredLevel": 3,
+    "craftingTime": 2,
+    "unlockCondition": "mining_lv_3"
+  },
+  {
+    "id": "craft_iridium_rod",
+    "name": "Iridium Fishing Rod",
+    "outputItemId": "tool_fishing_iridium",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "iridium_bar",
+        "count": 4
+      },
+      {
+        "itemId": "hardwood",
+        "count": 10
+      },
+      {
+        "itemId": "fiber",
+        "count": 10
+      }
+    ],
+    "requiredSkill": "fishing",
+    "requiredLevel": 4,
+    "craftingTime": 2,
+    "unlockCondition": "fishing_lv_4"
+  },
+  {
+    "id": "craft_steel_blade",
+    "name": "Willow Steel Blade",
+    "outputItemId": "equip_steel_blade",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "iron_bar",
+        "count": 6
+      },
+      {
+        "itemId": "coal",
+        "count": 8
+      },
+      {
+        "itemId": "wood",
+        "count": 5
+      }
+    ],
+    "requiredSkill": "combat",
+    "requiredLevel": 2,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_crystal_sabre",
+    "name": "Crystal Sabre",
+    "outputItemId": "equip_crystal_sabre",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "gold_bar",
+        "count": 5
+      },
+      {
+        "itemId": "quartz",
+        "count": 8
+      },
+      {
+        "itemId": "aquamarine",
+        "count": 2
+      }
+    ],
+    "requiredSkill": "combat",
+    "requiredLevel": 4,
+    "craftingTime": 2,
+    "unlockCondition": "combat_lv_4"
+  },
+  {
+    "id": "craft_sanctuary_blade",
+    "name": "Sanctuary Dawnblade",
+    "outputItemId": "equip_sanctuary_blade",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "iridium_bar",
+        "count": 5
+      },
+      {
+        "itemId": "prismatic_shard",
+        "count": 1
+      },
+      {
+        "itemId": "light_essence",
+        "count": 5
+      }
+    ],
+    "requiredSkill": "combat",
+    "requiredLevel": 6,
+    "craftingTime": 2,
+    "unlockCondition": "combat_lv_6"
+  },
+  {
+    "id": "craft_oak_shield",
+    "name": "Oak Buckler",
+    "outputItemId": "equip_oak_shield",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 25
+      },
+      {
+        "itemId": "iron_bar",
+        "count": 2
+      }
+    ],
+    "requiredSkill": "combat",
+    "requiredLevel": 1,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_iron_shield",
+    "name": "Tower Shield",
+    "outputItemId": "equip_iron_shield",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "iron_bar",
+        "count": 8
+      },
+      {
+        "itemId": "hardwood",
+        "count": 10
+      }
+    ],
+    "requiredSkill": "combat",
+    "requiredLevel": 3,
+    "craftingTime": 2,
+    "unlockCondition": "combat_lv_3"
+  },
+  {
+    "id": "craft_trail_boots",
+    "name": "Trail Boots",
+    "outputItemId": "equip_leather_boots",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "cloth",
+        "count": 2
+      },
+      {
+        "itemId": "fiber",
+        "count": 10
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 2,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_frost_boots",
+    "name": "Frostpeak Boots",
+    "outputItemId": "equip_frost_boots",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "cloth",
+        "count": 3
+      },
+      {
+        "itemId": "frozen_tear",
+        "count": 5
+      },
+      {
+        "itemId": "iron_bar",
+        "count": 4
+      }
+    ],
+    "requiredSkill": "combat",
+    "requiredLevel": 4,
+    "craftingTime": 2,
+    "unlockCondition": "combat_lv_4"
+  },
+  {
+    "id": "craft_glow_ring",
+    "name": "Glowstone Ring",
+    "outputItemId": "equip_glow_ring",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "light_essence",
+        "count": 4
+      },
+      {
+        "itemId": "iron_bar",
+        "count": 2
+      },
+      {
+        "itemId": "quartz",
+        "count": 3
+      }
+    ],
+    "requiredSkill": "mining",
+    "requiredLevel": 2,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_magnet_ring",
+    "name": "Lodestone Ring",
+    "outputItemId": "equip_magnet_ring",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "iron_bar",
+        "count": 4
+      },
+      {
+        "itemId": "coal",
+        "count": 5
+      },
+      {
+        "itemId": "amethyst",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "mining",
+    "requiredLevel": 2,
+    "craftingTime": 2,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_ruby_ring",
+    "name": "Ruby Fury Ring",
+    "outputItemId": "equip_ruby_ring",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "gold_bar",
+        "count": 3
+      },
+      {
+        "itemId": "ruby",
+        "count": 2
+      },
+      {
+        "itemId": "fire_quartz",
+        "count": 2
+      }
+    ],
+    "requiredSkill": "combat",
+    "requiredLevel": 4,
+    "craftingTime": 2,
+    "unlockCondition": "combat_lv_4"
+  },
+  {
+    "id": "craft_iridium_band",
+    "name": "Iridium Band",
+    "outputItemId": "equip_iridium_band",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "iridium_bar",
+        "count": 5
+      },
+      {
+        "itemId": "light_essence",
+        "count": 10
+      },
+      {
+        "itemId": "void_essence",
+        "count": 10
+      }
+    ],
+    "requiredSkill": "mining",
+    "requiredLevel": 6,
+    "craftingTime": 2,
+    "unlockCondition": "mining_lv_6"
+  },
+  {
+    "id": "craft_copper_bar",
+    "name": "Copper Bar",
+    "outputItemId": "copper_bar",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "copper_ore",
+        "count": 5
+      },
+      {
+        "itemId": "coal",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "mining",
+    "requiredLevel": 1,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_iron_bar",
+    "name": "Iron Bar",
+    "outputItemId": "iron_bar",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "iron_ore",
+        "count": 5
+      },
+      {
+        "itemId": "coal",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "mining",
+    "requiredLevel": 1,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_gold_bar",
+    "name": "Gold Bar",
+    "outputItemId": "gold_bar",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "gold_ore",
+        "count": 5
+      },
+      {
+        "itemId": "coal",
+        "count": 2
+      }
+    ],
+    "requiredSkill": "mining",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_iridium_bar",
+    "name": "Iridium Bar",
+    "outputItemId": "iridium_bar",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "iridium_ore",
+        "count": 5
+      },
+      {
+        "itemId": "coal",
+        "count": 3
+      }
+    ],
+    "requiredSkill": "mining",
+    "requiredLevel": 4,
+    "craftingTime": 1,
+    "unlockCondition": "mining_lv_4"
+  },
+  {
+    "id": "craft_bait",
+    "name": "Worm Bait",
+    "outputItemId": "bait",
+    "outputCount": 5,
+    "ingredients": [
+      {
+        "itemId": "slime_jelly",
+        "count": 2
+      },
+      {
+        "itemId": "fiber",
+        "count": 2
+      }
+    ],
+    "requiredSkill": "fishing",
+    "requiredLevel": 1,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_quality_bait",
+    "name": "Wild Aroma Bait",
+    "outputItemId": "quality_bait",
+    "outputCount": 5,
+    "ingredients": [
+      {
+        "itemId": "bait",
+        "count": 5
+      },
+      {
+        "itemId": "sweet_pea",
+        "count": 1
+      },
+      {
+        "itemId": "coral_piece",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "fishing",
+    "requiredLevel": 3,
+    "craftingTime": 1,
+    "unlockCondition": "fishing_lv_3"
+  },
+  {
+    "id": "craft_basic_fert",
+    "name": "Basic Fertilizer",
+    "outputItemId": "basic_fertilizer",
+    "outputCount": 4,
+    "ingredients": [
+      {
+        "itemId": "sap",
+        "count": 4
+      },
+      {
+        "itemId": "clay",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 1,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_qual_fert",
+    "name": "Quality Fertilizer",
+    "outputItemId": "quality_fertilizer",
+    "outputCount": 4,
+    "ingredients": [
+      {
+        "itemId": "sap",
+        "count": 6
+      },
+      {
+        "itemId": "fish_crystal_lake_crystal",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 3,
+    "craftingTime": 1,
+    "unlockCondition": "farming_lv_3"
+  },
+  {
+    "id": "craft_speed_gro",
+    "name": "Speed-Gro Compost",
+    "outputItemId": "speed_gro",
+    "outputCount": 4,
+    "ingredients": [
+      {
+        "itemId": "pine_cone",
+        "count": 2
+      },
+      {
+        "itemId": "sea_shell",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 4
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_hay_from_fiber",
+    "name": "Golden Hay",
+    "outputItemId": "hay",
+    "outputCount": 3,
+    "ingredients": [
+      {
+        "itemId": "fiber",
+        "count": 6
+      },
+      {
+        "itemId": "wheat",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 1,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_cheese",
+    "name": "Farmhouse Cheese",
+    "outputItemId": "cheese",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "milk",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 1,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_goat_cheese",
+    "name": "Aged Goat Cheese",
+    "outputItemId": "goat_cheese",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "goat_milk",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_cloth",
+    "name": "Woven Cloth",
+    "outputItemId": "cloth",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "wool",
+        "count": 2
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_alpaca_cloth",
+    "name": "Woven Cloth",
+    "outputItemId": "cloth",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "alpaca_wool",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 3,
+    "craftingTime": 1,
+    "unlockCondition": "farming_lv_3"
+  },
+  {
+    "id": "craft_mayo",
+    "name": "Golden Mayonnaise",
+    "outputItemId": "mayonnaise",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "egg",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 1,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_duck_mayo",
+    "name": "Golden Mayonnaise",
+    "outputItemId": "mayonnaise",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "duck_egg",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_truffle_oil",
+    "name": "Artisan Truffle Oil",
+    "outputItemId": "truffle_oil",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "truffle",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 3,
+    "craftingTime": 1,
+    "unlockCondition": "foraging_lv_3"
+  },
+  {
+    "id": "craft_cherry_bomb",
+    "name": "Miner's Cherry Bomb",
+    "outputItemId": "special_cherry_bomb",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "copper_ore",
+        "count": 4
+      },
+      {
+        "itemId": "coal",
+        "count": 2
+      }
+    ],
+    "requiredSkill": "mining",
+    "requiredLevel": 1,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_mega_bomb",
+    "name": "Solar Mega Bomb",
+    "outputItemId": "special_mega_bomb",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "gold_ore",
+        "count": 4
+      },
+      {
+        "itemId": "light_essence",
+        "count": 2
+      },
+      {
+        "itemId": "void_essence",
+        "count": 2
+      }
+    ],
+    "requiredSkill": "mining",
+    "requiredLevel": 4,
+    "craftingTime": 1,
+    "unlockCondition": "mining_lv_4"
+  },
+  {
+    "id": "craft_warp_farm",
+    "name": "Farm Warp Totem",
+    "outputItemId": "special_warp_farm",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "hardwood",
+        "count": 2
+      },
+      {
+        "itemId": "honey",
+        "count": 1
+      },
+      {
+        "itemId": "fiber",
+        "count": 10
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 3,
+    "craftingTime": 1,
+    "unlockCondition": "foraging_lv_3"
+  },
+  {
+    "id": "craft_energy_tonic",
+    "name": "Herbal Stamina Tonic",
+    "outputItemId": "special_energy_tonic",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "whisper_herb",
+        "count": 1
+      },
+      {
+        "itemId": "ginger_root",
+        "count": 2
+      },
+      {
+        "itemId": "honey",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_health_elixir",
+    "name": "Crimson Vitality Potion",
+    "outputItemId": "special_health_elixir",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "strawberry",
+        "count": 2
+      },
+      {
+        "itemId": "desert_aloe",
+        "count": 1
+      },
+      {
+        "itemId": "light_essence",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "combat",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_bouquet",
+    "name": "Valley Blossom Bouquet",
+    "outputItemId": "special_friendship_bouquet",
+    "outputCount": 1,
+    "ingredients": [
+      {
+        "itemId": "tulip",
+        "count": 1
+      },
+      {
+        "itemId": "rose",
+        "count": 1
+      },
+      {
+        "itemId": "daisy",
+        "count": 1
+      },
+      {
+        "itemId": "lavender",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_coal_kiln",
+    "name": "Coal",
+    "outputItemId": "coal",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "wood",
+        "count": 15
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_quartz_refine",
+    "name": "Cave Quartz",
+    "outputItemId": "quartz",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "stone",
+        "count": 12
+      },
+      {
+        "itemId": "coal",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "mining",
+    "requiredLevel": 1,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_wood_pack",
+    "name": "Wood",
+    "outputItemId": "wood",
+    "outputCount": 5,
+    "ingredients": [
+      {
+        "itemId": "hardwood",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "craft_fiber_rope",
+    "name": "Plant Fiber",
+    "outputItemId": "fiber",
+    "outputCount": 8,
+    "ingredients": [
+      {
+        "itemId": "driftwood",
+        "count": 2
+      }
+    ],
+    "requiredSkill": "foraging",
+    "requiredLevel": 1,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_turnip",
+    "name": "Turnip Seeds",
+    "outputItemId": "turnip_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "turnip",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_parsnip",
+    "name": "Parsnip Seeds",
+    "outputItemId": "parsnip_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "parsnip",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_potato",
+    "name": "Golden Potato Seeds",
+    "outputItemId": "potato_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "potato",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_carrot",
+    "name": "Crisp Carrot Seeds",
+    "outputItemId": "carrot_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "carrot",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_radish",
+    "name": "Ruby Radish Seeds",
+    "outputItemId": "radish_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "radish",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_cauliflower",
+    "name": "Cloud Cauliflower Seeds",
+    "outputItemId": "cauliflower_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "cauliflower",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_kale",
+    "name": "Emerald Kale Seeds",
+    "outputItemId": "kale_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "kale",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_garlic",
+    "name": "Wild Garlic Seeds",
+    "outputItemId": "garlic_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "garlic",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_tomato",
+    "name": "Sun Tomato Seeds",
+    "outputItemId": "tomato_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "tomato",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_corn",
+    "name": "Sweet Corn Seeds",
+    "outputItemId": "corn_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "corn",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_pepper",
+    "name": "Ember Pepper Seeds",
+    "outputItemId": "pepper_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "pepper",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_eggplant",
+    "name": "Velvet Eggplant Seeds",
+    "outputItemId": "eggplant_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "eggplant",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_pumpkin",
+    "name": "Harvest Pumpkin Seeds",
+    "outputItemId": "pumpkin_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "pumpkin",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_yam",
+    "name": "Honey Yam Seeds",
+    "outputItemId": "yam_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "yam",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_beetroot",
+    "name": "Crimson Beet Seeds",
+    "outputItemId": "beetroot_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "beetroot",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_winter_leek",
+    "name": "Frost Leek Seeds",
+    "outputItemId": "winter_leek_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "winter_leek",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_strawberry",
+    "name": "Meadow Strawberry Seeds",
+    "outputItemId": "strawberry_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "strawberry",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_rhubarb",
+    "name": "Tart Rhubarb Seeds",
+    "outputItemId": "rhubarb_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "rhubarb",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_blueberry",
+    "name": "Sky Blueberry Seeds",
+    "outputItemId": "blueberry_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "blueberry",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_melon",
+    "name": "Pink Melon Seeds",
+    "outputItemId": "melon_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "melon",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_peach",
+    "name": "Blush Peach Seeds",
+    "outputItemId": "peach_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "peach",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_cherry",
+    "name": "Ruby Cherry Seeds",
+    "outputItemId": "cherry_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "cherry",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_grape",
+    "name": "Valley Grape Seeds",
+    "outputItemId": "grape_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "grape",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_cranberry",
+    "name": "Bog Cranberry Seeds",
+    "outputItemId": "cranberry_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "cranberry",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_apple",
+    "name": "Orchard Apple Seeds",
+    "outputItemId": "apple_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "apple",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_pineapple",
+    "name": "Tropica Pineapple Seeds",
+    "outputItemId": "pineapple_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "pineapple",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_cactus_fig",
+    "name": "Dune Cactus Fig Seeds",
+    "outputItemId": "cactus_fig_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "cactus_fig",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_coconut",
+    "name": "Golden Coconut Seeds",
+    "outputItemId": "coconut_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "coconut",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  },
+  {
+    "id": "seedmake_frostberry",
+    "name": "Glacier Berry Seeds",
+    "outputItemId": "frostberry_seed",
+    "outputCount": 2,
+    "ingredients": [
+      {
+        "itemId": "frostberry",
+        "count": 1
+      },
+      {
+        "itemId": "sap",
+        "count": 1
+      }
+    ],
+    "requiredSkill": "farming",
+    "requiredLevel": 2,
+    "craftingTime": 1,
+    "unlockCondition": "starter"
+  }
+]

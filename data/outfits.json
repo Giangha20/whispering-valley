@@ -1,0 +1,282 @@
+{
+  "hairstyles": [
+    {
+      "id": "hair_0",
+      "name": "Meadow Bob",
+      "row": 0
+    },
+    {
+      "id": "hair_1",
+      "name": "Spiky Breeze",
+      "row": 1
+    },
+    {
+      "id": "hair_2",
+      "name": "Long Flowing",
+      "row": 2
+    },
+    {
+      "id": "hair_3",
+      "name": "Twin Braids",
+      "row": 3
+    },
+    {
+      "id": "hair_4",
+      "name": "Ponytail",
+      "row": 4
+    },
+    {
+      "id": "hair_5",
+      "name": "Curly Crown",
+      "row": 5
+    },
+    {
+      "id": "hair_6",
+      "name": "Side Sweep",
+      "row": 6
+    },
+    {
+      "id": "hair_7",
+      "name": "Short Crop",
+      "row": 7
+    },
+    {
+      "id": "hair_8",
+      "name": "Bun & Bangs",
+      "row": 8
+    },
+    {
+      "id": "hair_9",
+      "name": "Ranger Shag",
+      "row": 9
+    },
+    {
+      "id": "hair_10",
+      "name": "Wavy Shoulder",
+      "row": 10
+    },
+    {
+      "id": "hair_11",
+      "name": "Wizard Locks",
+      "row": 11
+    }
+  ],
+  "outfits": [
+    {
+      "id": "outfit_0",
+      "name": "Classic Overalls",
+      "row": 0
+    },
+    {
+      "id": "outfit_1",
+      "name": "Forest Tunic",
+      "row": 1
+    },
+    {
+      "id": "outfit_2",
+      "name": "Village Vest",
+      "row": 2
+    },
+    {
+      "id": "outfit_3",
+      "name": "Sailor Shirt",
+      "row": 3
+    },
+    {
+      "id": "outfit_4",
+      "name": "Miner Jacket",
+      "row": 4
+    },
+    {
+      "id": "outfit_5",
+      "name": "Autumn Cardigan",
+      "row": 5
+    },
+    {
+      "id": "outfit_6",
+      "name": "Winter Parka",
+      "row": 6
+    },
+    {
+      "id": "outfit_7",
+      "name": "Chef Apron",
+      "row": 7
+    },
+    {
+      "id": "outfit_8",
+      "name": "Ranger Cloak",
+      "row": 8
+    },
+    {
+      "id": "outfit_9",
+      "name": "Floral Sundress",
+      "row": 9
+    },
+    {
+      "id": "outfit_10",
+      "name": "Desert Linen",
+      "row": 10
+    },
+    {
+      "id": "outfit_11",
+      "name": "Sanctuary Robe",
+      "row": 11
+    },
+    {
+      "id": "outfit_12",
+      "name": "Blacksmith Leather",
+      "row": 12
+    },
+    {
+      "id": "outfit_13",
+      "name": "Starlight Coat",
+      "row": 13
+    }
+  ],
+  "accessories": [
+    {
+      "id": "acc_0",
+      "name": "None",
+      "row": 0
+    },
+    {
+      "id": "acc_1",
+      "name": "Straw Sunhat",
+      "row": 1
+    },
+    {
+      "id": "acc_2",
+      "name": "Flower Crown",
+      "row": 2
+    },
+    {
+      "id": "acc_3",
+      "name": "Explorer Goggles",
+      "row": 3
+    },
+    {
+      "id": "acc_4",
+      "name": "Round Glasses",
+      "row": 4
+    },
+    {
+      "id": "acc_5",
+      "name": "Wool Beanie",
+      "row": 5
+    },
+    {
+      "id": "acc_6",
+      "name": "Bandana",
+      "row": 6
+    },
+    {
+      "id": "acc_7",
+      "name": "Sailor Cap",
+      "row": 7
+    },
+    {
+      "id": "acc_8",
+      "name": "Miner Helmet",
+      "row": 8
+    },
+    {
+      "id": "acc_9",
+      "name": "Hair Ribbon",
+      "row": 9
+    },
+    {
+      "id": "acc_10",
+      "name": "Butterfly Pin",
+      "row": 10
+    },
+    {
+      "id": "acc_11",
+      "name": "Starlight Circlet",
+      "row": 11
+    }
+  ],
+  "skinTones": [
+    {
+      "id": "skin_fair",
+      "name": "Porcelain",
+      "hex": "#f7d5bd"
+    },
+    {
+      "id": "skin_warm",
+      "name": "Warm Peach",
+      "hex": "#ebb896"
+    },
+    {
+      "id": "skin_tan",
+      "name": "Sunlit Tan",
+      "hex": "#d49a6a"
+    },
+    {
+      "id": "skin_olive",
+      "name": "Olive",
+      "hex": "#b8825a"
+    },
+    {
+      "id": "skin_deep",
+      "name": "Chestnut",
+      "hex": "#8c573a"
+    },
+    {
+      "id": "skin_rich",
+      "name": "Espresso",
+      "hex": "#5e3824"
+    }
+  ],
+  "hairColors": [
+    {
+      "id": "hc_chestnut",
+      "name": "Chestnut",
+      "hex": "#6a3e26"
+    },
+    {
+      "id": "hc_gold",
+      "name": "Honey Blonde",
+      "hex": "#e2b24b"
+    },
+    {
+      "id": "hc_obsidian",
+      "name": "Raven Black",
+      "hex": "#27242c"
+    },
+    {
+      "id": "hc_ginger",
+      "name": "Autumn Ginger",
+      "hex": "#c85b2c"
+    },
+    {
+      "id": "hc_rose",
+      "name": "Blossom Pink",
+      "hex": "#d97092"
+    },
+    {
+      "id": "hc_sage",
+      "name": "Forest Mint",
+      "hex": "#4f9a6e"
+    },
+    {
+      "id": "hc_azure",
+      "name": "Ocean Blue",
+      "hex": "#447ec2"
+    },
+    {
+      "id": "hc_silver",
+      "name": "Moon Silver",
+      "hex": "#ced6e0"
+    },
+    {
+      "id": "hc_violet",
+      "name": "Twilight Violet",
+      "hex": "#7f58a8"
+    },
+    {
+      "id": "hc_crimson",
+      "name": "Ruby Red",
+      "hex": "#b5333f"
+    }
+  ]
+}

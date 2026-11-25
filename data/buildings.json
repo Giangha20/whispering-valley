@@ -1,0 +1,774 @@
+[
+  {
+    "id": "coop",
+    "name": "Wooden Coop",
+    "type": "housing",
+    "size": [
+      3,
+      3
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 40
+      },
+      {
+        "itemId": "stone",
+        "count": 15
+      }
+    ],
+    "buildCostGold": 1200,
+    "capacity": 4,
+    "description": "Houses up to 4 chickens, ducks, or quails.",
+    "itemId": "place_coop"
+  },
+  {
+    "id": "big_coop",
+    "name": "Grand Coop",
+    "type": "housing",
+    "size": [
+      4,
+      3
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 70
+      },
+      {
+        "itemId": "hardwood",
+        "count": 20
+      },
+      {
+        "itemId": "stone",
+        "count": 30
+      }
+    ],
+    "buildCostGold": 3200,
+    "capacity": 8,
+    "description": "Houses up to 8 coop animals with auto-feeder.",
+    "itemId": "place_big_coop"
+  },
+  {
+    "id": "barn",
+    "name": "Timber Barn",
+    "type": "housing",
+    "size": [
+      4,
+      3
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 55
+      },
+      {
+        "itemId": "stone",
+        "count": 25
+      }
+    ],
+    "buildCostGold": 1800,
+    "capacity": 4,
+    "description": "Houses up to 4 cows, goats, sheep, or pigs.",
+    "itemId": "place_barn"
+  },
+  {
+    "id": "big_barn",
+    "name": "Deluxe Barn",
+    "type": "housing",
+    "size": [
+      5,
+      3
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 90
+      },
+      {
+        "itemId": "hardwood",
+        "count": 30
+      },
+      {
+        "itemId": "iron_bar",
+        "count": 5
+      }
+    ],
+    "buildCostGold": 4500,
+    "capacity": 8,
+    "description": "Houses up to 8 barn animals with auto-feeder.",
+    "itemId": "place_big_barn"
+  },
+  {
+    "id": "greenhouse",
+    "name": "Glass Greenhouse",
+    "type": "special",
+    "size": [
+      4,
+      4
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 60
+      },
+      {
+        "itemId": "quartz",
+        "count": 20
+      },
+      {
+        "itemId": "iron_bar",
+        "count": 8
+      }
+    ],
+    "buildCostGold": 6000,
+    "capacity": 0,
+    "description": "Allows growing any seasonal crop year-round.",
+    "itemId": "place_greenhouse"
+  },
+  {
+    "id": "silo",
+    "name": "Grain Silo",
+    "type": "utility",
+    "size": [
+      2,
+      2
+    ],
+    "materials": [
+      {
+        "itemId": "stone",
+        "count": 25
+      },
+      {
+        "itemId": "clay",
+        "count": 10
+      },
+      {
+        "itemId": "copper_bar",
+        "count": 4
+      }
+    ],
+    "buildCostGold": 650,
+    "capacity": 0,
+    "description": "Stores harvested hay for animal feeding.",
+    "itemId": "place_silo"
+  },
+  {
+    "id": "shed",
+    "name": "Craftsman Shed",
+    "type": "utility",
+    "size": [
+      3,
+      3
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 65
+      },
+      {
+        "itemId": "stone",
+        "count": 20
+      }
+    ],
+    "buildCostGold": 2200,
+    "capacity": 0,
+    "description": "Spacious workshop shed for storage & machines.",
+    "itemId": "place_shed"
+  },
+  {
+    "id": "well",
+    "name": "Stone Water Well",
+    "type": "utility",
+    "size": [
+      2,
+      2
+    ],
+    "materials": [
+      {
+        "itemId": "stone",
+        "count": 35
+      },
+      {
+        "itemId": "wood",
+        "count": 10
+      }
+    ],
+    "buildCostGold": 500,
+    "capacity": 0,
+    "description": "Refills your watering can anywhere on the farm.",
+    "itemId": "place_well"
+  },
+  {
+    "id": "mill",
+    "name": "Windmill",
+    "type": "machine",
+    "size": [
+      3,
+      3
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 70
+      },
+      {
+        "itemId": "stone",
+        "count": 40
+      },
+      {
+        "itemId": "cloth",
+        "count": 2
+      }
+    ],
+    "buildCostGold": 2800,
+    "capacity": 0,
+    "description": "Milling station for flour & grains.",
+    "itemId": "place_mill"
+  },
+  {
+    "id": "bee_house",
+    "name": "Cedar Bee House",
+    "type": "machine",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 15
+      },
+      {
+        "itemId": "coal",
+        "count": 2
+      },
+      {
+        "itemId": "iron_bar",
+        "count": 1
+      }
+    ],
+    "buildCostGold": 250,
+    "capacity": 0,
+    "description": "Produces Wildflower Honey every 3 days.",
+    "itemId": "place_bee_house"
+  },
+  {
+    "id": "preserve_jar",
+    "name": "Preserves Jar",
+    "type": "machine",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 20
+      },
+      {
+        "itemId": "stone",
+        "count": 12
+      },
+      {
+        "itemId": "coal",
+        "count": 4
+      }
+    ],
+    "buildCostGold": 300,
+    "capacity": 0,
+    "description": "Turns fruits & veggies into artisan preserves.",
+    "itemId": "place_preserve_jar"
+  },
+  {
+    "id": "keg",
+    "name": "Oak Aging Keg",
+    "type": "machine",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 25
+      },
+      {
+        "itemId": "copper_bar",
+        "count": 2
+      },
+      {
+        "itemId": "iron_bar",
+        "count": 1
+      }
+    ],
+    "buildCostGold": 400,
+    "capacity": 0,
+    "description": "Brews juices, teas, and artisan beverages.",
+    "itemId": "place_keg"
+  },
+  {
+    "id": "cheese_press",
+    "name": "Cheese Press",
+    "type": "machine",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 20
+      },
+      {
+        "itemId": "stone",
+        "count": 15
+      },
+      {
+        "itemId": "hardwood",
+        "count": 4
+      }
+    ],
+    "buildCostGold": 350,
+    "capacity": 0,
+    "description": "Presses milk into Farmhouse or Goat Cheese.",
+    "itemId": "place_cheese_press"
+  },
+  {
+    "id": "loom",
+    "name": "Spinning Loom",
+    "type": "machine",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 24
+      },
+      {
+        "itemId": "fiber",
+        "count": 15
+      }
+    ],
+    "buildCostGold": 380,
+    "capacity": 0,
+    "description": "Weaves soft wool into Woven Cloth.",
+    "itemId": "place_loom"
+  },
+  {
+    "id": "mayo_machine",
+    "name": "Mayonnaise Churn",
+    "type": "machine",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 12
+      },
+      {
+        "itemId": "stone",
+        "count": 10
+      },
+      {
+        "itemId": "copper_bar",
+        "count": 1
+      }
+    ],
+    "buildCostGold": 220,
+    "capacity": 0,
+    "description": "Turns farm eggs into Golden Mayonnaise.",
+    "itemId": "place_mayo_machine"
+  },
+  {
+    "id": "oil_maker",
+    "name": "Truffle Oil Press",
+    "type": "machine",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "hardwood",
+        "count": 15
+      },
+      {
+        "itemId": "gold_bar",
+        "count": 2
+      },
+      {
+        "itemId": "slime_jelly",
+        "count": 10
+      }
+    ],
+    "buildCostGold": 600,
+    "capacity": 0,
+    "description": "Extracts rich Truffle Oil from Earth Truffles.",
+    "itemId": "place_oil_maker"
+  },
+  {
+    "id": "furnace",
+    "name": "Stone Smelter Furnace",
+    "type": "machine",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "stone",
+        "count": 25
+      },
+      {
+        "itemId": "copper_ore",
+        "count": 10
+      }
+    ],
+    "buildCostGold": 180,
+    "capacity": 0,
+    "description": "Smelts raw ores into metal bars using coal.",
+    "itemId": "place_furnace"
+  },
+  {
+    "id": "sprinkler_basic",
+    "name": "Basic Sprinkler",
+    "type": "irrigation",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "copper_bar",
+        "count": 1
+      },
+      {
+        "itemId": "iron_bar",
+        "count": 1
+      }
+    ],
+    "buildCostGold": 200,
+    "capacity": 0,
+    "description": "Automatically waters 4 adjacent tiles each morning.",
+    "itemId": "place_sprinkler_basic"
+  },
+  {
+    "id": "sprinkler_quality",
+    "name": "Quality Sprinkler",
+    "type": "irrigation",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "iron_bar",
+        "count": 2
+      },
+      {
+        "itemId": "gold_bar",
+        "count": 1
+      },
+      {
+        "itemId": "quartz",
+        "count": 2
+      }
+    ],
+    "buildCostGold": 550,
+    "capacity": 0,
+    "description": "Automatically waters an entire 3x3 grid each morning.",
+    "itemId": "place_sprinkler_quality"
+  },
+  {
+    "id": "sprinkler_iridium",
+    "name": "Iridium Sprinkler",
+    "type": "irrigation",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "gold_bar",
+        "count": 2
+      },
+      {
+        "itemId": "iridium_bar",
+        "count": 1
+      }
+    ],
+    "buildCostGold": 1400,
+    "capacity": 0,
+    "description": "Automatically waters a 5x5 grid every morning.",
+    "itemId": "place_sprinkler_iridium"
+  },
+  {
+    "id": "shipping_bin_extra",
+    "name": "Farm Shipping Bin",
+    "type": "utility",
+    "size": [
+      2,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 30
+      },
+      {
+        "itemId": "iron_bar",
+        "count": 2
+      }
+    ],
+    "buildCostGold": 350,
+    "capacity": 0,
+    "description": "Extra drop-off bin for overnight sales.",
+    "itemId": "place_shipping_bin_extra"
+  },
+  {
+    "id": "storage_chest",
+    "name": "Oak Storage Chest",
+    "type": "furniture",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 25
+      }
+    ],
+    "buildCostGold": 120,
+    "capacity": 0,
+    "description": "Stores up to 36 stacks of items.",
+    "itemId": "place_storage_chest"
+  },
+  {
+    "id": "stone_chest",
+    "name": "Reinforced Stone Chest",
+    "type": "furniture",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "stone",
+        "count": 30
+      },
+      {
+        "itemId": "iron_bar",
+        "count": 2
+      }
+    ],
+    "buildCostGold": 260,
+    "capacity": 0,
+    "description": "Weatherproof 36-slot storage chest.",
+    "itemId": "place_stone_chest"
+  },
+  {
+    "id": "wood_fence",
+    "name": "Oak Picket Fence",
+    "type": "decor",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 2
+      }
+    ],
+    "buildCostGold": 20,
+    "capacity": 0,
+    "description": "Sturdy farm fence to frame pastures and plots.",
+    "itemId": "place_wood_fence"
+  },
+  {
+    "id": "stone_wall_fence",
+    "name": "Cobble Border Wall",
+    "type": "decor",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "stone",
+        "count": 3
+      }
+    ],
+    "buildCostGold": 35,
+    "capacity": 0,
+    "description": "Tidy stone wall border.",
+    "itemId": "place_stone_wall_fence"
+  },
+  {
+    "id": "cobble_path",
+    "name": "Cobblestone Path",
+    "type": "decor",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "stone",
+        "count": 2
+      }
+    ],
+    "buildCostGold": 15,
+    "capacity": 0,
+    "description": "Decorative stone path (+speed when walking).",
+    "itemId": "place_cobble_path"
+  },
+  {
+    "id": "wood_path",
+    "name": "Plank Walkway",
+    "type": "decor",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 2
+      }
+    ],
+    "buildCostGold": 15,
+    "capacity": 0,
+    "description": "Warm wooden garden walkway.",
+    "itemId": "place_wood_path"
+  },
+  {
+    "id": "lamp_post",
+    "name": "Iron Garden Lamp",
+    "type": "decor",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "iron_bar",
+        "count": 1
+      },
+      {
+        "itemId": "coal",
+        "count": 2
+      }
+    ],
+    "buildCostGold": 180,
+    "capacity": 0,
+    "description": "Illuminates your farm warmly at night.",
+    "itemId": "place_lamp_post"
+  },
+  {
+    "id": "scarecrow",
+    "name": "Friendly Scarecrow",
+    "type": "utility",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 15
+      },
+      {
+        "itemId": "fiber",
+        "count": 10
+      },
+      {
+        "itemId": "coal",
+        "count": 1
+      }
+    ],
+    "buildCostGold": 160,
+    "capacity": 0,
+    "description": "Protects nearby crops & boosts luck.",
+    "itemId": "place_scarecrow"
+  },
+  {
+    "id": "wooden_bench",
+    "name": "Garden Bench",
+    "type": "furniture",
+    "size": [
+      2,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 15
+      },
+      {
+        "itemId": "hardwood",
+        "count": 4
+      }
+    ],
+    "buildCostGold": 180,
+    "capacity": 0,
+    "description": "Cozy wooden bench where you can sit and rest.",
+    "itemId": "place_wooden_bench"
+  },
+  {
+    "id": "flower_planter",
+    "name": "Blossom Planter Box",
+    "type": "decor",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "wood",
+        "count": 8
+      },
+      {
+        "itemId": "clay",
+        "count": 4
+      }
+    ],
+    "buildCostGold": 90,
+    "capacity": 0,
+    "description": "Cheerful seasonal flower barrel.",
+    "itemId": "place_flower_planter"
+  },
+  {
+    "id": "sanctuary_statue",
+    "name": "Spirit Guardian Statue",
+    "type": "decor",
+    "size": [
+      1,
+      1
+    ],
+    "materials": [
+      {
+        "itemId": "stone",
+        "count": 30
+      },
+      {
+        "itemId": "crystal_moss",
+        "count": 5
+      },
+      {
+        "itemId": "gold_bar",
+        "count": 2
+      }
+    ],
+    "buildCostGold": 1200,
+    "capacity": 0,
+    "description": "Ancient blessing statue for your homestead.",
+    "itemId": "place_sanctuary_statue"
+  }
+]

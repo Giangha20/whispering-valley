@@ -1,0 +1,189 @@
+[
+  {
+    "id": "green_slime",
+    "name": "Meadow Slime",
+    "floors": [
+      1,
+      24
+    ],
+    "hp": 32,
+    "atk": 6,
+    "speed": 42,
+    "xp": 12,
+    "drops": [
+      "slime_jelly",
+      "sap"
+    ],
+    "boss": false,
+    "color": "#58c44f"
+  },
+  {
+    "id": "cave_bat",
+    "name": "Cavern Bat",
+    "floors": [
+      5,
+      35
+    ],
+    "hp": 40,
+    "atk": 9,
+    "speed": 64,
+    "xp": 18,
+    "drops": [
+      "bat_wing",
+      "coal"
+    ],
+    "boss": false,
+    "color": "#6b507a"
+  },
+  {
+    "id": "rock_crab",
+    "name": "Quartz Shell Crab",
+    "floors": [
+      10,
+      45
+    ],
+    "hp": 58,
+    "atk": 12,
+    "speed": 46,
+    "xp": 24,
+    "drops": [
+      "stone",
+      "copper_ore",
+      "quartz"
+    ],
+    "boss": false,
+    "color": "#8e7b6b"
+  },
+  {
+    "id": "frost_sprite",
+    "name": "Frost Wisp",
+    "floors": [
+      26,
+      60
+    ],
+    "hp": 72,
+    "atk": 16,
+    "speed": 58,
+    "xp": 32,
+    "drops": [
+      "frozen_tear",
+      "iron_ore"
+    ],
+    "boss": false,
+    "color": "#74c7e8"
+  },
+  {
+    "id": "ember_imp",
+    "name": "Magma Imp",
+    "floors": [
+      51,
+      85
+    ],
+    "hp": 96,
+    "atk": 22,
+    "speed": 62,
+    "xp": 45,
+    "drops": [
+      "fire_quartz",
+      "gold_ore",
+      "light_essence"
+    ],
+    "boss": false,
+    "color": "#e06438"
+  },
+  {
+    "id": "shadow_stalker",
+    "name": "Shadow Sentinel",
+    "floors": [
+      76,
+      99
+    ],
+    "hp": 130,
+    "atk": 28,
+    "speed": 68,
+    "xp": 65,
+    "drops": [
+      "void_essence",
+      "iridium_ore",
+      "bone_fragment"
+    ],
+    "boss": false,
+    "color": "#45345e"
+  },
+  {
+    "id": "boss_yeti",
+    "name": "Frostpeak Warden",
+    "floors": [
+      25,
+      25
+    ],
+    "hp": 260,
+    "atk": 20,
+    "speed": 50,
+    "xp": 200,
+    "drops": [
+      "quest_frost_emblem",
+      "aquamarine",
+      "iron_bar"
+    ],
+    "boss": true,
+    "color": "#a8e0f5"
+  },
+  {
+    "id": "boss_crystal",
+    "name": "Crystal Colossus",
+    "floors": [
+      50,
+      50
+    ],
+    "hp": 420,
+    "atk": 28,
+    "speed": 45,
+    "xp": 350,
+    "drops": [
+      "quest_crystal_core",
+      "emerald",
+      "gold_bar"
+    ],
+    "boss": true,
+    "color": "#5ce6a0"
+  },
+  {
+    "id": "boss_magma",
+    "name": "Obsidian Titan",
+    "floors": [
+      75,
+      75
+    ],
+    "hp": 620,
+    "atk": 36,
+    "speed": 54,
+    "xp": 550,
+    "drops": [
+      "quest_ember_heart",
+      "ruby",
+      "iridium_ore"
+    ],
+    "boss": true,
+    "color": "#ff6a2b"
+  },
+  {
+    "id": "boss_sovereign",
+    "name": "Hollow Sovereign",
+    "floors": [
+      100,
+      100
+    ],
+    "hp": 950,
+    "atk": 46,
+    "speed": 62,
+    "xp": 1200,
+    "drops": [
+      "quest_shadow_crown",
+      "prismatic_shard",
+      "iridium_bar"
+    ],
+    "boss": true,
+    "color": "#b85cff"
+  }
+]
